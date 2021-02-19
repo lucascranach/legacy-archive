@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<cdalocallang>
+	<meta type="array">
+		<type>related works</type>
+		<description>Subcategoreis of the related works</description>
+	</meta>
+	<data type="array">
+		<languageKey index="Englisch" type="array">
+			<label index="header">Related Works</label>
+			<label index="subheader">Additional Linkage</label>
+			<!-- RELATED WORKS MAIN-CATEGORIES ENGLISH -->
+			<label index="versions">Versions</label>
+			<label index="similar">Similar Motifs</label>
+			<label index="support">Support made from the same tree</label>
+			<label index="graphic">Graphic Art</label>
+			<!-- RELATED WORKS SUBCATEGORIES ENGLISH -->
+			<!-- ALLGEMEIN -->
+			<label index="01">created during the same period</label>
+			<label index="02">full-length composition</label>
+			<label index="03">half-length composition</label>
+			<label index="06">similar pose</label>
+			<label index="09">background with a section of a landscape</label>
+			<!-- Lucretia -->
+			<label index="07">with landscape background</label>
+			<label index="08">with dark background</label>
+			<label index="16">similar composition</label>
+			<label index="78">in contemporary dress</label>
+			<label index="79">full-length nude</label>
+			<label index="80">nude, holding the coat with her left hand</label>
+			<label index="81">nude, with the left hand hiding her vulva</label>
+			<label index="82">nude with coat, left arm raised</label>
+			<label index="83">dagger held in the lowered right hand in front of her body</label>
+			<label index="84">dagger held in both hands</label>
+			<label index="93">nude</label>
+			<label index="94">dagger held in left hand</label>
+			<label index="95">dagger held in the upraised right hand next to her body</label>
+			<!-- Luther -->
+			<label index="21">Junker Jörg</label>
+			<label index="22">Augustine Monk</label>
+			<label index="23">type by 1525/26 bareheaded</label>
+			<label index="24">type by 1528 with hat, looking at beholder</label>
+			<label index="25">type by 1532 with hat, looking right</label>
+			<label index="26">type by 1539 bareheaded, grey-haired</label>
+			<label index="27">type by 1540 with hat, grey-haired</label>
+			<label index="28">on deathbed</label>
+			<!-- Melanchthon -->
+			<label index="17">type by 1532 bareheaded, looking left</label>
+			<label index="18">type by 1540 bareheaded, looking left</label>
+			<label index="19">type by 1543 with hat, looking left</label>
+			<label index="20">type by 1559 with grey beard and coat</label>
+		</languageKey>
+		<languageKey index="Deutsch" type="array">
+			<label index="header">Verwandte Arbeiten</label>
+			<label index="subheader">Weitere Verknüpfungen</label>
+			<!-- RELATED WORKS MAIN-CATEGORIES ENGLISH -->
+			<label index="versions">Versionen</label>
+			<label index="similar">Vergleichbare Motive</label>
+			<label index="support">Bildträger aus dem selben Baum gefertigt</label>
+			<label index="graphic">Grafik</label>
+			<!-- RELATED WORKS SUBCATEGORIES DEUTSCH -->
+			<!-- ALLGEMEIN -->
+			<label index="01">ähnlicher Entstehungszeitraum</label>
+			<label index="02">ganzfigurige Komposition</label>
+			<label index="03">halbfigurige Komposition</label>
+			<label index="06">in ähnlicher Haltung</label>
+			<label index="09">vor Hintergrund mit Landschaftsausschnitt</label>
+			<!-- Lucretia -->
+			<label index="07">vor Landschaftshintergrund</label>
+			<label index="08">vor dunklem Hintergrund</label>
+			<label index="16">ähnliche Komposition</label>
+			<label index="78">in zeitgenössischer Kleidung</label>
+			<label index="79">ganzfiguriger Akt</label>
+			<label index="80">Akt, mit der linken Hand die Schaube haltend</label>
+			<label index="81">Akt, mit der linken Hand die Scham bedeckend</label>
+			<label index="82">Akt mit Schaube, den linken Arm zum Kopf erhoben</label>
+			<label index="83">Dolch in der gesenkten rechten Hand vor dem Körper</label>
+			<label index="84">Dolch in beiden Händen</label>
+			<label index="93">Akt</label>
+			<label index="94">Dolch in der linken Hand</label>
+			<label index="95">Dolch in der erhobenen rechten Hand neben dem Körper</label>
+			<!-- Luther -->
+			<label index="21">Junker Jörg</label>
+			<label index="22">Augustinermönch</label>
+			<label index="23">Typus ab 1525 ohne Kopfbedeckung</label>
+			<label index="24">Typus ab 1528 mit Kopfbedeckung, Blick auf den Betrachter</label>
+			<label index="25">Typus ab 1532 mit Kopfbedeckung, Blick nach rechts</label>
+			<label index="26">Typus ab 1539 ohne Kopfbedeckung, grauhaarig</label>
+			<label index="27">Typus ab 1540 mit Kopfbedeckung, grauhaarig</label>
+			<label index="28">auf dem Sterbebett</label>
+			<!-- Melanchthon -->
+			<label index="17">Typus ab 1532 ohne Kopfbedeckung</label>
+			<label index="18">Typus ab 1540 ohne Kopfbedeckung</label>
+			<label index="19">Typus ab 1543 mit Kopfbedeckung</label>
+			<label index="20">Typus ab 1559 mit grauem Bart und Schaube</label>
+		</languageKey>
+	</data>
+</cdalocallang>

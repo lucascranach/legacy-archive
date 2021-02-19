@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdalocallang>
+	<meta type="array">
+		<type><![CDATA[tooltips]]></type>
+		<description><![CDATA[Tooltip description in multiple language]]></description>
+	</meta>
+	<data type="array">
+		<languageKey index="Englisch" type="array">
+		
+			<!-- Identification EN -->
+			<label index="identification"><![CDATA[This category gives basic information about a work of art.]]></label>
+			<label index="object"><![CDATA[Characterizes the object in general, usually 'Painting'.]]></label>
+			<label index="title"><![CDATA[The cda presents all titles, past and present, which have been published with an acknowledgment of the source. These are listed in chronological order starting with the current title of the object. ]]></label>
+			<label index="date"><text><![CDATA[The painting may display a date [see 'dated'] which has been applied by Cranach or his workshop. In some cases this inscription is not authentic and was applied at a later date. It is not always known when a painting was created in such cases it is only possible to make an assessment of when a particular work was created. This may be done with different degrees of certainty, depending on factors such as style and documentary and scientific evidence, employing the words 'about', 'after', 'before' etc to limit the time-span. It frequently results in a number of possible options. The cda presents all datings, past and present, which have been published with an acknowledgment of the source.]]></text></label>
+			<label index="attribution"><![CDATA[It is not always known who painted a picture. An attribution is an assessment of who was responsible for creating a particular work. The cda presents all attributions, past and present, which have been published with an acknowledgment of the source. Attributions are made with different degrees of certainty, depending on factors such as style and documentary and scientific evidence [see user’s guide for more information].]]></label>
+			<label index="owner_repository_location"><![CDATA[Owner indicates the legal ownership of the painting, Repository its physical ownership. Location indicates the geographic area where the work of art is at present.]]></label>
+			<label index="cdaId"><![CDATA[The cda assigns a unique accession number to each object it enters. The different parts of the accession number are separated by an underscore. The first digits of an accession number refer to the country where the object is located, the second block of digits refers to the collection where the object may be found and the third block is the inventory number assigned to the object by the owner.]]></label>
+			<label index="frNo"><![CDATA[Refers to the numbers designated to the paintings catalogued by Friedländer and Rosenberg in the second edition of their monographic work on Cranach and his workshop published in 1978.]]></label>
+			<label index="dimensions"><![CDATA[Dimensions of the work of art are generally given in centimeters, height before width before depth (if known). Where available the dimensions of the support, the painted surface and painting including the frame are given. Dimensions may have been altered. Where this can be determined information is provided [see also Condition Report].]]></label>
+			<label index="support"><![CDATA[The support of a painting is the object or material on which the work has been executed. Paintings have been produced on a number of different supports, including wooden panels, textile supports and copper sheets. In the Cranach workshop wooden panels, canvas, parchment and paper were often used as a painting support.]]></label>
+			<label index="signature"><![CDATA[An artist’s name physically signed on a work of art usually providing evidence that the work is by the hand of the artist who signs the work. It could however also be employed as a ‘hallmark’ or certificate of quality within a large workshop practice. The latter is the case with many Cranach paintings. In 1508 Cranach was granted his own coat of arms, a serpent with wings erect, which he and his workshop thereafter used as a signature. In 1537 Cranach changed the serpent insignia by altering the elevated position of the wings to a recumbent position.]]></label>
+			<label index="inscriptions"><![CDATA[Additional later information in the form of <i>Inscriptions, Marks, Labels, Seals</i> usually found on the reverse of the panel or on the frame. &quot;Original inscriptions&quot; or initials added by the artist at the date of creation of the object, usually found on the front of the painting.]]></label>
+			<label index="description"><![CDATA[Brief descriptions of works of art are written by the curatorial staff or by a member of the cda staff.]]></label>
+			
+			<!-- Art Historical Information EN -->
+			<label index="art_historical_information"><![CDATA[This category gives basic information about the history and interpretation of the object.]]></label>
+			<label index="provenance"><![CDATA[Provenance refers to the history of the ownership of a painting or other work of art.]]></label>
+			<label index="exhibitions"><![CDATA[A chronological list of all past exhibitions in which the object was on display.]]></label>
+			<label index="sources"><![CDATA[A bibliographical list of works containing references to the object. By clicking on each short title the full data record will be shown. Use the two arrows top right to browse the full records one by one or use the 'List'-icon to return to the short titles.]]></label>
+			<label index="interpretation"><![CDATA[Excerpts from the art historical discourse pertaining to the object.]]></label>
+			<label index="related_works"><![CDATA[Other objects, paintings, prints or drawings associated with the present object. The cda-ID is given where these objects have already been entered in the archive. An FR No. is given where these objects were catalogued by Friedländer, Rosenberg 1978.]]></label>
+			
+			<!-- Material/Technique EN -->
+			<label index="material_technique"><![CDATA[This category gives additional information about the structure and constituent parts of the object.]]></label>
+			<label index="technical_examination"><![CDATA[Here additional information is presented on the materials used and the process of production of the painting. This information may assist with attribution and dating, as well as determining later changes and the original relationships of paintings. A number of imaging techniques and scientific methods of analysis are employed including cross-sections, microscopy, ultra-violet radiation, dendrochronology, infra-red reflectography and x-ray.]]></label>
+			
+			<!-- Conservation/Restoration EN -->
+			<label index="conservation_restoration"><![CDATA[Gives additional information about the history of conservation intervention and the present condition of the object.]]></label>
+			<label index="condition_reports"><![CDATA[Gives additional information about the history of conservation intervention and the present condition of the object.]]></label>
+			<label index="history_reports"><![CDATA[Chronological list of reports charting the condition of the object.]]></label>
+			
+			<!-- Images EN -->
+			<label index="images"><![CDATA[Gives information about the kinds of image material available in the cda for the object selected. This image material is represented in the bottom left corner by thumbnails.]]></label>
+			<label index="overall"><![CDATA[A photograph of the front of the painting as a whole.]]></label>
+			<label index="reverse"><![CDATA[A photograph of the back of the painting as a whole.]]></label>
+			<label index="infrared"><![CDATA[These black-and-white images result from a technique employing infrared radiation to 'see through' the object's paint layers. If an artist has begun a painting by drawing the design in black on a white ground (underdrawing), an infrared image can make this visible. It can also record changes in the paint layers made either by the artist or later in form of overpaint or retouching [see glossary for detailed information].]]></label>
+			<label index="x-radiograph"><![CDATA[Record the areas of a work where the X-rays have been impeded (these areas appear white when printed as a photographic positive). X-radiographs are useful for revealing changes that may have occurred at different stages in the development of a painting or later additions; losses to the paint layer show as dark areas. X-radiographs can be difficult to interpret because the image shows all of the layers of the work superimposed [see glossary for detailed information].]]></label>
+			<label index="uv-light"><![CDATA[Some substances, when exposed to UV radiation, fluoresce (give off visible light). In particular, traditional natural resin varnishes give off a characteristic greenish yellow colour. By looking at a picture under UV it is possible to monitor the removal of old varnishes or retouchings applied over a layer of varnish   Since some pigments and dyes give off a characteristic colour under UV, it can be useful to identify the presence of a particular pigment [see glossary for detailed information].]]></label>
+			<label index="detail"><![CDATA[Photographs of individual parts or sections of the composition.]]></label>
+			<label index="photomicrograph"><![CDATA[A photomicrograph is a close-up image taken through a microscope at high magnification to reveal details of the painted surface.]]></label>
+			<label index="conservation"><![CDATA[Written documentation recording past conservation or restoration treatment.]]></label>
+			<label index="other"><![CDATA[Any other image or written documentation.]]></label>
+			<label index="analyses"><![CDATA[Reports concerning technical examination, e.g. date determination by annual rings of the wooden support (dendrochronology).]]></label>
+			<label index="rkd"><![CDATA[A collection of annotated photographs and reproductions relating to works by Cranach assembled by the author of the Cranach catalogue raisonné the German art historian Max J. Friedländer (1867 - 1958), which was given to the RKD (Rijksbureau voor Kunsthistorische Documentatie / Netherlands Institute for Art History) in The Hague. The RKD kindly placed scans of this material at the disposal of the cda.]]></label>
+			
+		</languageKey>
+		<languageKey index="Deutsch" type="array">
+		
+			<!-- Identification DE -->
+			<label index="identification"><![CDATA[Diese Kategorie enthält die wichtigsten Metadaten zum Objekt.]]></label>
+			<label index="object"><![CDATA[Allgemeine Objektcharakterisierung, üblicherweise &quot;Gemälde&quot;.]]></label>
+			<label index="title"><![CDATA[Im cda sind aktuelle wie ältere Varianten des Objekttitels zusammen mit der jeweiligen Quelle angegeben. Die Auflistung folgt einer chronologischen Ordnung, die mit dem gegenwärtigen Titel beginnt.]]></label>
+			<label index="date"><![CDATA[Einige Tafeln tragen eine Jahresangabe, die von Cranach oder seiner Werkstatt stammt (siehe &quot;datiert&quot;). In einigen Fällen ist diese Angabe jedoch nicht authentisch und wurde zu einem späteren Zeitpunkt hinzugefügt. Nicht immer ist bekannt wann eine Tafel entstanden ist. Hier können nur Annäherungen vorgeschlagen werden, die auf verschiedenen Faktoren wie Malstil, Quellenlage und dem Ergebnis naturwissenschaftlicher  Untersuchungen basieren und daher unterschiedliche Grade der Genauigkeit aufweisen können. Die Angaben sind meist mit Worten wie &quot;um&quot;, &quot;nach&quot;, &quot;vor&quot; etc. versehen um die mögliche Zeitspanne einzugrenzen. In den meisten Fällen sind mehrere Datierungen aufgeführt, da das cda aktuelle und ältere Datierungen zusammen mit der jeweiligen Quelle auflistet.]]></label>
+			<label index="attribution"><![CDATA[Nicht immer ist klar wer der Maler eines Werkes ist. Die Zuschreibung ist eine Einschätzung, wer für ein bestimmtes Werk verantwortlich ist oder daran beteiligt war. Das cda führt die in der Forschungsliteratur angeführten Zuschreibungen aus Vergangenheit und Gegenwart zusammen mit der jeweiligen Quellenangabe auf. Die einzelnen Zuschreibungen besitzen einen unterschiedlichen Grad an Genauigkeit, der von Faktoren wie Stil, Quellenbelegen oder naturwissenschaftlichen Untersuchungen abhängig ist (vgl. den Leitfaden für ausführliche Informationen).]]></label>
+			<label index="owner_repository_location"><![CDATA[Hier wird zwischen einem &quot;Eigentümer&quot; des Objekts im rechtlichen Sinne und einem &quot;Besitzer&quot; des Objekts im physikalischen Sinne unterschieden. Weiterhin finden sich Angabe zum gegenwärtigen geographischen Standort des Objektes.]]></label>
+			<label index="cdaId"><![CDATA[Das cda vergibt für jedes vertretene Objekt eine eigene Verweisnummer. Die einzelnen Bestandteile dieser Nummer sind durch Unterstriche voneinander getrennt. Die ersten Buchstaben verweisen auf das Land, in dem sich das Objekt befindet. Der zweite Block bezieht sich auf die Sammlung, in der das Objekt aufbewahrt wird. Der dritte Block gibt die Inventarnummer an unter der das Objekt in jener Sammlung geführt wird.]]></label>
+			<label index="frNo"><![CDATA[Bezeichnet die Nummer des Objekts innerhalb der 1978 erschienenen zweiten Ausgabe des Werkkatalogs zu Cranach und seiner Werkstatt von Max J. Friedländer und Jakob Rosenberg.]]></label>
+			<label index="dimensions"><![CDATA[Die Maße des Objekts sind grundsätzlich in Zentimetern angegeben: Höhe vor Breite vor Tiefe (falls bekannt). Wo verfügbar wird zwischen den Maßen des Bildträgers, der bemalten Oberfläche und des Gemäldes inklusive Rahmen unterschieden. Falls sich die Maße eines Werks im Laufe der Zeit verändert haben sollten, wird dies ebenfalls vermerkt (vgl. dazu auch den Zustandsbericht).]]></label>
+			<label index="support"><![CDATA[Beim Bildträger handelt es sich um das Medium auf welches die Malerei aufgetragen wurde. Gemälde wurden auf unterschiedlichsten Trägermedien wie Holzbrettern, Stoffen oder Kupferplatten ausgeführt. Die Cranach-Werkstatt nutzte oft Bildträger aus Holz, Leinwand, Pergament oder Papier.]]></label>
+			<label index="signature"><![CDATA[Findet sich der Name des entsprechenden Künstlers als Signatur auf einem Werk wird dieser meist als dessen Urheber angesehen. Die Signatur kann aber auch als Markenzeichen oder Qualitätszertifikat innerhalb einer großen Werkstattproduktion benutzt werden. Letzteres trifft bei vielen Gemälden Cranachs zu. 1508 erhielt Cranachs sein eigenes Wappen, eine Schlange mit aufrechten Flügeln, welches er und seine Werkstatt fortan als Signatur benutzten. Ab 1537 änderte Cranach die Signatur leicht und versieht die Schlange mit Flügel in gesenkter Position.]]></label>
+			<label index="inscriptions"><![CDATA[&quot;Stempel, Siegel, Beschriftungen&quot; sind spätere Hinzufügungen, die sich meist auf der Rückseite des Bildträgers oder dem Rahmen befinden. &quot;Inschriften&quot; oder Buchstaben, wurden vom Künstler während des Werkprozesses angebracht und meist auf der Vorderseite des Bildträgers zu finden.]]></label>
+			<label index="description"><![CDATA[Kurze Beschreibung des Bildmotivs, verfasst von Mitarbeitern der jeweiligen Sammlung oder des cda.]]></label>
+			
+			<!-- Art Historical Information DE -->
+			<label index="art_historical_information"><![CDATA[Angaben dieser Kategorie beziehen sich auf die Geschichte und Interpretation des Objekts.]]></label>
+			<label index="provenance"><![CDATA[Die &quot;Provenienz&quot; ist die Gesamtheit früherer Besitzer des Objekts. Die Angaben zu dieser Aufstellung können aus den unterschiedlichsten Quellen stammen, darunter historische Beschreibungen, Sammlungsinventare, Inventarnummern auf den Gemälden selbst oder Auktionskataloge.]]></label>
+			<label index="exhibitions"><![CDATA[Eine chronologische Auflistung vergangener Ausstellungen, die das Objekt zeigten.]]></label>
+			<label index="sources"><![CDATA[Eine Literaturliste mit Publikationen, in denen das Objekt erwähnt wird. Durch einen Klick auf den entsprechenden Kurztitelöffnen sich ausführliche bibliographische Angaben. Benutzen Sie die beiden Pfeile rechts oben um zum jeweils nächsten/vorherigen Literatureintrag der Liste zu wechseln oder das &quot;Listen&quot;-Icon um zu den Kurztiteln zurückzukehren. ]]></label>
+			<label index="interpretation"><![CDATA[Auszüge aus der kunsthistorischen Forschung zum Objekt.]]></label>
+			<label index="related_works"><![CDATA[Andere Werke, Gemälde, Drucke oder Zeichnungen, die mit dem Objekt in Beziehung stehen. Befindet sich die verwandte Arbeit bereits im cda ist die cda-ID/ Inventarnummer angeben, ist es im Werkkatalog von Friedländer und Rosenberg (1978) aufgeführt, wird auf die entsprechende FR-Nummer verwiesen.]]></label>
+			
+			<!-- Material/Technique DE -->
+			<label index="material_technique"><![CDATA[Diese Kategorie beinhaltet Informationen über Aufbau, Struktur und Bestandteile des Objekts.]]></label>
+			<label index="technical_examination"><![CDATA[Informationen zu den Materialien, aus denen das Objekt hergestellt wurde. Diese Angaben können als Belege einer Zuschreibung/Datierung dienen, spätere Änderungen betreffen oder  herangezogen werden um Zusammenhänge zwischen verschiedenen Werken herzustellen. Verschiedene Bildgebungsverfahren und naturwissenschaftliche Untersuchungsmethoden können Anwendung finden. Dazu gehören: Querschliffe, Untersuchungen unter dem Mikroskop, mit ultraviolettem Licht, mit Röntgenstrahlen sowie Dendrochronologie und Infrarot-Reflektografien.]]></label>
+			
+			<!-- Conservation/Restoration DE -->
+			<label index="conservation_restoration"><![CDATA[Diese Kategorie enthält Informationen über vergangene Restaurierungs- oder Konservierungsmaßnahmen und den gegenwärtigen Zustand des Objekts.]]></label>
+			<label index="condition_reports"><![CDATA[Chronologische Aufzählung von Berichten, die den Erhaltungszustand des Objekts dokumentieren.]]></label>
+			<label index="history_reports"><![CDATA[Berichte zu Restaurierungs- oder Konservierungsmaßnahmen in der Vergangenheit bzw. Verweise auf diese.]]></label>
+			
+			<!-- Images DE -->
+			<label index="images"><![CDATA[Diese Kategorie zeigt die verfügbaren Arten von Bildmaterial, das zu dem Objekt im cda verfügbar ist. Die Abbildungen werden als Miniaturansicht in der linken unter Ecke angezeigt.]]></label>
+			<label index="overall"><![CDATA[Fotografie der Gemäldevorderseite im Ganzen.]]></label>
+			<label index="reverse"><![CDATA[Fotografie der Gemälderückseite im Ganzen.]]></label>
+			<label index="infrared"><![CDATA[Diese Schwarz-Weiß-Aufnahmen entstehen durch ein Verfahren, das Strahlung im infraroten Bereich nutzt um durch die verschiedenen Malschichten des Objekts zu dringen. Hat der Künstler ein Gemälde mit schwarzer Farbe auf weißem Grund angelegt kann die Infrarotaufnahme dies sichtbar machen (Unterzeichnung). Weiterhin kann sie Änderungen gegenüber der Unterzeichnung aufzeigen, die durch den Künstler selbst oder in Form späterer Übermalungen und Retuschen erfolgten (vgl. das Glossar für ausführlichere Angaben).]]></label>
+			<label index="x-radiograph"><![CDATA[Bilden  jene Bereiche des Objekts ab, die nicht von Röntgenstrahlung durchdrungen werden können (beim fotografischen Positiv als weiße Fläche). Röntgenaufnahmen dienen dazu Änderungen während des Malprozesses oder spätere Hinzufügungen deutlich zu machen. Verluste der Malschicht dagegen erscheinen als schwarze Flächen. Röntgenaufnahmen sind meist schwer zu interpretieren, da sich die einzelnen Malschichten in der Darstellung überlagern (vgl. das Glossar für ausführlichere Angaben).]]></label>
+			<label index="uv-light"><![CDATA[Einige Substanzen geben sichtbares Licht ab (fluoreszieren)  wenn sie ultravioletter (UV) Strahlung ausgesetzt werden. So leuchtet etwa der traditionelle Naturharzfirnis in grünlich-gelber Farbe. Die Untersuchung mit UV-Strahlung erlaubt es etwa die Abnahme von alten Firnisschichten oder auf dem Firnis aufgetragenen Übermalungen oder Retuschen sichtbar zu machen. Da einige Pigmente und Farbstoffe eine charakteristische Lichtfarbe unter UV-Strahlung abgeben, kann das Verfahren auch benutzt werden um diese Pigmente nachzuweisen (vgl. das Glossar für ausführlichere Angaben).]]></label>
+			<label index="detail"><![CDATA[Fotografien von einzelnen Bestandteilen oder Bereichen der Komposition.]]></label>
+			<label index="photomicrograph"><![CDATA[Mikroskopische Aufnahmen deren hohe Vergrößerungsstufe kleinste Details der Maloberfläche abbilden können.]]></label>
+			<label index="conservation"><![CDATA[Schriftdokumente, die sich auf vergangene Konservierungs- oder Restaurierungsmaßnahmen beziehen.]]></label>
+			<label index="other"><![CDATA[Jede Art zusätzlichen Bild- oder Schriftmaterials.]]></label>
+			<label index="analyses"><![CDATA[Bericht zu technologischen Untersuchungen des Objekts, z.B. Bestimmung des Entstehungsdatums anhand der Jahresringe eines hölzernen Bildträgers (Dendrochronologie).]]></label>
+			<label index="rkd"><![CDATA[Sammlung  von Fotografien und Reproduktionen, zusammengetragen und kommentiert vom Autor des Cranach-Werkkatalogs, dem deutschen Kunsthistoriker Max. J. Friedländer (1867-1958). Die Sammlung befindet sich im RKD (Rijksbureau voor Kunsthistorische Documentatie / Niederländisches Institut für Kunstgeschichte) in Den Haag und wurde dem cda freundlicherweise zur Verfügung gestellt.]]></label>
+			
+	  </languageKey>
+	</data>
+</cdalocallang>

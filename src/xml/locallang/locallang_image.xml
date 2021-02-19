@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<cdalocallang>
+	<meta type="array">
+		<type>image</type>
+		<description>Language labels for cda-project image class and utilities</description>
+	</meta>
+	<data type="array">
+		<languageKey index="Englisch" type="array">
+			<!-- INFORMATION BOX -->
+			<label index="user_guide">User Guide</label>
+			<label index="user_guide_link">docs/User_Guide.pdf</label>
+			<label index="faq">FAQ</label>
+			<label index="faq_link">docs/FAQeng.pdf</label>
+			<label index="merkzettel">Compare</label>
+		</languageKey>
+		<languageKey index="Deutsch" type="array">
+			<!-- INFORMATION BOX -->
+			<label index="user_guide">Leitfaden</label>
+			<label index="user_guide_link">docs/Leitfaden.pdf</label>
+			<label index="faq">FAQ</label>
+			<label index="faq_link">docs/FAQdt.pdf</label>
+			<label index="merkzettel">Vergleich</label>
+		</languageKey>
+	</data>
+</cdalocallang>

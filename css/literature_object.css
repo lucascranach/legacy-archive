@@ -1,0 +1,31 @@
+/** content **/
+
+#content {
+	box-shadow: 1px 1px 5px #000000;
+    font-family: Verdana,sans-serif;
+    *height: 100% !important;
+    margin: 0px;
+    overflow: visible !important;
+    padding: 35px 15px 20px 0;
+    position: relative;
+		z-index:2;
+}
+
+#top_cntrl {
+  position: absolute;
+  background: #dfdfdf;
+  box-shadow: 1px 1px 3px #000;
+	right:0px;
+	left:0px;
+	z-index:3;
+}
+
+.gallery_controls a.list_icon{
+	background-image:url(../images/icons/listView.png);
+}
+.gallery_controls a.prev{
+	background-image:url(../images/icons/prev.png);
+}
+.gallery_controls a.next{
+	background-image:url(../images/icons/next.png);
+}

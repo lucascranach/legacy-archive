@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdalocallang>
+	<meta type="array">
+		<type>filter</type>
+		<description>Language labels for the cda-project User class</description>
+	</meta>
+	<data type="array">
+		<languageKey index="Englisch" type="array">
+			<!-- INFORMATION BOX ENGLISCH -->
+			<label index="verlauf">History</label>
+			<label index="comparison">Compare</label>
+			<label index="explanation"><![CDATA[Choose objects with <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> for comparison]]></label>
+			<label index="explanation2">Drag and drop images out of the box to compare</label>
+			<label index="einstellungen">Settings</label>
+			<label index="history_delete">Delete History</label>
+			<label index="comparison_delete">Delete all saved objects</label>
+			<label index="allCookies_delete">Delete All Cookies</label>
+			<label index="tooltip_hide">Hide/Show Mouseover Information</label>
+			<label index="hint">Drag'n'Drop images over this area</label>
+			<label index="compare">Compare Images</label>	
+			<label index="add">add</label>	
+		</languageKey>
+		<languageKey index="Deutsch" type="array">
+			<!-- INFORMATION BOX DEUTSCH -->
+			<label index="verlauf">Verlauf</label>
+			<label index="comparison">Vergleich</label>
+      <label index="explanation"><![CDATA[Wählen Sie mit <span class="glyphicon glyphicon-plus-sign" aria-hidden="true"></span> Objekte zum Vergleich aus]]></label>
+			<label index="explanation2">Ziehen Sie zwei Bilder aus dieser Box und starten Sie einen Bildvergleich</label>
+			<label index="einstellungen">Einstellungen</label>
+			<label index="history_delete">Verlauf löschen</label>
+			<label index="comparison_delete">Alle gespeicherten Objekte löschen</label>
+			<label index="allCookies_delete">Alle Cookies löschen</label>
+			<label index="tooltip_hide">Mouse-Over Informationen ein-/ausschalten</label>	
+			<label index="hint">Ziehen Sie die Bilder über diesen Bereich</label>
+			<label index="compare">Bilder vergleichen</label>
+			<label index="add">hinzufügen</label>	
+		</languageKey>
+	</data>
+</cdalocallang>

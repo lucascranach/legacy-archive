@@ -1,0 +1,299 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+
+# .git HIDING #############################################
+RedirectMatch 404 /\.git
+
+# PREV DEAD LINKS ####################################################
+
+RewriteRule ^index_de\.html . [R,NC]
+
+RewriteRule ^index\.html . [R,NC]
+
+RewriteRule ^aboutlucascranach_en\.html . [R,NC]
+RewriteRule ^aboutlucascranach_de\.html . [R,NC]
+
+RewriteRule ^aboutus_en.html . [R]
+RewriteRule ^aboutus_de.html . [R]
+
+RewriteRule ^aktuell_en.html . [R]
+RewriteRule ^aktuell_de.html . [R]
+
+RewriteRule ^associate_partners_en.html . [R]
+RewriteRule ^associate_partners_de.html . [R]
+
+RewriteRule ^contact_en.html . [R]
+RewriteRule ^contact_de.html . [R]
+
+RewriteRule ^partners_en.html . [R]
+RewriteRule ^partners_de.html . [R]
+
+RewriteRule ^projectorganisation_en.html . [R]
+RewriteRule ^projectorganisation_de.html . [R]
+
+RewriteRule ^relatedprojects_en.html . [R]
+RewriteRule ^relatedprojects_de.html . [R]
+
+RewriteRule ^relatedprojects_en.html . [R]
+RewriteRule ^relatedprojects_de.html . [R]
+
+RewriteRule ^termsofuse_en.html . [R]
+RewriteRule ^termsofuse_de.html . [R]
+
+
+# HTTP TO HTTPS #####################################################
+# RewriteCond %{HTTPS} !=on
+# RewriteRule ^/?(.*) https://localhost:8888/$1 [R=301,L]
+
+# HOST HANDLE ############################################################
+RewriteCond %{HTTP_HOST} !^localhost:8888$ [NC]
+
+RewriteRule .? http://localhost:8888%{REQUEST_URI} [R=301,L]
+
+
+# TOUCHSCREEN APP ####################################################
+# BACKSLASH REDIRECT
+RewriteRule ^touchscreen/$ touchscreen [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^touchscreen$ touchscreen-app/index.html [PT,L]
+
+# GALLERY ############################################################
+
+# SET PAGE COOKIE
+RewriteCond %{QUERY_STRING} ^.*page=([0-9]+) [NC]
+RewriteRule ^.*$ "-" [CO=page:%1:localhost:8888]
+
+RewriteCond %{QUERY_STRING} ^.*page=([0-9]+) [NC]
+RewriteCond %{REQUEST_FILENAME} .*dev/gallery.* [NC]
+RewriteRule ^dev.*$ dev/gallery [QSD,R]
+
+RewriteCond %{QUERY_STRIVNG} ^.*page=([0-9]+) [NC]
+RewriteCond %{REQUEST_FILENAME} .*admin/gallery.* [NC]
+RewriteRule ^admin.*$ admin/gallery [QSD,R]
+
+RewriteCond %{QUERY_STRIVNG} ^.*page=([0-9]+) [NC]
+RewriteCond %{REQUEST_FILENAME} .*exhibition/gallery.* [NC]
+RewriteRule ^exhibition.*$ exhibition/gallery [QSD,R]
+
+# GALLERY REDIRECT
+RewriteCond %{QUERY_STRING} ^.*page=([0-9]+) [NC]
+RewriteRule ^digitalarchive\.php.*$ gallery [QSD,R]
+
+
+# BACKSLASH REDIRECT
+RewriteRule ^gallery/$ gallery [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^gallery$ digitalarchive.php [PT,L]
+
+
+# ARCHIVAL DOCUMENTS ##################################################
+
+RewriteCond %{QUERY_STRING} ^.*id=([a-zA-Z0-9_-]+) [NC]
+RewriteRule ^archival-documents.*$ archival-documents/%1 [QSD,R]
+RewriteRule ^archival-documents/([a-zA-Z0-9_-]+)$ archivalien/index.php?view=entry&object=$1
+
+# BACKSLASH REDIRECT
+RewriteRule ^archival-documents/$ archival-documents [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^archival-documents$ archivalien/index.php [PT,L]
+
+# PUBLICATION ##################################################
+
+# BACKSLASH REDIRECT
+RewriteRule ^publications/$ publications [R]
+
+# ALTES LITERATURMODUL UMLEITEN 
+RewriteRule ^literatur.php publications [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^publications$ literature/index.php [PT,L]
+
+
+# CONTROLLING ##################################################
+
+# BACKSLASH REDIRECT
+RewriteRule ^controlling/$ controlling [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^controlling$ admin/controlling.php [PT,L]
+
+
+# DEVELOPMENT GRAPHICS ##################################################
+# RewriteRule ^imageserver/(.*) /images/$1 [R,L]
+# RewriteRule ^imageserver$ / [R,L]
+# RewriteRule ^imageserver/$ / [R,L]
+
+# RewriteRule ^images$ / [R,L]
+# RewriteRule ^images/$ / [R,L]
+# RewriteRule ^images/G_(.*)/(.*)\.jpg$ imageserver/G_$1/01_Overall/$2.jpg [R,L]
+
+
+# DEVELOPMENT ##################################################
+
+# BACKSLASH REDIRECT
+RewriteRule ^dev$ dev/gallery [R]
+
+# BACKSLASH REDIRECT
+RewriteRule ^dev/$ dev/gallery [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^dev/gallery$ dev/paintings/index.php [PT,L]
+
+# DEVELOPMENT ARCHIVAL DOCUMENTS ##################################################
+
+RewriteCond %{QUERY_STRING} ^.*id=([a-zA-Z0-9_-]+) [NC]
+RewriteRule ^dev/archival-documents.*$ dev/archival-documents/%1 [QSD,R]
+RewriteRule ^dev/archival-documents/([a-zA-Z0-9_-]+)$ /dev/archivalien/index.php?view=entry&object=$1
+
+# BACKSLASH REDIRECT
+RewriteRule ^dev/archival-documents/$ dev/archival-documents [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^dev/archival-documents$ dev/archivalien/index.php [PT,L]
+
+# DEVELOPMENT  PUBLICATION ##################################################
+
+# BACKSLASH REDIRECT
+RewriteRule ^dev/publications/$ dev/publications [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^dev/publications$ dev/literature/index.php [PT,L]
+
+# DEVELOPMENT EXHIBITION ##################################################
+
+# BACKSLASH REDIRECT
+RewriteRule ^dev-exhibition/$ dev-exhibition/gallery [R]
+
+# BACKSLASH REDIRECT
+RewriteRule ^dev-exhibition$ dev-exhibition/gallery [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^dev-exhibition/gallery$ dev-exhibition/digitalarchive.php [PT,L]
+
+# DEVELOPMENT EXHIBITION OBJECT ############################################################
+
+# BACKSLASH REDIRECT
+RewriteRule ^dev-exhibition/([a-zA-Z0-9_-]+)/$ dev-exhibition/$1? [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^dev-exhibition/([a-zA-Z0-9_-]+)$ dev-exhibition/object.php?object=$1 [L]
+
+
+# DEVELOPMENT OBJECT ############################################################
+
+# BACKSLASH REDIRECT
+RewriteRule ^dev/([a-zA-Z0-9_-]+)/$ dev/$1? [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^dev/([a-zA-Z0-9_-]+)$ dev/object.php?object=$1 [L]
+
+# ADMINISTRATOR ##################################################
+
+# BACKSLASH REDIRECT
+RewriteRule ^admin/$ admin/gallery [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^admin/gallery$ admin/digitalarchive.php [PT,L]
+
+
+# ADMIN OBJECT ############################################################
+
+# BACKSLASH REDIRECT
+RewriteRule ^admin/([a-zA-Z0-9_-]+)/$ admin/$1? [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^admin/([a-zA-Z0-9_-]+)$ admin/object.php?object=$1 [L]
+
+# Exhibition ##################################################
+
+# BACKSLASH REDIRECT
+RewriteRule ^exhibition/$ exhibition/gallery [R]
+
+# BACKSLASH REDIRECT
+RewriteRule ^exhibition$ exhibition/gallery [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^exhibition/gallery$ exhibition/digitalarchive.php [PT,L]
+
+
+# Exhibition OBJECT ############################################################
+
+# BACKSLASH REDIRECT
+RewriteRule ^exhibition/([a-zA-Z0-9_-]+)/$ exhibition/$1? [R]
+
+# INTERNAL REDIRECT
+RewriteRule ^exhibition/([a-zA-Z0-9_-]+)$ exhibition/object.php?object=$1 [L]
+
+# OBJECT ############################################################
+
+# BACKSLASH REDIRECT
+RewriteRule ^([a-zA-Z0-9_-]+)/$ /$1? [R]
+
+# INTERNAL REDIRECT
+RewriteCond %{REQUEST_FILENAME} !.*ccm.* [NC]
+RewriteCond %{REQUEST_FILENAME} !.*dashboard.* [NC]
+RewriteCond %{REQUEST_FILENAME} !.*login.* [NC]
+RewriteCond %{REQUEST_FILENAME} !.*home.* [NC]
+RewriteCond %{REQUEST_FILENAME} !.*kontakt.* [NC]
+RewriteCond %{REQUEST_FILENAME} !.*forschung.* [NC]
+RewriteCond %{REQUEST_FILENAME} !.*partner.* [NC]
+RewriteCond %{REQUEST_FILENAME} !.*aktuell.* [NC]
+RewriteCond %{REQUEST_FILENAME} !.*nutzungsbedingungen.* [NC]
+RewriteCond %{REQUEST_FILENAME} !.*faq.* [NC]
+RewriteCond %{REQUEST_FILENAME} !.*impressum.* [NC]
+RewriteCond %{REQUEST_FILENAME} !.*das-projekt.* [NC]
+RewriteCond %{REQUEST_FILENAME} !.*lucas-cranach.* [NC]
+RewriteCond %{REQUEST_FILENAME} !.*startseite.* [NC]
+RewriteRule ^([a-zA-Z0-9_-]+)$ object.php?object=$1 [L]
+
+
+# IIPIMAGE ############################################################
+
+# IMAGE REDIRECT
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{QUERY_STRING} ^.*obj=([a-zA-Z0-9_-]+)_FR.*$
+RewriteRule ^image\.php.*$ /%1/image? [R=301]
+
+# BACKSLASH REDIRECT
+RewriteRule ^([a-zA-Z0-9_-]+)/image/$ /$1/image? [R=301]
+
+# INTERNAL REDIRECT
+RewriteRule ^([a-zA-Z0-9_-]+)/image$ /image.php?object=$1
+
+# BACKSLASH REDIRECT
+RewriteRule ^admin/([a-zA-Z0-9_-]+)/image/$ /admin/$1/image? [R=301]
+
+# INTERNAL REDIRECT
+RewriteRule ^admin/([a-zA-Z0-9_-]+)/image$ /admin/image.php?object=$1
+
+# WEBSITE ############################################################
+
+# INTERNAL REDIRECT
+RewriteRule ^/lucas-cranach$ /startseite/home-lucas-cranach/lucas-cranach [PT,L]
+
+
+RewriteCond %{REQUEST_FILENAME} .*ccm.* [OR]
+RewriteCond %{REQUEST_FILENAME} .*dashboard.* [OR]
+RewriteCond %{REQUEST_FILENAME} .*login.* [OR]
+RewriteCond %{REQUEST_FILENAME} .*home.* [OR]
+RewriteCond %{REQUEST_FILENAME} .*kontakt.* [OR]
+RewriteCond %{REQUEST_FILENAME} .*forschung.* [OR]
+RewriteCond %{REQUEST_FILENAME} .*partner.* [OR]
+RewriteCond %{REQUEST_FILENAME} .*das-projekt.* [OR]
+RewriteCond %{REQUEST_FILENAME} .*aktuell.* [OR]
+RewriteCond %{REQUEST_FILENAME} .*nutzungsbedingungen.* [OR]
+RewriteCond %{REQUEST_FILENAME} .*faq.* [OR]
+RewriteCond %{REQUEST_FILENAME} .*impressum.* [OR]
+RewriteCond %{REQUEST_FILENAME} .*lucas-cranach.* [OR]
+RewriteCond %{REQUEST_FILENAME} .*startseite.* [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME}/index.html !-f
+RewriteCond %{REQUEST_FILENAME}/index.php !-f
+RewriteRule . index.php [L]
+
+</IfModule>

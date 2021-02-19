@@ -1,0 +1,350 @@
+html, body, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	background: #fff;
+	font: 12px arial, sans-serif;
+	color: #4A4237;
+	height: 100%; /* WICHTIG!!! STRECKT ANZEIGENBEREICH AUF 100% */
+	min-width: 1000px;
+	width:100%;
+  height: 100%;
+}
+
+/** layout **/
+#wrapper {
+	text-align: left;
+	margin: 5px;
+	padding: 0px;
+  position: relative;
+	background: transparent;
+	min-height:99%; /* Mindesthöhe für den IE */ 
+	height: 99%;
+	overflow: visible !important; /* FF Scroll-leiste */ 
+	z-index:1;
+}
+
+#targetframe {
+  height: 100%;
+  min-height: 100%;
+  display: block;
+}
+
+.iipimage {
+  height: 100%;
+}
+
+.fill {
+  min-height: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.overview{
+  background:transparent;
+	width:290px;
+	padding:0px;
+	margin:5px;
+	-moz-box-shadow:1px 1px 3px #000;
+	-webkit-box-shadow:1px 1px 3px #000;
+	box-shadow:1px 1px 3px #000;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+	position:relative;
+	padding: 0px 0px 2px 0px
+}
+
+#overview img {
+	margin:5px 45px;
+}
+
+.overview ul {
+	padding:0px;
+	list-style: none;
+}
+
+.overview li {
+	margin: 5px 45px;
+	list-style: none;
+	color: #555566;
+}
+
+img.zoom{
+	width:20px;
+	height:20px;
+	top: 175px;
+	right: 7px;
+	position:absolute;
+	border:none;
+	opacity:0.5;
+	cursor:pointer;
+}
+
+/** content **/
+
+#content {
+  float: left;
+  display: block;
+	width: 100%;
+  z-index: 2;
+  min-height: 94%; /* Mindesthöhe für moderne Browser */
+	height:auto !important; /* Important Regel für moderne Browser */ 
+	height:94%; /* Mindesthöhe für den IE */ 
+	overflow: hidden !important; /* FF Scroll-leiste */ 
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+
+
+h2 {
+  font: normal 20px Arial, Helvetica, sans-serif;
+  color: #555566;
+  margin: 0 0 0.5em 0;
+}
+
+h3 {
+  font: bold 12px Arial, Helvetica, sans-serif;
+  color: #4A4237;
+  margin: 0 0 0.5em 0;
+}
+
+h3 span {
+  font: normal 12px Arial, Helvetica, sans-serif;
+  color: #4A4237;
+  margin: 0 0 0.5em 0;
+}
+
+/** Footer **/
+
+#footer {
+  position: relative;
+  width: 100%;		
+  float: left;		
+  margin: 5px 0px 0px 0px;
+  border-top: 1px solid #555566;
+	z-index:1;
+}
+
+#copyright {
+  position: relative;
+  float: right;
+  padding: 5px;
+  color: #555566;
+}
+
+/**
+* INFOBOX *
+**/
+#infoNavigation {
+	position: fixed;
+	float: left;
+	margin: 5px;
+	z-index: 1;
+	width: 215px;
+	overflow: hidden;
+	box-shadow: 1px 1px 3px #bbb;
+	background: transparent;
+}
+
+#infoNavigation h2 {
+	font: normal 13px Arial, Helvetica, sans-serif;
+	color: #555566;
+	margin: 15px 3px 0px;
+}
+
+
+#infoNavigation h2 a{
+	font: normal 13px Arial, Helvetica, sans-serif;
+	color: #555566;
+	margin: 0px;
+	padding: 5px 2px 9px;
+	width: 205px;
+}
+
+
+#infoNavigation ul {
+	margin: 2px 5px;
+	padding:0px;
+	list-style: none;
+}
+
+#infoNavigation li {
+	margin: 0px;
+	list-style: none;
+	border-bottom: 1px solid #757575;
+}
+
+#infoNavigation li:last {
+	border-bottom: none;
+}
+
+#infoNavigation a{
+	color: #555566;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	width: 200px;
+	padding: 4px;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+#infoNavigation a:hover, a:active{
+	color: #555566;
+	text-decoration: none;
+	background: transparent;
+}
+
+#infoNavigation h2 a:hover, h2 a:active{
+	color: #330000;
+	text-decoration: none;
+	background: transparent;
+}
+
+
+#infoNavigation h2.current a {
+	text-decoration: none;	
+	font-style: normal;
+	padding: 5px 2px 9px;
+	background: transparent;
+	width: 205px;
+	color: #330000;
+}
+
+#infoNavigation .current a {
+	color: #555566;
+	text-decoration: none;	
+	width: 200px;
+	font-style: italic;
+	padding: 4px;
+	background: transparent;
+}
+
+/**
+* DATABOX *
+**/
+#data {
+	margin: 20px 350px 20px 220px;
+	overflow: hidden !important; /* FF Scroll-leiste */
+}
+
+#data table {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border-top: 1px solid #dfdfdf;
+}
+
+#data table tr td {
+	text-align: left;
+	padding: 2px;
+	vertical-align: top;
+	width: 50%;
+	font: 12px arial, sans-serif;
+	color: #555566;
+}
+
+
+#data li {
+	list-style:none;
+}
+
+a.navi {
+    color: #555566;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.thumbClass{
+	background: none repeat scroll 0 0 transparent;
+	box-shadow: 1px 1px 3px #000000;
+	margin: 5px;
+	overflow: hidden;
+	padding: 0;
+	position: relative;
+}
+
+.thumbClass a {
+	display: block;
+	float: left;
+	margin: 2px 5px 0;
+	opacity: 0.5;
+}
+
+.thumbClass a:hover{
+	opacity:1.0;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=99);
+}
+
+#thumbcontainer img {
+	background-color:#fff;
+	padding:2px;
+	border:1px solid #ccc;
+	cursor:pointer;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+/* Thumbnail Box */
+.msg_thumbs{
+	background:transparent;
+	width:290px;
+	height:300px;
+	padding:0px;
+	margin:5px;
+	-moz-box-shadow:1px 1px 5px #000;
+	-webkit-box-shadow:1px 1px 5px #000;
+	box-shadow:1px 1px 3px #000;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+	overflow:hidden;
+	position:relative;
+}
+.msg_thumb_wrapper{
+	position:absolute;
+	width:240px;
+	height:245px;
+	margin: 25px;
+	padding: 0px;
+	z-index:30;
+	overflow:hidden;
+}
+.msg_thumb_wrapper a{
+	display:block;
+	width:50px;
+	height:50px;
+	float:left;
+	margin:5px;
+	opacity:0.5;
+ 	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+.msg_thumbs a.msg_thumb_next,
+.msg_thumbs a.msg_thumb_prev{
+	width:18px;
+	height:20px;
+	background-repeat:no-repeat;
+	background-position: center center;
+	position:absolute;
+	top:50%;
+	margin-top:-10px;
+	opacity:0.5;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+}
+
+.msg_thumbs a.msg_thumb_next:hover,
+.msg_thumbs a.msg_thumb_prev:hover{
+	opacity:1.0;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=99);
+}
+.msg_thumbs a.msg_thumb_next{
+	background-image:url(../images/next_thumb.png);
+	right:5px;
+}
+.msg_thumbs a.msg_thumb_prev{
+	background-image:url(../images/prev_thumb.png);
+	left:5px;
+}
+
+.msg_thumbs img {
+	border: 1px solid #555566;
+}

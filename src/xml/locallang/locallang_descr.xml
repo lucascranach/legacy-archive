@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<cdalocallang>
+	<meta type="array">
+		<type>filter</type>
+		<description>Language labels for the cda-project image description class</description>
+	</meta>
+	<data type="array">
+		<languageKey index="Englisch" type="array">
+			<!-- THUMBNAIL NAVIGATION -->
+			<label index="images_h">IMAGES</label>
+			<label index="overall_h">Overall</label>
+			<label index="reverse_h">Reverse</label>
+			<label index="irr_h">Infrared Images</label>
+			<label index="xRadio_h">X-Radiographs</label>
+			<label index="uvLight_h">UV Images</label>
+			<label index="detail_h">Detail Images</label>
+			<label index="photoMicro_h">Photomicrographs</label>
+			<label index="conservation_h">Conservation</label>
+			<label index="other_h">Other</label>
+			<label index="analys_h">Analysis</label>
+			<label index="rkd_h">Max J. Friedländer Archive</label>
+		</languageKey>
+		<languageKey index="Deutsch" type="array">
+			<!-- THUMBNAIL NAVIGATION -->
+	  	<label index="images_h">ABBILDUNGEN</label>
+			<label index="overall_h">Gesamtaufnahmen</label>
+			<label index="reverse_h">Rückseitenaufnahmen</label>
+			<label index="irr_h">Infrarotaufnahmen</label>
+			<label index="xRadio_h">Röntgenaufnahmen</label>
+			<label index="uvLight_h">UV-Fluoreszenzaufnahmen</label>
+			<label index="detail_h">Detailaufnahmen</label>
+			<label index="photoMicro_h">Mikroskopaufnahmen</label>
+			<label index="conservation_h">Restaurierung</label>
+			<label index="other_h">Andere</label>
+			<label index="analys_h">Analysis</label>
+			<label index="rkd_h">Max J. Friedländer-Archiv</label>
+		</languageKey>
+		<languageKey index="constant" type="array">
+			<!--	* HEADER for the image thumbnail description on the right side 
+						* This variables constantly have to be in english and german at the same time
+						* so there language key is set to "constant"!	
+			 -->
+			<label index="objCreator_h_en">Object creator</label>
+			<label index="objTitle_h_en">Object title / description</label>
+			<label index="objDate_h_en">Object date</label>
+			<label index="fileType_h_en">File type / description</label>
+			<label index="imageDesc_h_en">Image / document description</label>
+			<label index="imageDate_h_en">Image date</label>
+			<label index="imageCreated_h_en">Image created by / rights / credit</label>
+			<label index="imageSrc_h_en">Image source</label>
+			<label index="objCreator_h_de">Objekt Autor / Hersteller</label>
+			<label index="objTitle_h_de">Objekt Titel</label>
+			<label index="objDate_h_de">Objekt Datierung</label>
+			<label index="fileType_h_de">Dateiart / Beschreibung</label>
+			<label index="imageDesc_h_de">Abbildung Beschreibung</label>
+			<label index="imageDate_h_de">Abbildung Datum</label>
+			<label index="imageCreated_h_de">Abbildung Autor / Rechte</label>
+			<label index="imageSrc_h_de">Abbildung Quelle</label>
+		</languageKey>
+	</data>
+</cdalocallang>

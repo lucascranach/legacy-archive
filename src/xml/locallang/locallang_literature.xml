@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdalocallang>
+	<meta type="array">
+		<type>filter</type>
+		<description>Language labels for the cda-project filter class</description>
+	</meta>
+	<data type="array">
+		<languageKey index="Englisch" type="array">
+			<!-- LABELS -->
+			<label index="searchby_h"><![CDATA[Search Publications:]]></label>
+			<label index="filterby_h"><![CDATA[Filter by:]]></label>
+      <label index="lang"><![CDATA[EN/DE]]></label>
+			<!-- SEARCH FIELD / LINK -->
+			<label index="resetLink">Reset Filter</label>
+			<!-- ADVANCED SEARCH -->
+			<label index="advanced_id">Signature:</label>
+			<label index="advanced_date">Year:</label>
+      		<label index="advanced_autor">Author/Editor:</label>
+			<label index="advanced_label_show">Advanced Search...</label>
+			<label index="advanced_label_hide">Hide Advanced Search...</label>
+			<label index="label_show">Show Content...</label>
+			<label index="label_hide">Hide Content...</label>
+			<label index="top">Back to top</label>
+			<!-- INFORMATION BOX -->
+			<label index="user_guide">User Guide</label>
+			<label index="user_guide_link">docs/User_Guide.pdf</label>
+			<label index="faq">FAQ</label>
+			<label index="faq_link">docs/FAQeng.pdf</label>
+			<!-- HTML CONTENT -->
+			<label index="year">Year</label>
+			<label index="textart">Text Category</label>
+			<label index="aufsatz">Article</label>
+		    <label index="monographie">Monography / Miscellany</label>
+		    <label index="lit_modul">Literature</label>;
+		    <label index="lit_RefNr">Signature</label>;
+		    <label index="lit_Title">Title</label>
+		    <label index="lit_page">Reference on Page</label>;
+		    <label index="lit_fig">Figure/Plate</label>;
+		    <label index="lit_cat">Catalogue Number</label>;
+		    <label index="lit_Subtitle">Publication</label>;
+		    <label index="lit_Heading">Heading</label>;
+		    <label index="lit_Journal">Journal</label>;
+		    <label index="lit_Series">Series</label>;
+		    <label index="lit_Volume">Volume</label>;
+		    <label index="lit_Edition">Issue</label>;
+		    <label index="lit_PlacePubl">Place of Publication</label>;
+		    <label index="lit_YearPubl">Year of Publication</label>;
+		    <label index="lit_NumOfPages">Page/s</label>;
+		    <label index="lit_Date">Date</label>;
+		    <label index="lit_Copyright">Link</label>;
+		    <label index= "lit_author">Author</label>;
+		    <label index="lit_publisher">Editor</label>;
+		    <label index="lit_redaktion">Editing</label>;
+		</languageKey>
+		<!-- DEUTSCH -->
+		<languageKey index="Deutsch" type="array">
+      <label index="lang"><![CDATA[DE/EN]]></label>
+			<!-- LABELS -->
+			<label index="searchby_h"><![CDATA[Durchsuche die Literatur:]]></label>
+			<label index="filterby_h"><![CDATA[Filter nach:]]></label>
+			<!-- SEARCH FIELD / LINK -->
+			<label index="resetLink">Filter zurücksetzen</label>
+			<!-- ADVANCED SEARCH -->
+			<label index="advanced_id">Kürzel:</label>
+			<label index="advanced_date">Jahr:</label>
+      		<label index="advanced_autor">Autor/in, Herausgeber/in:</label>
+			<label index="advanced_label_show">Erweiterte Suche...</label>
+			<label index="advanced_label_hide">Erweiterte Suche verbergen...</label>
+			<label index="label_show">Inhalt anzeigen...</label>
+			<label index="label_hide">Inhalt schließen...</label>
+			<label index="top">Zurück zum Anfang</label>
+			<!-- INFORMATION BOX -->
+			<label index="user_guide">Leitfaden</label>
+			<label index="user_guide_link">docs/Leitfaden.pdf</label>
+			<label index="faq">FAQ</label>
+			<label index="faq_link">docs/FAQdt.pdf</label>
+      		<!-- HTML CONTENT -->
+			<label index="year">Jahr</label>
+			<label index="textart">Textart</label>
+			<label index="aufsatz">Aufsatz</label>
+      		<label index="monographie">Monographie / Sammelband</label>
+      		<label index="lit_modul">Literatur</label>;
+      		<label index="lit_RefNr">Kürzel</label>;
+      		<label index="lit_Title">Titel</label>
+      		<label index="lit_page">Erwähnt auf Seite</label>;
+      		<label index="lit_fig">Abbildung/Tafel</label>;
+      		<label index="lit_cat">Katalognummer</label>;
+      		<label index="lit_Subtitle">Publikation</label>;
+      		<label index="lit_Heading">Überschrift</label>;
+      		<label index="lit_Journal">Zeitschrift</label>;
+      		<label index="lit_Series">Reihe</label>;
+      		<label index="lit_Volume">Band</label>;
+      		<label index="lit_Edition">Ausgabe</label>;
+      		<label index="lit_PlacePubl">Ort der Veröffentlichung</label>;
+      		<label index="lit_YearPubl">Jahr der Veröffentlichung</label>;
+      		<label index="lit_NumOfPages">Seite/n</label>;
+      		<label index="lit_Date">Datum</label>;
+      		<label index="lit_Copyright">Link</label>;
+      		<label index= "lit_author">Autor/in, Herausgeber/in</label>;
+      		<label index="lit_publisher">Herausgeber/in</label>;
+      		<label index="lit_redaktion">Redaktion</label>;
+		</languageKey>
+	</data>
+</cdalocallang>

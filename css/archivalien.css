@@ -1,0 +1,456 @@
+html, body, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	background: #fff;
+	font: 12px Arial, Helvetica, sans-serif;
+	height: 100%; /* WICHTIG!!! STRECKT ANZEIGENBEREICH AUF 100% */
+	min-width: 1000px;
+	width:100%;
+}
+
+/** layout **/
+#wrapper {
+	text-align: left;
+	margin: 5px;
+	padding: 0px;
+  position: relative;
+	background: transparent;
+	min-height:99%; /* Mindesthöhe für den IE */ 
+	height: 99%;
+	overflow: visible !important; /* FF Scroll-leiste */ 
+	z-index:1;
+}
+
+#nav {
+	position: relative;
+	float: left;
+	width: 300px;
+	background: transparent;
+	height:97%; /* Mindesthöhe für den IE */
+	z-index:3;
+}
+
+#slidedown_menu li{
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	list-style-type:none;
+	position:relative;
+	
+}
+#slidedown_menu ul{
+	margin: 2px 20px;
+  	padding: 0px;
+	position:relative;
+	
+}
+
+#slidedown_menu li ul{
+	margin: 0px 5px;
+  	padding: 0px;
+	position:relative;	
+}
+
+#slidedown_menu span{
+	margin:0px;
+	padding-left:0px;
+}
+
+#slidedown_menu b{
+	font: 11px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+
+#slidedown_menu div{
+	margin:0px;
+	padding:0px;
+}
+/* 	Layout CSS */
+#slidedown_menu{
+	background:transparent;
+	width:295px;
+	padding:0px;
+	margin:0px 5px 5px 5px;
+	-moz-box-shadow:1px 1px 3px #000;
+	-webkit-box-shadow:1px 1px 3px #000;
+	box-shadow:1px 1px 3px #000;
+  filter:progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+	position:relative;
+	float:left;
+	height:99%; /* Mindesthöhe für den IE */ 
+	overflow:auto;
+}
+
+#slidedown_menu .desc {
+	width: 250px;
+	margin: 15px 15px 0px;
+	font: 13px Arial, Helvetica, sans-serif;
+}
+
+#slidedown_menu .resetFilter {
+	background: none repeat scroll 0 0 transparent;
+	font: 10px Arial,Helvetica,sans-serif;
+	left: 175px;
+	top: 94px;
+	position: absolute;
+}
+
+#slidedown_menu .search {
+	background:#fff;
+	width: 250px;
+	margin: 2px 16px 7px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	border: 1px solid lightGray;
+	height:22px;
+}
+
+#slidedown_menu .advancedLink {
+	background: center left url(../images/arrow_right.png) no-repeat transparent;
+	float: none;
+	font: 10px Arial,Helvetica,sans-serif;
+	margin-left: 20px;
+	margin-top: 0px;
+	position: relative;
+	width: 150px;
+}
+
+#slidedown_menu .advancedLink a {
+	background: none repeat scroll 0 0 transparent;
+	font: 10px Arial,Helvetica,sans-serif;
+	padding: 0px 0px 0px 10px;
+	margin: 0px;
+	text-decoration: none;
+}
+
+#slidedown_menu .advancedSearch {
+	background: none repeat scroll 0 0 transparent;
+	font: 10px Arial,Helvetica,sans-serif;
+	padding: 0px;
+	margin: 0px 15px;
+	text-decoration: none;
+}
+
+#slidedown_menu .advancedSearch a {
+	background: none repeat scroll 0 0 transparent;
+	font: 10px Arial,Helvetica,sans-serif;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+
+#slidedown_menu label {
+	background: none repeat scroll 0 0 transparent;
+	margin-left: 30px;
+}
+
+#slidedown_menu .searchField {
+	background:#fff;
+	width: 250px;
+	margin: 2px 0px 7px;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	border-radius: 25px;
+	border: 1px solid lightGray;
+	height:22px;
+}
+
+/* All A tags - i.e menu items. */
+#slidedown_menu a{
+	color: #555566;
+	font: 12px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/plus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+#slidedown_menu li ul li.closed a{
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/plus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+#slidedown_menu li ul li.current a{
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/minus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+#slidedown_menu li ul li ul li.closed a{
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/plus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+#slidedown_menu li ul li ul li.current a{
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/minus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+#slidedown_menu li ul li ul li ul li.closed a{
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/plus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+#slidedown_menu li ul li ul li ul li.current a{
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/minus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+#slidedown_menu li ul li ul li ul li ul li.closed a{
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/plus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+#slidedown_menu li ul li ul li ul li ul li.current a{
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/minus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+#slidedown_menu li ul li ul li ul li ul li ul li.closed a{
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/plus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+#slidedown_menu li ul li ul li ul li ul li ul li.current a{
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/minus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+#slidedown_menu li ul li ul li ul li ul li ul li ul li.closed a{
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/plus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+#slidedown_menu li ul li ul li ul li ul li ul li ul li.current a{
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	display:block;
+	clear:both;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/minus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+
+
+/* Active menu item */
+#slidedown_menu .current a{
+	font-weight:normal;
+	color: #555566;
+	padding:0px 0px 0px 20px;
+	background: center left url(../images/minus.png) no-repeat transparent;
+	margin: 5px 0px 0px 0px;
+}
+
+#slidedown_menu form {
+	color: #555566;
+	font: 10px Arial, Helvetica, sans-serif;
+	text-decoration:none
+}
+
+#slidedown_menu .submit {
+	float:right;
+	margin: 10px 30px;
+}
+
+/*
+A tags
+*/
+#slidedown_menu .slMenuItem_depth1{	/* Main menu items */
+	margin-top:5px;
+	font-weight:bold;
+	height: 15px;
+}
+#slidedown_menu .slMenuItem_depth2{	/* Sub menu items */
+	margin-top:1px;
+}
+#slidedown_menu .slMenuItem_depth3{	/* Sub menu items */
+	margin-top:1px;
+	font-style:italic;
+	color:blue;
+}
+#slidedown_menu .slMenuItem_depth4{	/* Sub menu items */
+	margin-top:1px;
+	color:red;
+}
+#slidedown_menu .slMenuItem_depth5{	/* Sub menu items */
+	margin-top:1px;
+}
+
+/* UL tags, i.e group of menu utems.
+It's important to add style to the UL if you're specifying margins. If not, assign the style directly
+to the parent DIV, i.e.
+
+#slidedown_menu .slideMenuDiv1
+
+instead of
+
+#slidedown_menu .slideMenuDiv1 ul
+*/
+
+#slidedown_menu .slideMenuDiv1 ul{
+	padding:1px;
+}
+#slidedown_menu .slideMenuDiv2 ul{
+	margin-left:5px;
+	padding:1px;
+}
+#slidedown_menu .slideMenuDiv3 ul{
+	margin-left:10px;
+	padding:1px;
+}
+#slidedown_menu .slMenuItem_depth4 ul{
+	margin-left:10px;
+	padding:1px;
+}
+
+/** content **/
+
+#content {
+	box-shadow: 1px 1px 5px #000000;
+    font-family: Verdana,sans-serif;
+    height: auto !important;
+    margin: 0 0 0 305px;
+    overflow: visible !important;
+    padding: 10px 15px 20px 0;
+    position: relative;
+		z-index:2;
+}
+
+/** Footer **/
+
+#footer {
+  position: relative;
+  width: 100%;		
+  float: left;		
+  margin: 5px 0px 0px 0px;
+  border-top: 1px solid #555566;
+	z-index:1;
+}
+
+#copyright {
+  position: relative;
+  float: right;
+  padding: 5px;
+  color: #555566;
+}
+
+#box {
+	width: 100%;
+	height: 80px;
+	max-height: 80px;
+	margin: 0px 0px 5px 6px;
+	padding: 0px;
+	border: 1px solid #dfdfdf;	
+	overflow:hidden;	
+}
+
+#box.listView {
+	cursor: pointer;
+}
+
+#box.listView img {
+	max-width: 150px;
+	background-color:#fff;
+	padding:2px;
+	border:1px solid #ccc;
+	margin:2px 5px 0px;
+	cursor:pointer;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+#box.listView table {
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	height: 80px;
+}
+
+#box.listView span {
+	font: 10px Arial, Helvetica, sans-serif;
+	font-style: normal;
+}
+
+#box.header {
+	cursor: none;
+	font: 10px Arial, Helvetica, sans-serif;
+	font-style: normal;
+	height: 25px;
+}
+
+#box.header table {
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+	height: 25px;
+}

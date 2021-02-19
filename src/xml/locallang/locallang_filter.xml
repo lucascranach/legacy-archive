@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdalocallang>
+	<meta type="array">
+		<type>filter</type>
+		<description>Language labels for the cda-project filter class</description>
+	</meta>
+	<data type="array">
+		<languageKey index="Englisch" type="array">
+			<!-- FILTER - Function Attribution EN -->
+			<label index="attr_label_h">Attribution</label>
+			<label index="attr_label[0]"><b>L</b>ucas Cranach the Elder</label>
+			<label index="attr_label[1]"><b>L</b>ucas Cranach the Elder and Workshop</label>
+			<label index="attr_label[2]"><b>W</b>orkshop of Lucas Cranach the Elder</label>
+			<label index="attr_label[3]"><b>N</b>amed Masters from the Cranach Workshop</label>
+			<label index="named" name="attr_named_1" origin="Peter Rodelstedt">Peter Rodelstedt</label>
+			<label index="named" name="attr_named_2" origin="Master of the Mass of St Gregory">Master of the Mass of St Gregory</label>
+			<label index="named" name="attr_named_3" origin="Simon Franck">Simon Franck</label>
+			<label index="named" name="attr_named_4" origin="Matthias Grünewald" prefix="Pseudo-">Pseudo-Matthias Grünewald</label>
+			<label index="named" name="attr_named_5" origin="Master of the Pflock Altarpiece">Master of the Pflock Altarpiece</label>
+			<label index="named" name="attr_named_6" origin="Master of the Döbeln Altarpiece">Master of the Döbeln Altarpiece</label>
+			<label index="named" name="attr_named_7" origin="Master I.S.">Master I.S.</label>
+			<label index="named" name="attr_named_8" origin="Augustus Cordes">Augustus Cordes</label>
+			<label index="named" name="attr_named_9" origin="Heinrich Vogtherr">Heinrich Vogtherr</label>
+			<label index="named" name="attr_named_10" origin="Hans Kemmer">Hans Kemmer</label>
+			<label index="named" name="attr_named_11" origin="Wolfgang Krodel the Elder">Wolfgang Krodel the Elder</label>
+			<label index="named" name="attr_named_12" origin="Master IW">Master/Monogramist I.W.</label>
+			<label index="named" name="attr_named_13" origin="Hans Döring ">Hans Döring</label>
+			<label index="named" name="attr_named_14" origin="Master H.B. with a griffin''s head">Master H.B. with a griffin's head</label>
+			<label index="named" name="attr_named_15" origin="Hans der Maler">Hans Maler</label>
+			<label index="named" name="attr_named_16" origin="Antonius Heusler">Antonius Heusler</label>
+			<label index="attr_label[4]"><b>A</b>nonymous Master from the Cranach Workshop</label>
+			<label index="attr_label[5]"><b>F</b>ollower of Lucas Cranach the Elder</label>
+			<label index="attr_label[6]"><b>C</b>ircle of Lucas Cranach the Elder</label>
+			<label index="attr_label[7]"><b>C</b>opy after Lucas Cranach the Elder</label>
+			<label index="attr_label[8]"><b>L</b>ucas Cranach the Younger</label>
+			<label index="attr_label[9]"><b>L</b>ucas Cranach the Younger and Workshop</label>
+			<label index="attr_label[10]"><b>W</b>orkshop of Lucas Cranach the Younger</label>
+			<label index="attr_label[11]"><b>H</b>ans Cranach</label>
+			<!-- FILTER - Function Date EN -->
+			<label index="date_label_h">Dating</label>
+			<label index="dated_h">Dated Works</label>
+			<!-- FILTER - Function Technique EN -->
+			<label index="tech_label_h">Examination / analysis</label>
+			<label index="tech_label[0]"><b>I</b>nfrared photography</label>
+			<label index="tech_label[1]"><b>I</b>nfrared reflectography</label>
+			<label index="tech_label[2]"><b>X</b>-radiography</label>
+			<label index="tech_label[3]"><b>U</b>V-light photography</label>
+			<label index="tech_label[4]"><b>O</b>ther imaging techniques</label>
+			<label index="tech_label[5]"><b>L</b>ight microscopy</label>
+			<label index="tech_label[6]"><b>I</b>nstrumental material analysis</label>
+			<label index="tech_label[7]"><b>M</b>icro-sampling / cross-sections</label>
+			<label index="tech_label[8]"><b>D</b>endrochronology / identification of wood species</label>
+			<label index="tech_label[9]"><b>S</b>tereomicroscopy</label>
+			<!-- FILTER - Function Collection EN -->
+			<label index="collection_label_h">Collection / repository</label>
+			<label index="root_directory" name="country">Countries</label>
+			<!-- Argentina -->
+			<label index="country" name="argentina">Argentina</label>
+			<label index="argentina" name="buenos_aires" origin="Museo Nacional de Bellas Artes, Buenos Aires">Buenos Aires, Museo Nacional de Bellas Artes</label>
+			<!-- Australia -->
+			<label index="country" name="australia">Australia</label>
+			<label index="australia" name="melbourne" origin="The National Gallery of Victoria, Melbourne">Melbourne, The National Gallery of Victoria</label>
+			<!-- Austria -->
+			<label index="country" name="austria">Austria</label>
+			<label index="austria" name="eisenstadt" origin="Landesgalerie Burgenland, Eisenstadt">Eisenstadt, Landesgalerie Burgenland</label>
+			<label index="austria" name="graz" origin="Alte Galerie, Schloss Eggenberg, Graz">Graz, Universalmuseum Joanneum, Schloss Eggenberg, Alte Galerie</label>
+			<label index="austria" name="hall" origin="Salesianerinnenkloster Thurnfeld">Hall,Salesianerinnenkloster Thurnfeld</label>
+			<label index="austria" name="innsbruck">Innsbruck</label>
+			<label index="innsbruck" name="innsbruck_1" origin="Dompfarrei St. Jakob, Innsbruck">Parish of the St Jacob's Cathedral</label>
+			<label index="innsbruck" name="innsbruck_2" origin="Kapuzinerkloster Innsbruck">Capuchin monastery</label>
+			<label index="innsbruck" name="innsbruck_3" origin="Servitenkonvent St. Josef, Innsbruck">Servites convent St Josef</label>
+			<label index="innsbruck" name="innsbruck_4" origin="Tiroler Landesmuseum Ferdinandeum, Innsbruck">Tiroler Landesmuseum Ferdinandeum</label>
+			<label index="austria" name="klosterneuburg" origin="Stiftsmuseum Klosterneuburg">Klosterneuburg, Stiftsmuseum</label>
+			<label index="austria" name="lilienfeld" origin="Zisterzienserabtei Lilienfeld">Lilienfeld, Zisterzienserabtei</label>
+			<label index="austria" name="melk" origin="Benediktinerstift Melk">Melk, Benediktinerstift</label>
+			<label index="austria" name="vienna">Vienna</label>
+			<label index="vienna" name="vienna_1" origin="Albertina, Vienna">Albertina</label>
+			<label index="vienna" name="vienna_2" origin="Dom Museum Wien">Dom Museum</label>
+			<label index="vienna" name="vienna_3" origin="Österreichische Galerie Belvedere">Österreichische Galerie Belvedere</label>
+			<label index="vienna" name="vienna_4" origin="The Paintings Gallery of the Academy of Fine Arts Vienna">Gemäldegalerie der Akademie der Künste</label>
+			<label index="vienna" name="vienna_5" origin="Kunsthistorisches Museum, Vienna">Kunsthistorisches Museum</label>
+			<!-- Belgium -->
+			<label index="country" name="belgium">Belgium</label>
+			<label index="belgium" name="antwerp">Antwerp</label>
+			<label index="antwerp" name="antwerp_1" origin="Koninklijk Museum voor Schone Kunsten, Antwerp">Koninklijk Museum voor Schone Kunsten</label>
+			<label index="antwerp" name="antwerp_2" origin="Museum Mayer van den Bergh, Antwerp">Museum Mayer van den Bergh</label>
+			<label index="belgium" name="brussels" origin="Musées royaux des Beaux-Arts de Belgique, Brussels">Brussels, Musées royaux des Beaux-Arts</label>
+			<label index="belgium" name="ghent" origin="Museum voor Schone Kunsten, Ghent">Ghent, Museum voor Schone Kunsten</label>
+			<label index="belgium" name="liege" origin="Collections artistiques de l''Université de Liège - Galerie Wittert">Liége, Collections artistiques de l'Université de Liège - Wittert Gallery</label>
+			<!-- Brazil -->
+			<label index="country" name="brazil">Brazil</label>
+			<label index="brazil" name="sao_paulo" origin="Museu de Arte de São Paulo">São Paulo, Museu de Arte</label>
+			<!-- Canada -->
+			<label index="country" name="canada">Canada</label>
+			<label index="canada" name="fredericton" origin="Beaverbrook Art Gallery">Fredericton, Beaverbrook Art Gallery</label>
+			<label index="canada" name="ottawa" origin="Musée des beaux-arts du Canada/National Gallery of Canada, Ottawa">Ottawa, Musée des beaux-arts du Canada/National Gallery of Canada</label>
+			<label index="canada" name="toronto" origin="Malcove Collection, University of Toronto">Toronto, University of Toronto Art Centre</label>			
+			<label index="canada" name="winnipeg" origin="Winnipeg Art Gallery">Winnipeg Art Gallery</label>
+			<!-- Croatia -->
+			<label index="country" name="croatia">Croatia</label>
+			<label index="croatia" name="cakovec" origin="Župna crkva i franjevacki samostan svetog Nikole">Čakovec, Franzikanerkirche zum hl. Bischof Nikolaus</label>
+			<!-- Cuba -->
+			<label index="country" name="cuba">Cuba</label>
+			<label index="cuba" name="havanna" origin="Museo Nacional de Bellas Artes, Havanna">Havanna, Museo Nacional de Bellas Artes</label>
+			<!-- Czech Republic -->
+			<label index="country" name="czech">Czech Republic</label>
+			<label index="czech" name="brno" origin="Moravská galerie v Brne (Moravian Gallery Brno)">Brno, Moravian Gallery</label>
+			<label index="czech" name="chomutov" origin="Oblastní Muzeum, Chomutov (Regional Museum Chomutov)">Chomutov, Regional Museum</label>
+			<label index="czech" name="jachymov">Jáchymov</label>
+			<label index="jachymov" name="jachymov_1" origin="Kostel svatého Jáchyma a svaté Anny (Church St Joachim and St Anne)">Church St Joachim and Anne</label>
+			<label index="jachymov" name="jachymov_2" origin="Muzeum Královská mincovna Jáchymov (Museum Royal Mint Jáchymov)">Museum Royal Mint</label>
+			<label index="czech" name="kromeriz" origin="Archbishop''s Castle and Gardens Kromeríz">Kromeriz, Archbishop's Palace and Gardens</label>
+			<label index="czech" name="litomerice">Litoměřice</label>
+			<label index="litomerice" name="litomerice_1" origin="Diecézní galerie a muzeum, Litomerice (Museum and Gallery of the Dioceses Litomerice)">Museum and Gallery of the Dioceses</label>
+			<label index="litomerice" name="litomerice_2" origin="Severoceská galerie výtvarného umení, Litomerice (North Bohemian Gallery of Fine Arts, Litomerice)">North Bohemian Gallery of Fine Arts</label>
+			<label index="czech" name="most" origin="Kostel Nanebevzetí Panny Marie (Kirche Maria Himmelfahrt), Most">Most, Kirche Maria Himmelfahrt</label>
+			<label index="czech" name="nelahozeves" origin="Zámek Nelahozeves (Nelahozeves Castle)">Nelahozeves Castle (Lobkowicz Collections)</label>
+			<label index="czech" name="prague">Prague</label>
+			<label index="prague" name="prague_1" origin="Lobkowiczký palác na Pražském hrade (Lobkowicz palace, Prague Castle)">Lobkowicz Palace, Prague Castle</label>
+			<label index="prague" name="prague_2" origin="Národní galerie v Praze (National Gallery in Prague)">National Gallery</label>
+			<label index="prague" name="prague_3" origin="Národní galerie v Praze, Anežský klášter (National Gallery in Prague, Convent of St Agnes)">Convent of St Agnes</label>
+			<label index="prague" name="prague_4" origin="Obrazárna Pražského hradu (Prague Castle Picture Gallery)">Prague Castle Picture Gallery</label>
+			<label index="prague" name="prague_5" origin="Královská kanonie premonstrátu na Strahove, Praha (Royal Canonry of Premonstratensians at Strahov, Prague)">Royal Canonry of Premonstratensians at Strahov</label>
+			<label index="czech" name="teplice" origin="Regionální muzeum v Teplicích">Teplice, Regional Museum</label>
+			<!-- Denmark -->
+			<label index="country" name="denmark">Denmark</label>
+			<label index="denmark" name="copenhagen" origin="Statens Museum for Kunst, Copenhagen">Copenhagen, Statens Museum for Kunst</label>
+			<label index="denmark" name="niva" origin="Nivaagaards Malerisamling, Nivå">Nivå, Nivaagaards Malerisamling</label>
+			<label index="denmark" name="sonderborg" origin="Sønderborg Slot, Sønderborg">Sønderborg, Schloss</label>
+			<!-- Estonia -->
+			<label index="country" name="estonia">Estonia</label>
+			<label index="estonia" name="tallinn" origin="Art Museum of Estonia, Tallinn">Tallinn, Art Museum of Estonia</label>
+			<!-- Finland -->
+			<label index="country" name="finland">Finland</label>
+			<label index="finland" name="helsinki" origin="Sinebrychoffin Taidemuseo, Helsinki">Helsinki, Sinebrychoff Art Museum</label>
+			<label index="finland" name="vaasa" origin="Österbottens Museum, Vaasa">Vaasa, Österbottens Museum</label>
+			<!-- France -->
+			<label index="country" name="france">France</label>
+			<label index="france" name="besancon" origin="Musée des Beaux-Arts et d''Archéologie Besançon">Besançon, Musée des Beaux-Arts et d'Archéologie</label>
+			<label index="france" name="cherbourg" origin="Musée d''Art Thomas Henry, Cherbourg">Cherbourg, Musée d'Art</label>
+			<label index="france" name="colmar" origin="Musée d''Unterlinden, Colmar">Colmar, Musée d'Unterlinden</label>
+			<label index="france" name="la_rochelle" origin="Musée des Beaux-Arts, La Rochelle">La Rochelle, Musée des Beaux-Arts</label>
+			<label index="france" name="libourne" origin="Musée des Beaux-arts et d''Archéologie, Libourne">Libourne, Musée des Beaux-arts et d'Archéologie</label>
+			<label index="france" name="lille" origin="Palais des Beaux-Arts, Lille">Lille, Palais des Beaux-Arts</label>
+			<label index="france" name="lyon" origin="Musée des Beaux-Arts de Lyon">Lyon, Musée des Beaux-Arts</label>
+			<label index="france" name="moulins" origin="Musée Anne-de-Beaujeu &amp; Maison Mantin, Moulins">Moulins, Musée Anne-de-Beaujeu et Maison Mantin</label>
+			<label index="france" name="paris">Paris</label>
+			<label index="paris" name="paris_1" origin="Musée de la Chasse et de la Nature, Paris">Musée de la Chasse et de la Nature</label>
+			<label index="paris" name="paris_2" origin="Musée du Louvre, Paris">Musée du Louvre</label>
+			<label index="paris" name="paris_3" origin="Petit Palais, Musée des Beaux-Arts de la Ville des Paris">Petit Palais, Musée des Beaux-Arts de la Ville des Paris</label>
+			<label index="france" name="toulouse" origin="Fondation Bemberg, Toulouse">Toulouse, Fondation Bemberg</label>
+			<label index="france" name="strasbourg" origin="Musée des Beaux-Arts Strasbourg">Strasbourg, Musée des Beaux-Arts</label>
+			<!-- Georgia -->
+			<label index="country" name="georgia">Georgia</label>
+			<label index="georgia" name="tibilisi" origin="The Shalva Amiranashvili Fine Arts Museum, Tbilisi">Tbilisi, The Shalva Amiranashvili Fine Arts Museum</label>
+			<!-- Germany -->
+			<label index="country" name="germany">Germany</label>
+			<label index="germany" name="aachen" origin="Suermondt-Ludwig-Museum, Aachen">Aachen, Suermondt-Ludwig-Museum</label>
+			<label index="germany" name="altenburg" origin="Lindenau-Museum Altenburg">Altenburg, Lindenau-Museum</label>
+			<label index="germany" name="annaberg">Annaberg-Buchholz</label>
+			<label index="annaberg" name="annaberg_1" origin="Erzgebirgsmuseum Annaberg-Buchholz">Erzgebirgsmuseum</label>
+			<label index="annaberg" name="annaberg_2" origin="St. Annenkirche, Annaberg-Buchholz">Ev.-Luth. Kirchgemeinde</label>
+			<label index="germany" name="aschaffenburg">Aschaffenburg</label>
+			<label index="aschaffenburg" name="aschaffenburg_1" origin="Staatsgalerie im Schloss Johannisburg, Aschaffenburg">Staatsgalerie im Schloss Johannisburg</label>
+			<label index="aschaffenburg" name="aschaffenburg_2" origin="Stiftsmuseum Aschaffenburg">Stiftsmuseum</label>
+			<label index="aschaffenburg" name="aschaffenburg_3" origin="Stiftspfarrei St. Peter und Alexander, Aschaffenburg">Stiftspfarrei St. Peter und Alexander</label>
+			<label index="germany" name="aschersleben" origin="St. Stephani Kirche, Aschersleben">Aschersleben, St. Stephani Kirche</label>
+			<label index="germany" name="augsburg">Augsburg</label>
+			<label index="augsburg" name="augsburg_1" origin="St. Anna Kirche, Augsburg">St. Anna Kirche</label>
+			<label index="augsburg" name="augsburg_2" origin="Kunstsammlungen und Museen der Stadt Augsburg">Kunstsammlungen und Museen der Stadt Augsburg</label>
+			<label index="augsburg" name="augsburg_3" origin="Schaezlerpalais, Augsburg">Schaezlerpalais</label>
+			<label index="augsburg" name="augsburg_4" origin="Staatsgalerie Augsburg, Katharinenkirche">Staatsgalerie Augsburg, Katharinenkirche</label>
+			<label index="germany" name="augustusburg" origin="Schloss Augustusburg">Augustusburg/Sachsen, Schloss Augustusburg</label>
+			<label index="germany" name="baden-baden">Baden-Baden</label>
+			<label index="baden-baden" name="baden-baden_1" origin="Kloster Lichtenthal, Baden-Baden">Kloster Lichtenthal</label>
+			<label index="baden-baden" name="baden-baden_2" origin="Stadtmuseum Baden-Baden">Stadtmuseum</label>
+			<label index="germany" name="bamberg">Bamberg</label>
+			<label index="bamberg" name="bamberg_1" origin="Bamberger Dom St. Peter und St. Georg">Dom St. Peter und St. Georg</label>
+			<label index="bamberg" name="bamberg_2" origin="Staatsgalerie in der Neuen Residenz Bamberg">Staatsgalerie in der Neuen Residenz</label>
+			<label index="germany" name="bautzen" origin="Museum Bautzen">Bautzen, Museum</label>
+			<label index="germany" name="berchtesgaden" origin="Königliches Schloss Berchtesgaden">Berchtesgaden, Königliches Schloss</label>
+			<label index="germany" name="berlin">Berlin</label>
+			<label index="berlin" name="berlin_1" origin="Stiftung Deutsches Historisches Museum, Berlin">Deutsches Historisches Museum</label>
+			<label index="berlin" name="berlin_2" origin="Evangelische Kirchengemeinde St. Petri - St. Marien, Berlin">Ev. Kirchengemeinde St. Petri - St. Marien</label>
+			<label index="berlin" name="berlin_3" origin="Staatliche Museen zu Berlin, Gemäldegalerie">Gemäldegalerie der Staatlichen Museen</label>
+			<label index="berlin" name="berlin_4" origin="Kupferstichkabinett, Staatliche Museen zu Berlin Preussischer Kulturbesitz">Kupferstichkabinett der Staatlichen Museen, Preußischer Kulturbesitz</label>
+			<label index="berlin" name="berlin_5" origin="Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Abt. Historische Drucke">Staatsbibliothek - Preußischer Kulturbesitz, Abt. Historische Drucke</label>
+			<label index="berlin" name="berlin_6" origin="Grunewald hunting lodge">Jagdschloss Grunewald</label>
+			<label index="germany" name="bernau" origin="St. Marien zu Bernau">Bernau, St. Marien</label>
+			<label index="germany" name="brandenburg" origin="Museum des Domstifts Brandenburg">Brandenburg, Museum des Domstifts</label>
+			<label index="germany" name="braunschweig" origin="Herzog Anton Ulrich-Museum, Braunschweig">Braunschweig, Herzog Anton Ulrich-Museum</label>
+			<label index="germany" name="bremen">Bremen</label>
+			<label index="bremen" name="bremen_1" origin="Kunsthalle Bremen - Der Kunstverein in Bremen">Kunsthalle</label>
+			<label index="bremen" name="bremen_2" origin="Kunstsammlungen Boettcherstraße, Bremen">Ludwig Roselius Museum</label>
+			<label index="germany" name="chemnitz">Chemnitz</label>
+			<label index="chemnitz" name="chemnitz_1" origin="Kunstsammlungen Chemnitz">Kunstsammlungen</label>
+			<label index="chemnitz" name="chemnitz_2" origin="Schlosskirche Chemnitz">Ev.-Luth. St.-Petri-Schlosskirchgemeinde</label>
+			<label index="germany" name="coburg">Coburg</label>
+			<label index="coburg" name="coburg_1" origin="Kunstsammlung der Veste Coburg">Kunstsammlungen der Veste Coburg</label>
+			<label index="coburg" name="coburg_2" origin="Stiftung der Herzog von Sachsen-Coburg und Gotha''schen Familie">Stiftung der Herzog von Sachsen-Coburg und Gotha'schen Familie</label>
+			<label index="germany" name="cologne" origin="Wallraf-Richartz-Museum - Fondation Corboud, Köln">Cologne, Wallraf-Richartz-Museum - Fondation Corboud</label>
+			<label index="germany" name="constappel" origin="Ev.-Luth. Kirchgemeinde St. Nikolai, Weistropp-Constappel">Constappel (Klipphausen), Ev.-Luth. Kirchgemeinde St. Nikolai</label>
+			<label index="germany" name="coswig" origin="Evangelische Kirchengemeinde Coswig ">Coswig (Anhalt), Ev. Kirchengemeinde</label>
+			<label index="germany" name="darmstadt" origin="Hessisches Landesmuseum Darmstadt">Darmstadt, Hessisches Landesmuseum</label>
+			<label index="germany" name="dessau">Dessau</label>
+			<label index="dessau" name="dessau_1" origin="Anhaltische Gemälde-Galerie, Dessau">Anhaltische Gemälde-Galerie</label>
+			<label index="dessau" name="dessau_2" origin="Anhaltische Landesbücherei Dessau">Anhaltische Landesbücherei</label>
+			<label index="dessau" name="dessau_3" origin="Ev. Kirchgemeinde St. Johannis und St. Marien, Dessau">Ev. Kirchgemeinde St. Johannis und St. Marien</label>
+			<label index="dessau" name="dessau_4" origin="Kulturstiftung Dessau Wörlitz, Gotisches Haus (The Gothic House)">Kulturstiftung Dessau Wörlitz</label>
+			<label index="germany" name="doebeln" origin="St. Nicolaikirche Döbeln">Döbeln, Ev.-Luth. Kirchengemeinde</label>
+			<label index="germany" name="dresden">Dresden</label>
+			<label index="dresden" name="dresden_1" origin="Staatliche Kunstsammlungen Dresden">Gemäldegalerie Alte Meister</label>
+			<label index="dresden" name="dresden_2" origin="Stadtmuseum Dresden">Stadtmuseum</label>
+			<label index="germany" name="duisburg" origin="Lehmbruck Museum, Duisburg">Duisburg, Lehmbruck Museum</label>
+			<label index="germany" name="duesseldorf" origin="Museum Kunstpalast, Düsseldorf">Düsseldorf, Stiftung Museum Kunstpalast</label>
+			<label index="germany" name="eichstaett" origin="Bischöflicher Stuhl, Eichstätt">Eichstätt, Bischöflicher Stuhl</label>
+			<label index="germany" name="eisenach" origin="Wartburg-Stiftung, Eisenach">Eisenach, Wartburg-Stiftung</label>
+			<label index="germany" name="eisleben" origin="Museum &quot;Luthers Sterbehaus&quot;, Eisleben">Eisleben, Museum "Luthers Sterbehaus"</label>
+			<label index="germany" name="erfurt">Erfurt</label>
+			<label index="erfurt" name="erfurt_1" origin="Angermuseum, Erfurt">Angermuseum</label>
+			<label index="erfurt" name="erfurt_2" origin="Dom St. Marien, Erfurt">Dom St. Marien</label>
+			<label index="germany" name="frankfurt" origin="Städel Museum Frankfurt a.M.">Frankfurt, Städel Museum</label>
+			<label index="germany" name="freiberg" origin="Stadt- und Bergbaumuseum Freiberg">Freiberg, Stadt- und Bergbaumuseum</label>
+			<label index="germany" name="freiburg" origin="Augustinermuseum Freiburg">Freiburg, Augustinermuseum</label>
+			<label index="germany" name="freising" origin="Diözesanmuseum Freising">Freising, Diözesanmuseum</label>
+			<label index="germany" name="fulda" origin="Dommuseum Fulda">Fulda, Dommuseum</label>
+			<label index="germany" name="gera" origin="Kunstsammlung Gera">Gera, Kunstsammlung</label>
+			<label index="germany" name="goerlitz" origin="Kulturhistorisches Museum Görlitz">Görlitz, Kulturhistorisches Museum Görlitzer, Kunstsammlung</label>
+			<label index="germany" name="gotha" origin="Stiftung Schloss Friedenstein, Gotha">Gotha, Stiftung Schloss Friedenstein</label>
+			<label index="germany" name="grimma" origin="Friedhofskapelle Heilig Kreuz, Stadt Grimma">Grimma, cemetery chapel Heilig Kreuz</label>
+			<label index="germany" name="guestrow" origin="Staatliches Museum Schwerin, Museum Schloss Güstrow">Güstrow, Staatliches Museum Schwerin, Museum Schloss Güstrow</label>
+			<label index="germany" name="haldensleben" origin="Museum Haldensleben">Haldensleben, Museum</label>
+			<label index="germany" name="halle">Halle</label>
+			<label index="halle" name="halle_1" origin="Evangelische Marktkirchengemeinde Halle">Ev. Marktkirchengemeinde</label>
+			<label index="halle" name="halle_2" origin="Kulturstiftung Sachsen-Anhalt - Kunstmuseum Moritzburg">Kulturstiftung Sachsen-Anhalt - Kunstmuseum Moritzburg</label>
+			<label index="germany" name="hamburg">Hamburg</label>
+			<label index="hamburg" name="hamburg_1" origin="Ev.-Luth. Kirchengemeinde Niendorf, Hamburg">Ev.-Luth. Kirchengemeinde Niendorf</label>
+			<label index="hamburg" name="hamburg_2" origin="Hamburger Kunsthalle">Kunsthalle</label>
+			<label index="hamburg" name="hamburg_3" origin="Hauptkirche St. Nikolai, Hamburg">Hauptkirche St. Nikolai</label>
+			<label index="hamburg" name="hamburg_4" origin="Stiftung August Ohm, Hamburg">Stiftung August Ohm</label>
+			<label index="germany" name="hannover">Hannover</label>
+			<label index="hannover" name="hannover_1" origin="Ev.-Luth. Marktkirchgemeinde Hannover">Ev.-Luth. Marktkirchgemeinde</label>
+			<label index="hannover" name="hannover_2" origin="Niedersächsisches Landesmuseum Hannover">Niedersächsisches Landesmuseum</label>
+			<label index="germany" name="heidelberg">Heidelberg</label>
+			<label index="heidelberg" name="heidelberg_1" origin="Kurpfälzisches Museum Heidelberg">Kurpfälzisches Museum</label>
+			<label index="heidelberg" name="heidelberg_2" origin="Universitätsmuseum, Heidelberg">Universitätsmuseum</label>
+			<label index="germany" name="jena" origin="Thüringer Universitäts- und Landesbibliothek Jena">Jena, Thüringer Universitäts- und Landesbibliothek</label>
+			<label index="germany" name="jueterbog" origin="Ev. St. Nikolaigemeinde Jüterbog">Jüterbog, Ev. St. Nikolaigemeinde</label>
+			<label index="germany" name="kamenz">Kamenz</label>
+			<label index="kamenz" name="kamenz_1" origin="Klosterkirche und Sakralmuseum St. Annen (Städtische Sammlungen Kamenz)">Klosterkirche und Sakralmuseum St. Annen</label>
+			<label index="kamenz" name="kamenz_2" origin="St. Marienkirche, Kamenz">St. Marienkirche</label>
+			<label index="germany" name="karlsruhe" origin="Staatliche Kunsthalle Karlsruhe">Karlsruhe, Staatliche Kunsthalle</label>
+			<label index="germany" name="kassel" origin="Gemäldegalerie Alte Meister, Kassel">Kassel, Gemäldegalerie Alte Meister</label>
+			<label index="germany" name="kemberg" origin="Stadtkirche Unser Lieben Frauen zu Kemberg">Kemberg, Stadtkirche Unser Lieben Frauen</label>
+			<label index="germany" name="kleve" origin="Museum Kurhaus Kleve">Kleve, Museum Kurhaus</label>
+			<label index="germany" name="klieken" origin="Kreuzkirche Klieken">Klieken (Coswig), Kreuzkirche</label>
+			<label index="germany" name="klitten" origin="Ev. Kirchengemeinde Klitten">Klitten, Ev. Kirchengemeinde</label>
+			<label index="germany" name="klix" origin="Dorfkirche, Klix">Klix, Dorfkirche</label>
+			<label index="germany" name="koblenz" origin="Schloss Stolzenfels, Koblenz">Koblenz, Schloss Stolzenfels</label>
+			<label index="germany" name="koethen" origin="Ev. Kirche St. Agnus, Köthen">Köthen, Ev. Kirche St. Agnus</label>
+			<label index="germany" name="konstanz" origin="Rosgartenmuseum Konstanz">Konstanz, Rosgartenmuseum</label>
+			<label index="germany" name="krefeld" origin="Kaiser Wilhelm Museum Krefeld">Krefeld, Kaiser Wilhelm Museum</label>
+			<label index="germany" name="kronach" origin="Fränkische Galerie, Kronach">Kronach, Fränkische Galerie</label>
+			<label index="germany" name="kronberg" origin="Hessische Hausstiftung, Kronberg">Kronberg, Hessische Hausstiftung</label>
+			<label index="germany" name="leipzig">Leipzig</label>
+			<label index="leipzig" name="leipzig_1" origin="Kunstsammlung der Universität Leipzig">Kunstsammlung der Universität</label>
+			<label index="leipzig" name="leipzig_2" origin="Museum der bildenden Künste, Leipzig">Museum der bildenden Künste</label>
+			<label index="leipzig" name="leipzig_3" origin="Evangelisch-Lutherische Kirchgemeinde St. Nikolai, Leipzig">Ev.-Luth. Kirche St. Nikolai</label>
+			<label index="leipzig" name="leipzig_4" origin="Stadtgeschichtliches Museum, Leipzig">Stadtgeschichtliches Museum</label>
+			<label index="germany" name="luebeck" origin="St. Annen-Museum, Lübeck">Lübeck, St. Annen-Museum</label>
+			<label index="germany" name="lueneburg" origin="Ostpreußisches Landesmuseum, Lüneburg">Lüneburg, Ostpreußisches Landesmuseum</label>
+			<label index="germany" name="magdeburg" origin="Kulturhistorisches Museum Magdeburg">Magdeburg, Kulturhistorisches Museum</label>
+			<label index="germany" name="mainz">Mainz</label>
+			<label index="mainz" name="mainz_1" origin="Bischöfliches Dom- und Diözesanmuseum Mainz">Bischöfliches Dom- und Diözesanmuseum</label>
+			<label index="mainz" name="mainz_2" origin="Landesmuseum Mainz">Landesmuseum</label>
+			<label index="germany" name="meissen">Meissen</label>
+			<label index="meissen" name="meissen_1" origin="Dom zu Meißen">Hochstift/Dom</label>
+			<label index="meissen" name="meissen_2" origin="Stadtmuseum Meißen">Stadtmuseum</label>
+			<label index="germany" name="merseburg" origin="Domstift Merseburg">Merseburg, Domstift</label>
+			<label index="germany" name="mittenwalde" origin="St. Moritzkirche Mittenwalde">Mittenwalde, Ev. Kirchgemeinde Mittenwalde</label>
+			<label index="germany" name="munich">Munich</label>
+			<label index="munich" name="munich_1" origin="Alte Pinakothek, Munich">Alte Pinakothek</label>
+			<label index="munich" name="munich_2" origin="Bayerisches Nationalmuseum">Bayerisches Nationalmuseum</label>
+			<label index="germany" name="muenster" origin="LWL-Museum für Kunst und Kultur Münster">Münster, LWL-Museum für Kunst und Kultur</label>
+			<label index="germany" name="muenstermaifeld" origin="Burg Eltz">Münstermaifeld, Burg Eltz</label>
+			<label index="germany" name="naumburg">Naumburg</label>
+			<label index="naumburg" name="naumburg_1" origin="Domstift Naumburg">Domstift</label>
+			<label index="naumburg" name="naumburg_2" origin="Stadtkirche St. Wenzel, Naumburg">Ev.-Luth. Kirchgemeinde St. Wenzel</label>
+			<label index="germany" name="neustadt" origin="Evangelische Stadtkirche St. Johannis zu Neustadt/Orla">Neustadt/Orla, Ev. Stadtkirchgemeinde St. Johannis</label>
+			<label index="germany" name="nienburg" origin="Evangelische Kirchengemeinde St. Johannis und St. Marien, Nienburg">Nienburg, Ev. Kirchengemeinde St. Johannis und St. Marien</label>
+			<label index="germany" name="nischwitz" origin="Ev.-Luth. Kirchgemeinde Thallwitz-Nischwitz">Thallwitz-Nischwitz, Ev.-Luth. Kirchgemeinde</label>
+			<label index="germany" name="noerdlingen" origin="Stadtmuseum Nördlingen">Nördlingen, Stadtmuseum</label>
+			<label index="germany" name="nuremberg" origin="Germanisches Nationalmuseum, Nuremberg">Nuremberg, Germanisches Nationalmuseum</label>
+			<label index="germany" name="oelsnitz" origin="Museen Schloß Voigtsberg">Oelsnitz/Vogtland, Museen Schloss Voigtsberg</label>
+			<label index="germany" name="oldenburg" origin="Landesmuseum für Kunst und Kulturgeschichte Oldenburg">Oldenburg, Landesmuseum für Kunst und Kulturgeschichte</label>
+			<label index="germany" name="regensburg" origin="Historisches Museum der Stadt Regensburg">Regensburg, Historisches Museum</label>
+			<label index="germany" name="remagen" origin="Arp Museum Bahnhof Rolandseck">Remagen, Sammlung Rau für UNICEF (Arp Museum Bahnhof Rolandseck)</label>
+			<label index="germany" name="rochlitz" origin="St. Kunigundenkirche Rochlitz">Rochlitz, Ev.-Luth. Kirchgemeinde</label>
+			<label index="germany" name="salzwedel" origin="Johann-Friedrich-Danneil-Museum Salzwedel">Salzwedel, Johann-Friedrich-Danneil-Museum</label>
+			<label index="germany" name="schleswig" origin="Schloss Gottorf, Landesmuseum für Kunst- und Kulturgeschichte, Schleswig">Schleswig, Schloss Gottorf, Landesmuseum</label>
+			<label index="germany" name="schneeberg" origin="Ev.-Luth. Kirchgemeinde St. Wolfgang, Schneeberg">Schneeberg, Ev.-Luth. Kirchgemeinde St. Wolfgang</label>
+			<label index="germany" name="schwaebisch_hall" origin="Sammlung Würth">Schwäbisch Hall, Johanniterkirche - Sammlung Würth</label>
+			<label index="germany" name="schwerin" origin="Staatliches Museum Schwerin, Galerie Alte und Neue Meister">Schwerin, Galerie Alte und Neue Meister</label>
+			<label index="germany" name="selm" origin="Schloss Cappenberg, Selm">Selm, Schloss Cappenberg</label>
+			<label index="germany" name="stuttgart" origin="Staatsgalerie Stuttgart">Stuttgart, Staatsgalerie</label>
+			<label index="germany" name="torgau">Torgau</label>
+			<label index="torgau" name="torgau_1" origin="Ev. Kirchgemeinde St. Marien, Torgau">Ev. Kirchengemeinde St. Marien</label>
+			<label index="torgau" name="torgau_2" origin="Schloss Hartenfels, Torgau">Schloss Hartenfels</label>
+			<label index="torgau" name="torgau_3" origin="Stadt- und Kulturgeschichtliches Museum Torgau">Stadt- und Kulturgeschichtliches Museum</label>
+			<label index="germany" name="weimar">Weimar</label>
+			<label index="weimar" name="weimar_1" origin="Ev.-Luth. Kirchgemeinde St. Peter und Paul, Weimar">Ev.-Luth. Kirchengemeinde St. Peter und Paul</label>
+			<label index="weimar" name="weimar_2" origin="Klassik Stiftung Weimar, Museums">Museen der Klassik Stiftung</label>
+			<label index="germany" name="weissenfels" origin="Museum Weißenfels - Schloss Neu-Augustusburg">Weißenfels, Museum Weißenfels-Schloss Neu-Augustusburg</label>
+			<label index="germany" name="wiesbaden" origin="Museum Wiesbaden">Wiesbaden, Museum</label>
+			<label index="germany" name="wittenberg">Wittenberg</label>
+			<label index="wittenberg" name="wittenberg_1" origin="Cranach-Stiftung, Wittenberg">Cranach-Stiftung</label>
+			<label index="wittenberg" name="wittenberg_2" origin="Evangelische Stadtkirche St. Marien, Wittenberg">Ev. Stadtkirche St. Marien</label>
+			<label index="wittenberg" name="wittenberg_3" origin="Lutherhaus Wittenberg">Lutherhaus</label>
+			<label index="germany" name="wolfenbuettel" origin="Herzog August Bibliothek Wolfenbüttel">Wolfenbüttel, Herzog August Bibliothek</label>
+			<label index="germany" name="woerlitz">Wörlitz</label>
+			<label index="woerlitz" name="woerlitz_1" origin="Evangelische Kirchgemeinde Wörlitz">Ev. Kirchgemeinde</label>
+			<label index="woerlitz" name="woerlitz_2" origin="Kulturstiftung Dessau Wörlitz, Gotisches Haus (The Gothic House)">Gotisches Haus</label>
+			<label index="germany" name="wuerzburg">Würzburg</label>
+			<label index="wuerzburg" name="wuerzburg_1" origin="Mainfränkisches Museum, Würzburg">Mainfränkisches Museum</label>
+			<label index="wuerzburg" name="wuerzburg_2" origin="Martin von Wagner Museum der Universität Würzburg">Martin von Wagner Museum der Universität</label>
+			<label index="germany" name="zerbst" origin="Evangelische Kirchengemeinde St. Bartholomäi, Zerbst">Zerbst, Ev. Kirchengemeinde St. Bartholomäi</label>
+			<label index="germany" name="zittau" origin="Städtische Museen Zittau">Zittau, Städtische Museen</label>
+			<label index="germany" name="zwickau">Zwickau</label>
+			<label index="zwickau" name="zwickau_1" origin="Dom St. Marien, Zwickau">Dom St. Marien</label>
+			<label index="zwickau" name="zwickau_2" origin="St. Katharinen-Kirche, Zwickau">St. Katharinen-Kirche</label>
+			<label index="zwickau" name="zwickau_3" origin="Kunstsammlungen Zwickau">Kunstsammlungen</label>
+			<!-- Great Britain -->
+			<label index="country" name="britain">United Kingdom</label>
+			<label index="britain" name="brighton" origin="Brighton Museum &amp; Art Gallery">Brighton, Museum and Art Gallery</label>
+			<label index="britain" name="bristol" origin="City Museum &amp; Art Gallery, Bristol">Bristol, City Museum and Art Gallery</label>
+			<label index="britain" name="edinburgh" origin="National Gallery of Scotland, Edinburgh">Edinburgh, National Gallery of Scotland</label>
+			<label index="britain" name="glasgow" origin="Burrell Collection, Pollok Country Park, Glasgow">Glasgow, Burrell Collection, Pollok Country Park</label>
+			<label index="britain" name="london">London</label>
+			<label index="london" name="london_1" origin="British Museum">British Museum</label>
+			<label index="london" name="london_2" origin="The Courtauld Institute of Art, London">The Courtauld Institute of Art</label>
+			<label index="london" name="london_3" origin="The National Gallery, London">The National Gallery</label>
+			<label index="london" name="london_4" origin="The Royal Collection, London">The Royal Collection</label>
+			<label index="britain" name="liverpool" origin="Walker Art Gallery, Liverpool">Liverpool, Walker Art Gallery</label>
+			<label index="britain" name="thornhill" origin="Drumlandig Castle, Thornhill">Thornhill, Drumlandig Castle</label>
+			<label index="britain" name="tiverton" origin="National Trust Collections">Tiverton, Knightshayes Court</label>
+			<label index="britain" name="truro" origin="Royal Cornwall Museum, Royal Institution of Cornwall, Truro">Truro, Royal Cornwall Museum</label>
+			<label index="britain" name="waddeston" origin="The National Trust, Waddesdon Manor">Waddesdon, Waddesdon Manor</label>
+			<label index="britain" name="warwickshire" origin="Compton Verney, Warwickshire">Warwickshire, Compton Verney</label>
+			<!--Hungary -->
+			<label index="country" name="hungary">Hungary</label>
+			<label index="hungary" name="budapest">Budapest</label>
+			<label index="budapest" name="budapest_1" origin="Ráday Library of the Reformed Church, Budapest">Ráday Library of the Reformed Church</label>
+			<label index="budapest" name="budapest_2" origin="Szépmuvészeti Múzeum, Budapest">Museum of Fine Arts</label>
+			<label index="hungary" name="esztergom" origin="Keresztény Múzeum, Esztergom">Esztergom, Keresztény Múzeum</label>
+			<!--Ireland -->
+			<label index="country" name="ireland">Ireland</label>
+			<label index="ireland" name="dublin" origin="National Gallery of Ireland, Dublin">Dublin, National Gallery of Ireland</label>
+			<!--Israel -->
+			<label index="country" name="israel">Israel</label>
+			<label index="israel" name="jerusalem" origin="The Israel Museum">Jerusalem, The Israel Museum</label>
+			<!--Italy -->
+			<label index="country" name="italy">Italy</label>
+			<label index="italy" name="brixen" origin="Diözesanmuseum Hofburg Brixen">Brixen, Diözesanmuseum Hofburg</label>
+			<label index="italy" name="florence" origin="Galleria Uffizi, Firenze">Florence, Uffizi Gallery</label>
+			<label index="italy" name="milan" origin="Museo Poldi Pezzoli, Milano">Milan, Museo Poldi Pezzoli</label>
+			<label index="italy" name="naples" origin="Museo e Real Bosco di Capodimonte, Naples">Naples, Museo e Real Bosco di Capodimonte</label>
+			<label index="italy" name="rome">Rome</label>
+			<label index="rome" name="rome_1" origin="Galleria Borghese, Rome">Galleria Borghese</label>
+			<label index="rome" name="rome_2" origin="Pinacoteca Vaticana, Roma">Pinacoteca Vaticana</label>
+			<label index="italy" name="siena" origin="Pinacoteca Nazionale di Siena">Siena, Pinacoteca Nazionale</label>
+			<label index="italy" name="trieste" origin="Galleria Nazionale d''Arte Antica, Trieste">Trieste, Galleria Nazionale d'Arte Antica</label>
+			<label index="italy" name="venice" origin="Museo Correr, Fondazione Musei Civici di Venezia">Venice, Museo Correr, Fondazione Musei Civici di Venezia</label>
+			<!--Japan-->
+			<label index="country" name="japan">Japan</label>
+			<label index="japan" name="tokyo" origin="The National Museum of Western Art, Tokyo">Tokyo, The National Museum of Western Art</label>
+			<!--Liechtenstein -->
+			<label index="country" name="liechtenstein">Liechtenstein</label>
+			<label index="liechtenstein" name="vaduz" origin="Liechtenstein. The Princely Collections, Vaduz-Vienna">Vaduz, The Princely Collections</label>
+			<!--Luxembourg -->
+			<label index="country" name="luxembourg">Luxembourg</label>
+			<label index="luxembourg" name="luxembourg_city" origin="Musée National d''Histoire et d''Art, Luxembourg">Luxembourg, Musée National d'Histoire et d'Art</label>
+			<!--Mexico -->
+			<label index="country" name="mexico">Mexico</label>
+			<label index="mexico" name="mexico_city">Mexico City</label>
+			<label index="mexico_city" name="mexico_city_1" origin="Museo Nacional de San Carlos/Insituto Nacional de Bellas Artes">Museo Nacional/Insituto Nacional de Bellas Artes</label>
+			<label index="mexico_city" name="mexico_city_2" origin="Museo Soumaya, Mexico City">Museo Soumaya</label>
+			<label index="mexico_city" name="mexico_city_3" origin="Pérez Simón Collection, Mexico City">Pérez Simón Collection</label>
+			<!--The Netherlands -->
+			<label index="country" name="netherlands">Netherlands</label>
+			<label index="netherlands" name="amsterdam" origin="Rijksmuseum, Amsterdam">Amsterdam, Rijksmuseum</label>
+			<label index="netherlands" name="den_haag" origin="Mauritshuis, Den Haag">The Hague, Mauritshuis</label>
+			<label index="netherlands" name="enschede" origin="Rijksmuseum Twenthe, Enschede">Enschede, Rijksmuseum Twenthe</label>
+			<label index="netherlands" name="heerenberg" origin="Collection Huis Bergh Castle, ''s-Heerenberg">'s-Heerenberg, Collection Huis Bergh Castle</label>
+			<label index="netherlands" name="maastricht" origin="Bonnefantenmuseum, Maastricht">Masstricht, Bonnefantenmuseum</label>
+			<label index="netherlands" name="otterlo" origin="Kröller-Müller Museum, Otterlo">Otterlo, Kröller-Müller Museum</label>
+			<label index="netherlands" name="rotterdam" origin="Museum Boijmans Van Beuningen, Rotterdam">Rotterdam, Museum Boijmans Van Beuningen</label>
+			<label index="netherlands" name="utrecht" origin="Rijksmuseum Het Catharijneconvent, Utrecht">Utrecht, Rijksmuseum Het Catharijneconvent</label>
+			<!--Norway -->
+			<label index="country" name="norway">Norway</label>
+			<label index="norway" name="bergen" origin="KODE Kunstmuseene i Bergen, Bergen Kunstmuseum">Bergen, Kunstmuseum (KODE Kunstmuseene)</label>
+			<label index="norway" name="larvik" origin="Treenighetskirke, Larvik">Larvik, Treenighetskirke</label>
+			<label index="norway" name="oslo" origin="Nasjonalmuseet for kunst, arkitektur og design, Oslo">Oslo, Nasjonalmuseet for kunst, arkitektur og design</label>
+			<!--Poland -->
+			<label index="country" name="poland">Poland</label>
+			<label index="poland" name="goluchow" origin="Muzeum Zamek w Goluchowie">Gołuchów, Palace Museum</label>
+			<label index="poland" name="krakow">Kraków</label>
+			<label index="krakow" name="krakow_1" origin="Muzeum Czartoryskich">Czartoryski Museum</label>
+			<label index="krakow" name="krakow_2" origin="Muzeum Narodowe w Krakowie">National Museum</label>
+			<label index="krakow" name="krakow_3" origin="Zamek Królewski na Wawelu (Wawel Royal Castle)">Royal Castle Wawel</label>
+			<label index="poland" name="poznan" origin="Muzeum Narodowe w Poznaniu">Poznań, National Museum</label>
+			<label index="poland" name="szczecin" origin="Muzeum Narodowe w Szczecinie">Szczecin, National Museum</label>
+			<label index="poland" name="warsaw">Warsaw</label>
+			<label index="warsaw" name="warsaw_1" origin="Muzeum Kolekcji im. Jana Pawla II">Muzeum Kolekcji im. Jana Pawla II</label>
+			<label index="warsaw" name="warsaw_2" origin="Muzeum Narodowe w Warszawie">National Museum</label>
+			<label index="warsaw" name="warsaw_3" origin="Muzeum Palacu Króla Jana III w Wilanowie">Palace Museum Króla Jana III w Wilanowie</label>
+			<label index="poland" name="wroclaw">Wrocław</label>
+			<label index="wroclaw" name="wroclaw_1" origin="Muzeum Archidiecezjalne Wroclaw">Museum of the Archdiocese</label>
+			<label index="wroclaw" name="wroclaw_2" origin="Muzeum Narodowe we Wroclawiu">National Museum</label>
+			<!--Portugal -->
+			<label index="country" name="portugal">Portugal</label>
+			<label index="portugal" name="lisbon" origin="Museu National de Arte Antiga, Lisboa">Lisbon, Museu National de Arte Antiga</label>
+			<!--Puerto Rico -->
+			<label index="country" name="puerto_rico">Puerto Rico</label>
+			<label index="puerto_rico" name="ponce" origin="Museo de Arte de Ponce, Puerto Rico">Ponce, Museo de Arte</label>
+			<!--Romania -->
+			<label index="country" name="romania">Romania</label>
+			<label index="romania" name="brukethal" origin="Muzeul National Brukenthal">Brukethal, Muzeul National</label>
+			<!--Russia -->
+			<label index="country" name="russia">Russia</label>
+			<label index="russia" name="moscow" origin="The Pushkin State Museum of Fine Arts, Moscow">Moscow, The Pushkin State Museum of Fine Arts</label>
+			<label index="russia" name="nizhny_novgorod" origin="Nizhny Novgorod State Museum of Art">Nizhny Novgorod, State Museum of Art</label>
+			<label index="russia" name="st_petersburg" origin="The State Hermitage Museum, St. Petersburg">St. Petersburg, State Hermitage</label>
+			<!--Spain -->
+			<label index="country" name="spain">Spain</label>
+			<label index="spain" name="barcelona" origin="Museu Nacional d''Art de Catalunya (MNAC)">Barcelona, Museu Nacional d'Art de Catalunya</label>
+			<label index="spain" name="bilbao" origin="Museo de Bellas Artes Bilbao">Bilbao, Museo de Bellas Artes</label>
+			<label index="spain" name="madrid">Madrid</label>
+			<label index="madrid" name="madrid_1" origin="Fundación Banco Santander, Madrid">Fundación Banco Santander</label>
+			<label index="madrid" name="madrid_2" origin="Museo Lázaro Galdiano, Madrid">Museo Lázaro Galdiano</label>
+			<label index="madrid" name="madrid_3" origin="Museo Nacional del Prado">Museo Nacional del Prado</label>
+			<label index="madrid" name="madrid_4" origin="Museo Thyssen-Bornemisza, Madrid">Museo Thyssen-Bornemisza</label>
+			<label index="spain" name="sevilla" origin="Museo de Bellas Artes, Sevilla">Sevilla, Museo de Bellas Artes</label>
+			<!--Sweden -->
+			<label index="country" name="sweden">Sweden</label>
+			<label index="sweden" name="goeteborg" origin="Göteborgs Konstmuseum">Gothenburg, Konstmuseum</label>
+			<label index="sweden" name="linkoeping" origin="Östergötlands Museum, Linköping">Linköping, Östergötlands Museum</label>
+			<label index="sweden" name="stockholm">Stockholm</label>
+			<label index="stockholm" name="stockholm_1" origin="Hallwylska museet, Stockholm">Hallwylska museet</label>
+			<label index="stockholm" name="stockholm_2" origin="Nationalmuseum, Stockholm">Nationalmuseum</label>
+			<label index="stockholm" name="stockholm_3" origin="Skoklosters slott, Stockholm">Skoklosters slott</label>
+			<!--Switzerland -->
+			<label index="country" name="switzerland">Switzerland</label>
+			<label index="switzerland" name="basel" origin="Öffentliche Kunstsammlung Basel">Basel, Kunstmuseum</label>
+			<label index="switzerland" name="bern" origin="Kunstmuseum Bern">Bern, Kunstmuseum</label>
+			<label index="switzerland" name="geneva" origin="Musée d''Art et d''Histoire, Genève">Geneva, Musée d'Art et d'Histoire</label>
+			<label index="switzerland" name="schaffhausen" origin="Museum zu Allerheiligen Schaffhausen">Schaffhausen, Museum zu Allerheiligen</label>
+			<label index="switzerland" name="winterthur">Winterthur</label>
+			<label index="winterthur" name="winterthur_1" origin="Kunstmuseum Winterthur">Kunstmuseum</label>
+			<label index="winterthur" name="winterthur_2" origin="Sammlung Oskar Reinhart, Winterthur">Sammlung Oskar Reinhart</label>
+			<label index="switzerland" name="zurich" origin="Kunsthaus Zürich">Zürich, Kunsthaus</label>
+			<!--United States of America -->
+			<label index="country" name="america">United States of America</label>
+			<label index="america" name="allentown" origin="Allentown Art Museum">Allentown Art Museum</label>
+			<label index="america" name="baltimore" origin="The Walters Art Museum, Baltimore (Maryland)">Baltimore, The Walters Art Museum</label>
+			<label index="america" name="boston" origin="Museum of Fine Arts, Boston">Boston, Museum of Fine Arts</label>
+			<label index="america" name="beloit" origin="Wright Museum of Art, Beloit College, Beloit, WI">Beloit, Wright Museum of Art, Beloit College</label>
+			<label index="america" name="cambridge" origin="Harvard Art Museums/Fogg Museum, Cambridge, Mass.">Cambridge, Harvard Art Museums/Fogg Museum</label>
+			<label index="america" name="chapel_hill" origin="Ackland Art Museum, The University of North Carolina at Chapel Hill">Chapel Hill, Ackland Art Museum</label>
+			<label index="america" name="chicago" origin="The Art Institute of Chicago">Chicago, Art Institute</label>
+			<label index="america" name="cincinnati" origin="Cincinnati Art Museum">Cincinnati Art Museum</label>
+			<label index="america" name="cleveland" origin="The Cleveland Museum of Art">Cleveland, Museum of Art</label>
+			<label index="america" name="coral_gables" origin="Lowe Art Museum, University of Miami, Coral Gables">Coral Gables, Lowe Art Museum, University of Miami</label>
+			<label index="america" name="detroit" origin="Detroit Institute of Arts">Detroit Institute of Arts</label>
+			<label index="america" name="fortworth" origin="Kimbell Art Museum, Fort Worth">Fort Worth, Kimbell Art Museum</label>
+			<label index="america" name="greenville" origin="Bob Jones University Museum &amp; Gallery, Greenville">Greenville, Bob Jones University &amp; Gallery</label>
+			<label index="america" name="hartford" origin="Wadsworth Atheneum, Hartford, Connecticut">Hartford, Wadsworth Atheneum</label>
+			<label index="america" name="houston">Houston</label>
+			<label index="houston" name="houston_1" origin="Museum of Fine Arts, Houston">Museum of Fine Arts</label>
+			<label index="houston" name="houston_2" origin="Sarah Campbell Blaffer Foundation, Houston">Sarah Campbell Blaffer Foundation</label>
+			<label index="america" name="huntington" origin="The Heckscher Museum of Art, Huntington, New York">Huntington, The Heckscher Museum of Art</label>
+			<label index="america" name="indianapolis" origin="Indianapolis Museum of Art">Indianapolis, Museum of Art</label>
+			<label index="america" name="jacksonville" origin="Cummer Museum of Art &amp; Gardens, Jacksonville">Jacksonville, Cummer Museum of Art &amp; Gardens</label>
+			<label index="america" name="kansas" origin="The Nelson-Atkins Museum of Art, Kansas City">Kansas City, The Nelson-Atkins Museum of Art</label>
+			<label index="america" name="la" origin="The J. Paul Getty Museum, Los Angeles">Los Angeles, The J. Paul Getty Museum</label>
+			<label index="america" name="miami" origin="Vizcaya Museum &amp; Gardens, Miami">Miami, Vizcaya Museum &amp; Gardens</label>
+			<label index="america" name="minneapolis" origin="Minneapolis Institute of Arts">Minneapolis, Institute of Arts</label>
+			<label index="america" name="muskegon" origin="The Muskegon Museum of Art, Muskegon, Michigan">Muskegon, Museum of Art</label>
+			<label index="america" name="ny">New York</label>
+			<label index="ny" name="ny_1" origin="Brooklyn Museum, New York">Brooklyn Museum</label>
+			<label index="ny" name="ny_2" origin="The Metropolitan Museum of Art, New York">The Metropolitan Museum</label>
+			<label index="ny" name="ny_3" origin="The Morgan Library &amp; Museum, New York">The Morgan Library and Museum</label>
+			<label index="ny" name="ny_4" origin="Syracuse University Art Galleries, New York">Syracuse University Art Galleries</label>
+			<label index="america" name="pasadena" origin="Norton Simon Art Foundation">Pasadena, Norton Simon Art Foundation</label>
+			<label index="america" name="philadelphia">Philadelphia</label>
+			<label index="philadelphia" name="philadelphia_1" origin="Barnes Foundation, Philadelphia">Barnes Foundation</label>
+			<label index="philadelphia" name="philadelphia_2" origin="Philadelphia Museum of Art">Museum of Art</label>
+			<label index="america" name="pittsburgh" origin="Carnegie Museum of Art, Pittsburgh">Pittsburgh, Carnegie Museum of Art</label>
+			<label index="america" name="portland" origin="Portland Art Museum">Portland, Portland Art Museum</label>
+			<label index="america" name="princeton" origin="Princeton University Art Museum">Princeton University Art Museum</label>
+			<label index="america" name="raleigh" origin="North Carolina Museum of Art, Raleigh">Raleigh, North Carolina Museum of Art</label>
+			<label index="america" name="sacramento" origin="Crocker Art Museum, Sacramento">Sacramento, Crocker Art Museum</label>
+			<label index="america" name="san_diego" origin="The San Diego Museum of Art, San Diego">San Diego, Museum of Art</label>
+			<label index="america" name="san_francisco" origin="Legion of Honour, Fine Arts Museums of San Francisco">San Francisco, Fine Arts Museums, Legion of Honour</label>
+			<label index="america" name="sarasota" origin="John and Mable Ringling Museum of Art, Sarasota">Sarasota, John and Mable Ringling Museum of Art</label>
+			<label index="america" name="seattle" origin="Seattle Art Museum">Seattle, Art Museum</label>
+			<label index="america" name="stLouis" origin="St. Louis Art Museum">St. Louis, Art Museum</label>
+			<label index="america" name="toledo" origin="Toledo Art Museum, Toledo, Ohio">Toledo (Ohio), Art Museum</label>
+			<label index="america" name="tucson" origin="The University of Arizona, Museum of Art, Tucson">Tucson, The University of Arizona, Museum of Art</label>
+			<label index="america" name="washington" origin="National Gallery of Art, Washington, D. C.">Washington, D.C., National Gallery of Art</label>
+			<label index="america" name="west_palm_beach" origin="Norton Museum of Art, Florida">West Palm Beach, Norton Museum of Art</label>
+			<label index="america" name="yale" origin="Yale University Art Gallery">Yale University Art Gallery</label>
+			<!--Lost -->
+			<label index="root_directory" name="lost" origin="painting not preserved">Lost</label>
+			<!--Private -->
+			<label index="root_directory" name="private" origin="Private Collection">Private Collection</label>
+			<!--Unknown -->
+			<label index="root_directory" name="unknown" origin="Unknown">Unknown</label>
+		</languageKey>
+		<languageKey index="Deutsch" type="array">
+			<!-- FILTER - Function Attribution DE -->
+			<label index="attr_label_h">Zuschreibung</label>
+			<label index="attr_label[0]"><b>L</b>ucas Cranach der Ältere</label>
+			<label index="attr_label[1]"><b>L</b>ucas Cranach der  Ältere und Werkstatt</label>
+			<label index="attr_label[2]"><b>W</b>erkstatt Lucas Cranach d. Ä.</label>
+			<label index="attr_label[3]"><b>B</b>ekannte Meister der Cranach-Werkstatt</label>
+			<label index="named" name="attr_named_1" origin="Peter Rodelstedt">Peter Rodelstedt</label>
+			<label index="named" name="attr_named_2" origin="Master of the Mass of St Gregory">Meister der Gregorsmesse</label>
+			<label index="named" name="attr_named_3" origin="Simon Franck">Simon Franck</label>
+			<label index="named" name="attr_named_4" origin="Matthias Grünewald" prefix="Pseudo-">Pseudo-Matthias Grünewald</label>
+			<label index="named" name="attr_named_5" origin="Master of the Pflock Altarpiece">Meister des Pflockschen Altars</label>
+			<label index="named" name="attr_named_6" origin="Master of the Döbeln Altarpiece">Meister des Döbelner Hochaltars</label>
+			<label index="named" name="attr_named_7" origin="Master I.S.">Meister I.S.</label>
+			<label index="named" name="attr_named_8" origin="Augustus Cordes">Augustus Cordes</label>
+			<label index="named" name="attr_named_9" origin="Heinrich Vogtherr">Heinrich Vogtherr</label>
+			<label index="named" name="attr_named_10" origin="Hans Kemmer">Hans Kemmer</label>
+			<label index="named" name="attr_named_11" origin="Wolfgang Krodel the Elder">Wolfgang Krodel d. Ä.</label>
+			<label index="named" name="attr_named_12" origin="Master IW">Meister/Monogrammist I.W.</label>
+			<label index="named" name="attr_named_13" origin="Hans Döring ">Hans Döring</label>
+			<label index="named" name="attr_named_14" origin="Master H.B. with a griffin''s head">Meister H.B. mit dem Greifenkopf</label>
+			<label index="named" name="attr_named_15" origin="Hans der Maler">Hans Maler</label>
+			<label index="named" name="attr_named_16" origin="Antonius Heusler">Antonius Heusler</label>
+			<label index="attr_label[4]"><b>A</b>nonymer Meister der Cranach-Werkstatt</label>
+			<label index="attr_label[5]"><b>N</b>achahmer von Lucas Cranach d. Ä.</label>
+			<label index="attr_label[6]"><b>U</b>mkreis von Lucas Cranach d. Ä.</label>
+			<label index="attr_label[7]"><b>K</b>opie nach Lucas Cranach d. Ä.</label>
+			<label index="attr_label[8]"><b>L</b>ucas Cranach der Jüngere</label>
+			<label index="attr_label[9]"><b>L</b>ucas Cranach der Jüngere und Werkstatt</label>
+			<label index="attr_label[10]"><b>W</b>erkstatt Lucas Cranach der Jüngere</label>
+			<label index="attr_label[11]"><b>H</b>ans Cranach</label>
+			<!-- FILTER - Function Date DE -->
+			<label index="date_label_h">Datierung</label>
+			<label index="dated_h">Datierte Werke</label>
+			<!-- FILTER - Function Technique DE -->
+			<label index="tech_label_h">Untersuchungstechniken</label>
+			<label index="tech_label[0]"><b>I</b>nfrarot-Fotografie</label>
+			<label index="tech_label[1]"><b>I</b>nfrarot-Reflektografie</label>
+			<label index="tech_label[2]"><b>R</b>öntgengrobstrukturanalyse</label>
+			<label index="tech_label[3]"><b>U</b>V-Fluoreszenzfotografie</label>
+			<label index="tech_label[4]"><b>A</b>ndere strahlendiagnostische Flächenuntersuchungen</label>
+			<label index="tech_label[5]"><b>L</b>ichtmikroskopie</label>
+			<label index="tech_label[6]"><b>I</b>nstrumentelle Materialanalyse</label>
+			<label index="tech_label[7]"><b>P</b>robenentnahme / Querschliff(e)</label>
+			<label index="tech_label[8]"><b>D</b>endrochronologie / Holzartbestimmung</label>
+			<label index="tech_label[9]"><b>L</b>ichtmikroskopische Oberflächenuntersuchung</label>
+			<!-- FILTER - Function Collection DE -->
+			<label index="collection_label_h">Sammlung / Standort</label>
+			<label index="root_directory" name="country">Länder</label>
+			<!-- Argentina -->
+			<label index="country" name="argentina">Argentinien</label>
+			<label index="argentina" name="buenos_aires" origin="Museo Nacional de Bellas Artes, Buenos Aires">Buenos Aires, Museo Nacional de Bellas Artes</label>
+			<!-- Australia -->
+			<label index="country" name="australia">Australien</label>
+			<label index="australia" name="melbourne" origin="The National Gallery of Victoria, Melbourne">Melbourne, The National Gallery of Victoria</label>
+			<!-- Austria -->
+			<label index="country" name="austria">Österreich</label>
+			<label index="austria" name="eisenstadt" origin="Landesgalerie Burgenland, Eisenstadt">Eisenstadt, Landesgalerie Burgenland</label>
+			<label index="austria" name="graz" origin="Alte Galerie, Schloss Eggenberg, Graz">Graz, Universalmuseum Joanneum, Schloss Eggenberg, Alte Galerie</label>
+			<label index="austria" name="hall" origin="Salesianerinnenkloster Thurnfeld">Hall,Salesianerinnenkloster Thurnfeld</label>
+			<label index="austria" name="innsbruck">Innsbruck</label>
+			<label index="innsbruck" name="innsbruck_1" origin="Dompfarrei St. Jakob, Innsbruck">Dompfarrei St. Jakob</label>
+			<label index="innsbruck" name="innsbruck_2" origin="Kapuzinerkloster Innsbruck">Kapuzinerkloster</label>
+			<label index="innsbruck" name="innsbruck_3" origin="Servitenkonvent St. Josef, Innsbruck">Servitenkonvent St. Josef</label>
+			<label index="innsbruck" name="innsbruck_4" origin="Tiroler Landesmuseum Ferdinandeum, Innsbruck">Tiroler Landesmuseum Ferdinandeum</label>
+			<label index="austria" name="klosterneuburg" origin="Stiftsmuseum Klosterneuburg">Klosterneuburg, Stiftsmuseum</label>
+			<label index="austria" name="lilienfeld" origin="Zisterzienserabtei Lilienfeld">Lilienfeld, Zisterzienserabtei</label>
+			<label index="austria" name="melk" origin="Benediktinerstift Melk">Melk, Benediktinerstift</label>
+			<label index="austria" name="vienna">Wien</label>
+			<label index="vienna" name="vienna_1" origin="Albertina, Vienna">Albertina</label>
+			<label index="vienna" name="vienna_2" origin="Dom Museum Wien">Dom Museum</label>
+			<label index="vienna" name="vienna_3" origin="Österreichische Galerie Belvedere">Österreichische Galerie Belvedere</label>
+			<label index="vienna" name="vienna_4" origin="The Paintings Gallery of the Academy of Fine Arts Vienna">Gemäldegalerie der Akademie der Künste</label>
+			<label index="vienna" name="vienna_5" origin="Kunsthistorisches Museum, Vienna">Kunsthistorisches Museum</label>
+			<!-- Belgium -->
+			<label index="country" name="belgium">Belgien</label>
+			<label index="belgium" name="antwerp">Antwerpen</label>
+			<label index="antwerp" name="antwerp_1" origin="Koninklijk Museum voor Schone Kunsten, Antwerp">Koninklijk Museum voor Schone Kunsten</label>
+			<label index="antwerp" name="antwerp_2" origin="Museum Mayer van den Bergh, Antwerp">Museum Mayer van den Bergh</label>
+			<label index="belgium" name="brussels" origin="Musées royaux des Beaux-Arts de Belgique, Brussels">Brüssel, Musées royaux des Beaux-Arts</label>
+			<label index="belgium" name="ghent" origin="Museum voor Schone Kunsten, Ghent">Gent, Museum voor Schone Kunsten</label>
+			<label index="belgium" name="liege" origin="Collections artistiques de l''Université de Liège - Galerie Wittert">Lüttich, Collections artistiques de l'Université de Liège - Galerie Wittert</label>
+			<!-- Brazil -->
+			<label index="country" name="brazil">Brasilien</label>
+			<label index="brazil" name="sao_paulo" origin="Museu de Arte de São Paulo">São Paulo, Museu de Arte</label>
+			<!-- Canada -->
+			<label index="country" name="canada">Kanada</label>
+			<label index="canada" name="fredericton" origin="Beaverbrook Art Gallery">Fredericton, Beaverbrook Art Gallery</label>
+			<label index="canada" name="ottawa" origin="Musée des beaux-arts du Canada/National Gallery of Canada, Ottawa">Ottawa, Musée des beaux-arts du Canada/National Gallery of Canada</label>
+			<label index="canada" name="toronto" origin="Malcove Collection, University of Toronto">Toronto, University of Toronto Art Centre</label>
+			<label index="canada" name="winnipeg" origin="Winnipeg Art Gallery">Winnipeg Art Gallery</label>
+			<!-- Croatia -->
+			<label index="country" name="croatia">Kroatien</label>
+			<label index="croatia" name="cakovec" origin="Župna crkva i franjevacki samostan svetog Nikole">Čakovec, Franciscan Church of St. Nicolas Bishop</label>
+			<!-- Cuba -->
+			<label index="country" name="cuba">Kuba</label>
+			<label index="cuba" name="havanna" origin="Museo Nacional de Bellas Artes, Havanna">Havanna, Museo Nacional de Bellas Artes</label>
+			<!-- Czech Republic -->
+			<label index="country" name="czech">Tschechische Republik</label>
+			<label index="czech" name="brno" origin="Moravská galerie v Brne (Moravian Gallery Brno)">Brno, Mährische Galerie</label>
+			<label index="czech" name="chomutov" origin="Oblastní Muzeum, Chomutov (Regional Museum Chomutov)">Chomutov, Regionalmuseum</label>
+			<label index="czech" name="jachymov">Jáchymov</label>
+			<label index="jachymov" name="jachymov_1" origin="Kostel svatého Jáchyma a svaté Anny (Church St Joachim and St Anne)">Kirche St. Joachim und Anna</label>
+			<label index="jachymov" name="jachymov_2" origin="Muzeum Královská mincovna Jáchymov (Museum Royal Mint Jáchymov)">Museum der königlichen Münze</label>
+			<label index="czech" name="kromeriz" origin="Archbishop''s Castle and Gardens Kromeríz">Kromeríz, Erzbischöflicher Palast und Gärten</label>
+			<label index="czech" name="litomerice">Litoměřice</label>
+			<label index="litomerice" name="litomerice_1" origin="Diecézní galerie a muzeum, Litomerice (Museum and Gallery of the Dioceses Litomerice)">Diözesangalerie und -museum</label>
+			<label index="litomerice" name="litomerice_2" origin="Severoceská galerie výtvarného umení, Litomerice (North Bohemian Gallery of Fine Arts, Litomerice)">Nordböhmische Galerie der Bildenden Künste</label>
+			<label index="czech" name="most" origin="Kostel Nanebevzetí Panny Marie (Kirche Maria Himmelfahrt), Most">Most, Kostel Nanebevzetí Panny Marie</label>
+			<label index="czech" name="nelahozeves" origin="Zámek Nelahozeves (Nelahozeves Castle)">Nelahozeves, Schloss (Lobkowicz Sammlungen)</label>
+			<label index="czech" name="prague">Prag</label>
+			<label index="prague" name="prague_1" origin="Lobkowiczký palác na Pražském hrade (Lobkowicz palace, Prague Castle)">Palais Lobkowicz, Prager Burg</label>
+			<label index="prague" name="prague_2" origin="Národní galerie v Praze (National Gallery in Prague)">Nationalgalerie</label>
+			<label index="prague" name="prague_3" origin="Národní galerie v Praze, Anežský klášter (National Gallery in Prague, Convent of St Agnes)">Agneskloster</label>
+			<label index="prague" name="prague_4" origin="Obrazárna Pražského hradu (Prague Castle Picture Gallery)">Gemäldegalerie der Prager Burg</label>
+			<label index="prague" name="prague_5" origin="Královská kanonie premonstrátu na Strahove, Praha (Royal Canonry of Premonstratensians at Strahov, Prague)">Königl. Kanonikat der Prämonstratenser zu Strahov</label>
+			<label index="czech" name="teplice" origin="Regionální muzeum v Teplicích">Teplice, Regionalmuseum</label>
+			<!-- Denmark -->
+			<label index="country" name="denmark">Dänemark</label>
+			<label index="denmark" name="copenhagen" origin="Statens Museum for Kunst, Copenhagen">Kopenhagen, Statens Museum for Kunst</label>
+			<label index="denmark" name="niva" origin="Nivaagaards Malerisamling, Nivå">Nivå, Nivaagaards Malerisamling</label>
+			<label index="denmark" name="sonderborg" origin="Sønderborg Slot, Sønderborg">Sønderborg, Castle</label>
+			<!-- Estonia -->
+			<label index="country" name="estonia">Estland</label>
+			<label index="estonia" name="tallinn" origin="Art Museum of Estonia, Tallinn">Tallinn, Art Museum of Estonia</label>
+			<!-- Finland -->
+			<label index="country" name="finland">Finnland</label>
+			<label index="finland" name="helsinki" origin="Sinebrychoffin Taidemuseo, Helsinki">Helsinki, Sinebrychoff Kunstmuseum</label>
+			<label index="finland" name="vaasa" origin="Österbottens Museum, Vaasa">Vaasa, Österbottens Museum</label>
+			<!-- France -->
+			<label index="country" name="france">Frankreich</label>
+			<label index="france" name="besancon" origin="Musée des Beaux-Arts et d''Archéologie Besançon">Besançon, Musée des Beaux-Arts et d'Archéologie</label>
+			<label index="france" name="cherbourg" origin="Musée d''Art Thomas Henry, Cherbourg">Cherbourg, Musée d'Art</label>
+			<label index="france" name="colmar" origin="Musée d''Unterlinden, Colmar">Colmar, Musée d'Unterlinden</label>
+			<label index="france" name="la_rochelle" origin="Musée des Beaux-Arts, La Rochelle">La Rochelle, Musée des Beaux-Arts</label>
+			<label index="france" name="libourne" origin="Musée des Beaux-arts et d''Archéologie, Libourne">Libourne, Musée des Beaux-arts et d'Archéologie</label>
+			<label index="france" name="lille" origin="Palais des Beaux-Arts, Lille">Lille, Palais des Beaux-Arts</label>
+			<label index="france" name="lyon" origin="Musée des Beaux-Arts de Lyon">Lyon, Musée des Beaux-Arts</label>
+			<label index="france" name="moulins" origin="Musée Anne-de-Beaujeu &amp; Maison Mantin, Moulins">Moulins, Musée Anne-de-Beaujeu et Maison Mantin</label>
+			<label index="france" name="paris">Paris</label>
+			<label index="paris" name="paris_1" origin="Musée de la Chasse et de la Nature, Paris">Musée de la Chasse et de la Nature</label>
+			<label index="paris" name="paris_2" origin="Musée du Louvre, Paris">Musée du Louvre</label>
+			<label index="paris" name="paris_3" origin="Petit Palais, Musée des Beaux-Arts de la Ville des Paris">Petit Palais, Musée des Beaux-Arts de la Ville des Paris</label>
+			<label index="france" name="toulouse" origin="Fondation Bemberg, Toulouse">Toulouse, Fondation Bemberg</label>
+			<label index="france" name="strasbourg" origin="Musée des Beaux-Arts Strasbourg">Strasbourg, Musée des Beaux-Arts</label>
+			<!-- Georgia -->
+			<label index="country" name="georgia">Georgien</label>
+			<label index="georgia" name="tibilisi" origin="The Shalva Amiranashvili Fine Arts Museum, Tbilisi">Tiflis, Shalva Amiranashvili Museum der Bildenden Künste</label>
+			<!-- Germany -->
+			<label index="country" name="germany">Deutschland</label>
+			<label index="germany" name="aachen" origin="Suermondt-Ludwig-Museum, Aachen">Aachen, Suermondt-Ludwig-Museum</label>
+			<label index="germany" name="altenburg" origin="Lindenau-Museum Altenburg">Altenburg, Lindenau-Museum</label>
+			<label index="germany" name="annaberg">Annaberg-Buchholz</label>
+			<label index="annaberg" name="annaberg_1" origin="Erzgebirgsmuseum Annaberg-Buchholz">Erzgebirgsmuseum</label>
+			<label index="annaberg" name="annaberg_2" origin="St. Annenkirche, Annaberg-Buchholz">Ev.-Luth. Kirchgemeinde</label>
+			<label index="germany" name="aschaffenburg">Aschaffenburg</label>
+			<label index="aschaffenburg" name="aschaffenburg_1" origin="Staatsgalerie im Schloss Johannisburg, Aschaffenburg">Staatsgalerie im Schloss Johannisburg</label>
+			<label index="aschaffenburg" name="aschaffenburg_2" origin="Stiftsmuseum Aschaffenburg">Stiftsmuseum</label>
+			<label index="aschaffenburg" name="aschaffenburg_3" origin="Stiftspfarrei St. Peter und Alexander, Aschaffenburg">Stiftspfarrei St. Peter und Alexander, Aschaffenburg</label>
+			<label index="germany" name="aschersleben" origin="St. Stephani Kirche, Aschersleben">Aschersleben, St. Stephani Kirche</label>
+			<label index="germany" name="augsburg">Augsburg</label>
+			<label index="augsburg" name="augsburg_1" origin="St. Anna Kirche, Augsburg">St. Anna Kirche</label>
+			<label index="augsburg" name="augsburg_2" origin="Kunstsammlungen und Museen der Stadt Augsburg">Kunstsammlungen und Museen der Stadt Augsburg</label>
+			<label index="augsburg" name="augsburg_3" origin="Schaezlerpalais, Augsburg">Schaezlerpalais</label>
+			<label index="augsburg" name="augsburg_4" origin="Staatsgalerie Augsburg, Katharinenkirche">Staatsgalerie Augsburg, Katharinenkirche</label>
+			<label index="germany" name="augustusburg" origin="Schloss Augustusburg">Augustusburg/Sachsen, Schloss Augustusburg</label>
+			<label index="germany" name="baden-baden">Baden-Baden</label>
+			<label index="baden-baden" name="baden-baden_1" origin="Kloster Lichtenthal, Baden-Baden">Kloster Lichtenthal</label>
+			<label index="baden-baden" name="baden-baden_2" origin="Stadtmuseum Baden-Baden">Stadtmuseum</label>
+			<label index="germany" name="bamberg">Bamberg</label>
+			<label index="bamberg" name="bamberg_1" origin="Bamberger Dom St. Peter und St. Georg">Dom St. Peter und St. Georg</label>
+			<label index="bamberg" name="bamberg_2" origin="Staatsgalerie in der Neuen Residenz Bamberg">Staatsgalerie in der Neuen Residenz</label>
+			<label index="germany" name="bautzen" origin="Museum Bautzen">Bautzen, Museum</label>
+			<label index="germany" name="berchtesgaden" origin="Königliches Schloss Berchtesgaden">Berchtesgaden, Königliches Schloss</label>
+			<label index="germany" name="berlin">Berlin</label>
+			<label index="berlin" name="berlin_1" origin="Stiftung Deutsches Historisches Museum, Berlin">Deutsches Historisches Museum</label>
+			<label index="berlin" name="berlin_2" origin="Evangelische Kirchengemeinde St. Petri - St. Marien, Berlin">Ev. Kirchengemeinde St. Petri - St. Marien</label>
+			<label index="berlin" name="berlin_3" origin="Staatliche Museen zu Berlin, Gemäldegalerie">Gemäldegalerie der Staatlichen Museen</label>
+			<label index="berlin" name="berlin_4" origin="Kupferstichkabinett, Staatliche Museen zu Berlin Preussischer Kulturbesitz">Kupferstichkabinett der Staatlichen Museen, Preußischer Kulturbesitz</label>
+			<label index="berlin" name="berlin_5" origin="Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Abt. Historische Drucke">Staatsbibliothek - Preußischer Kulturbesitz, Abt. Historische Drucke</label>
+			<label index="berlin" name="berlin_6" origin="Grunewald hunting lodge">Jagdschloss Grunewald</label>
+			<label index="germany" name="bernau" origin="St. Marien zu Bernau">Bernau, St. Marien</label>
+			<label index="germany" name="brandenburg" origin="Museum des Domstifts Brandenburg">Brandenburg, Museum des Domstifts</label>
+			<label index="germany" name="braunschweig" origin="Herzog Anton Ulrich-Museum, Braunschweig">Braunschweig, Herzog Anton Ulrich-Museum</label>
+			<label index="germany" name="bremen">Bremen</label>
+			<label index="bremen" name="bremen_1" origin="Kunsthalle Bremen - Der Kunstverein in Bremen">Kunsthalle</label>
+			<label index="bremen" name="bremen_2" origin="Kunstsammlungen Boettcherstraße, Bremen">Ludwig Roselius Museum</label>
+			<label index="germany" name="chemnitz">Chemnitz</label>
+			<label index="chemnitz" name="chemnitz_1" origin="Kunstsammlungen Chemnitz">Kunstsammlungen</label>
+			<label index="chemnitz" name="chemnitz_2" origin="Schlosskirche Chemnitz">Ev.-Luth. St.-Petri-Schlosskirchgemeinde</label>
+			<label index="germany" name="coburg">Coburg</label>
+			<label index="coburg" name="coburg_1" origin="Kunstsammlung der Veste Coburg">Kunstsammlungen der Veste Coburg</label>
+			<label index="coburg" name="coburg_2" origin="Stiftung der Herzog von Sachsen-Coburg und Gotha''schen Familie">Stiftung der Herzog von Sachsen-Coburg und Gotha'schen Familie</label>
+			<label index="germany" name="cologne" origin="Wallraf-Richartz-Museum - Fondation Corboud, Köln">Köln, Wallraf-Richartz-Museum - Fondation Corboud</label>
+			<label index="germany" name="constappel" origin="Ev.-Luth. Kirchgemeinde St. Nikolai, Weistropp-Constappel">Constappel (Klipphausen), Ev.-Luth. Kirchgemeinde St. Nikolai</label>
+			<label index="germany" name="coswig" origin="Evangelische Kirchengemeinde Coswig">Coswig (Anhalt), Ev. Kirchengemeinde</label>
+			<label index="germany" name="darmstadt" origin="Hessisches Landesmuseum Darmstadt">Darmstadt, Hessisches Landesmuseum</label>
+			<label index="germany" name="dessau">Dessau</label>
+			<label index="dessau" name="dessau_1" origin="Anhaltische Gemälde-Galerie, Dessau">Anhaltische Gemälde-Galerie</label>
+			<label index="dessau" name="dessau_2" origin="Anhaltische Landesbücherei Dessau">Anhaltische Landesbücherei</label>
+			<label index="dessau" name="dessau_3" origin="Ev. Kirchgemeinde St. Johannis und St. Marien, Dessau">Ev. Kirchgemeinde St. Johannis und St. Marien</label>
+			<label index="dessau" name="dessau_4" origin="Kulturstiftung Dessau Wörlitz, Gotisches Haus (The Gothic House)">Kulturstiftung Dessau Wörlitz</label>
+			<label index="germany" name="doebeln" origin="St. Nicolaikirche Döbeln">Döbeln, Ev.-Luth. Kirchengemeinde</label>
+			<label index="germany" name="dresden">Dresden</label>
+			<label index="dresden" name="dresden_1" origin="Staatliche Kunstsammlungen Dresden">Gemäldegalerie Alte Meister</label>
+			<label index="dresden" name="dresden_2" origin="Stadtmuseum Dresden">Stadtmuseum</label>
+			<label index="germany" name="duisburg" origin="Lehmbruck Museum, Duisburg">Duisburg, Lehmbruck Museum</label>
+			<label index="germany" name="duesseldorf" origin="Museum Kunstpalast, Düsseldorf">Düsseldorf, Stiftung Museum Kunstpalast</label>
+			<label index="germany" name="eisenach" origin="Wartburg-Stiftung, Eisenach">Eisenach, Wartburg-Stiftung</label>
+			<label index="germany" name="eisleben" origin="Museum &quot;Luthers Sterbehaus&quot;, Eisleben">Eisleben, Museum "Luthers Sterbehaus"</label>
+			<label index="germany" name="erfurt">Erfurt</label>
+			<label index="erfurt" name="erfurt_1" origin="Angermuseum, Erfurt">Angermuseum</label>
+			<label index="erfurt" name="erfurt_2" origin="Dom St. Marien, Erfurt">Dom St. Marien</label>
+			<label index="germany" name="frankfurt" origin="Städel Museum Frankfurt a.M.">Frankfurt, Städel Museum</label>
+			<label index="germany" name="freiberg" origin="Stadt- und Bergbaumuseum Freiberg">Freiberg, Stadt- und Bergbaumuseum</label>
+			<label index="germany" name="freiburg" origin="Augustinermuseum Freiburg">Freiburg, Augustinermuseum</label>
+			<label index="germany" name="freising" origin="Diözesanmuseum Freising">Freising, Diözesanmuseum</label>
+			<label index="germany" name="fulda" origin="Dommuseum Fulda">Fulda, Dommuseum</label>
+			<label index="germany" name="gera" origin="Kunstsammlung Gera">Gera, Kunstsammlung</label>
+			<label index="germany" name="goerlitz" origin="Kulturhistorisches Museum Görlitz">Görlitz, Kulturhistorisches Museum Görlitzer, Kunstsammlung</label>
+			<label index="germany" name="gotha" origin="Stiftung Schloss Friedenstein, Gotha">Gotha, Stiftung Schloss Friedenstein</label>
+			<label index="germany" name="grimma" origin="Friedhofskapelle Heilig Kreuz, Stadt Grimma">Grimma, Friedhofskapelle Heilig Kreuz</label>
+			<label index="germany" name="guestrow" origin="Staatliches Museum Schwerin, Museum Schloss Güstrow">Güstrow, Staatliches Museum Schwerin, Museum Schloss Güstrow</label>
+			<label index="germany" name="haldensleben" origin="Museum Haldensleben">Haldensleben, Museum</label>
+			<label index="germany" name="halle">Halle</label>
+			<label index="halle" name="halle_1" origin="Evangelische Marktkirchengemeinde Halle">Ev. Marktkirchengemeinde</label>
+			<label index="halle" name="halle_2" origin="Kulturstiftung Sachsen-Anhalt - Kunstmuseum Moritzburg">Kulturstiftung Sachsen-Anhalt - Kunstmuseum Moritzburg</label>
+			<label index="germany" name="hamburg">Hamburg</label>
+			<label index="hamburg" name="hamburg_1" origin="Ev.-Luth. Kirchengemeinde Niendorf, Hamburg">Ev.-Luth. Kirchengemeinde Niendorf</label>
+			<label index="hamburg" name="hamburg_2" origin="Hamburger Kunsthalle">Kunsthalle</label>
+			<label index="hamburg" name="hamburg_3" origin="Hauptkirche St. Nikolai, Hamburg">Hauptkirche St. Nikolai</label>
+			<label index="hamburg" name="hamburg_4" origin="Stiftung August Ohm, Hamburg">Stiftung August Ohm</label>
+			<label index="germany" name="hannover">Hannover</label>
+			<label index="hannover" name="hannover_1" origin="Ev.-Luth. Marktkirchgemeinde Hannover">Ev.-Luth. Marktkirchgemeinde</label>
+			<label index="hannover" name="hannover_2" origin="Niedersächsisches Landesmuseum Hannover">Niedersächsisches Landesmuseum</label>
+			<label index="germany" name="heidelberg">Heidelberg</label>
+			<label index="heidelberg" name="heidelberg_1" origin="Kurpfälzisches Museum Heidelberg">Kurpfälzisches Museum</label>
+			<label index="heidelberg" name="heidelberg_2" origin="Universitätsmuseum, Heidelberg">Universitätsmuseum</label>
+			<label index="germany" name="jena" origin="Thüringer Universitäts- und Landesbibliothek Jena">Jena, Thüringer Universitäts- und Landesbibliothek</label>
+			<label index="germany" name="jueterbog" origin="Ev. St. Nikolaigemeinde Jüterbog">Jüterbog, Ev. St. Nikolaigemeinde</label>
+			<label index="germany" name="kamenz">Kamenz</label>
+			<label index="kamenz" name="kamenz_1" origin="Klosterkirche und Sakralmuseum St. Annen (Städtische Sammlungen Kamenz)">Klosterkirche und Sakralmuseum St. Annen</label>
+			<label index="kamenz" name="kamenz_2" origin="St. Marienkirche, Kamenz">St. Marienkirche</label>
+			<label index="germany" name="karlsruhe" origin="Staatliche Kunsthalle Karlsruhe">Karlsruhe, Staatliche Kunsthalle</label>
+			<label index="germany" name="kassel" origin="Gemäldegalerie Alte Meister, Kassel">Kassel, Gemäldegalerie Alte Meister</label>
+			<label index="germany" name="kemberg" origin="Stadtkirche Unser Lieben Frauen zu Kemberg">Kemberg, Stadtkirche Unser Lieben Frauen</label>
+			<label index="germany" name="kleve" origin="Museum Kurhaus Kleve">Kleve, Museum Kurhaus</label>
+			<label index="germany" name="klieken" origin="Kreuzkirche Klieken">Klieken (Coswig), Kreuzkirche</label>
+			<label index="germany" name="klitten" origin="Ev. Kirchengemeinde Klitten">Klitten, Ev. Kirchengemeinde</label>
+			<label index="germany" name="klix" origin="Dorfkirche, Klix">Klix, Dorfkirche</label>
+			<label index="germany" name="koblenz" origin="Schloss Stolzenfels, Koblenz">Koblenz, Stolzenfels Castle</label>
+			<label index="germany" name="koethen" origin="Ev. Kirche St. Agnus, Köthen">Köthen, Ev. Kirche St. Agnus</label>
+			<label index="germany" name="konstanz" origin="Rosgartenmuseum Konstanz">Konstanz, Rosgartenmuseum</label>
+			<label index="germany" name="krefeld" origin="Kaiser Wilhelm Museum Krefeld">Krefeld, Kaiser Wilhelm Museum</label>
+			<label index="germany" name="kronach" origin="Fränkische Galerie, Kronach">Kronach, Fränkische Galerie</label>
+			<label index="germany" name="kronberg" origin="Hessische Hausstiftung, Kronberg">Kronberg, Hessische Hausstiftung</label>
+			<label index="germany" name="leipzig">Leipzig</label>
+			<label index="leipzig" name="leipzig_1" origin="Kunstsammlung der Universität Leipzig">Kunstsammlung der Universität</label>
+			<label index="leipzig" name="leipzig_2" origin="Museum der bildenden Künste, Leipzig">Museum der bildenden Künste</label>
+			<label index="leipzig" name="leipzig_3" origin="Evangelisch-Lutherische Kirchgemeinde St. Nikolai, Leipzig">Ev.-Luth. Kirche St. Nikolai</label>
+			<label index="leipzig" name="leipzig_4" origin="Stadtgeschichtliches Museum, Leipzig">Stadtgeschichtliches Museum</label>
+			<label index="germany" name="luebeck" origin="St. Annen-Museum, Lübeck">Lübeck, St. Annen-Museum</label>
+			<label index="germany" name="lueneburg" origin="Ostpreußisches Landesmuseum, Lüneburg">Lüneburg, Ostpreußisches Landesmuseum</label>
+			<label index="germany" name="magdeburg" origin="Kulturhistorisches Museum Magdeburg">Magdeburg, Kulturhistorisches Museum</label>
+			<label index="germany" name="mainz">Mainz</label>
+			<label index="mainz" name="mainz_1" origin="Bischöfliches Dom- und Diözesanmuseum Mainz">Bischöfliches Dom- und Diözesanmuseum</label>
+			<label index="mainz" name="mainz_2" origin="Landesmuseum Mainz">Landesmuseum</label>
+			<label index="germany" name="merseburg" origin="Domstift Merseburg">Merseburg, Domstift</label>
+			<label index="germany" name="meissen">Meissen</label>
+			<label index="meissen" name="meissen_1" origin="Dom zu Meißen">Hochstift/Dom</label>
+			<label index="meissen" name="meissen_2" origin="Stadtmuseum Meißen">Stadtmuseum</label>
+			<label index="germany" name="mittenwalde" origin="St. Moritzkirche Mittenwalde">Mittenwalde, Ev. Kirchgemeinde Mittenwalde</label>
+			<label index="germany" name="munich">München</label>
+			<label index="munich" name="munich_1" origin="Alte Pinakothek, Munich">Alte Pinakothek</label>
+			<label index="munich" name="munich_2" origin="Bayerisches Nationalmuseum">Bayerisches Nationalmuseum</label>
+			<label index="germany" name="muenster" origin="LWL-Museum für Kunst und Kultur Münster">Münster, LWL-Museum für Kunst und Kultur</label>
+			<label index="germany" name="muenstermaifeld" origin="Burg Eltz">Münstermaifeld, Burg Eltz</label>
+			<label index="germany" name="naumburg">Naumburg</label>
+			<label index="naumburg" name="naumburg_1" origin="Domstift Naumburg">Domstift</label>
+			<label index="naumburg" name="naumburg_2" origin="Stadtkirche St. Wenzel, Naumburg">Ev.-Luth. Kirchgemeinde St. Wenzel</label>
+			<label index="germany" name="neustadt" origin="Evangelische Stadtkirche St. Johannis zu Neustadt/Orla">Neustadt/Orla, Ev. Stadtkirchgemeinde St. Johannis</label>
+			<label index="germany" name="nienburg" origin="Evangelische Kirchengemeinde St. Johannis und St. Marien, Nienburg">Nienburg, Ev. Kirchengemeinde St. Johannis und St. Marien</label>
+			<label index="germany" name="nischwitz" origin="Ev.-Luth. Kirchgemeinde Thallwitz-Nischwitz">Thallwitz-Nischwitz, Ev.-Luth. Kirchgemeinde</label>
+			<label index="germany" name="noerdlingen" origin="Stadtmuseum Nördlingen">Nördlingen, Stadtmuseum</label>
+			<label index="germany" name="nuremberg" origin="Germanisches Nationalmuseum, Nuremberg">Nürnberg, Germanisches Nationalmuseum</label>
+			<label index="germany" name="oelsnitz" origin="Museen Schloß Voigtsberg">Oelsnitz/Vogtland, Museen Schloss Voigtsberg</label>
+			<label index="germany" name="oldenburg" origin="Landesmuseum für Kunst und Kulturgeschichte Oldenburg">Oldenburg, Landesmuseum für Kunst und Kulturgeschichte</label>
+			<label index="germany" name="regensburg" origin="Historisches Museum der Stadt Regensburg">Regensburg, Historisches Museum</label>
+			<label index="germany" name="remagen" origin="Arp Museum Bahnhof Rolandseck">Remagen, Sammlung Rau für UNICEF (Arp Museum Bahnhof Rolandseck)</label>
+			<label index="germany" name="rochlitz" origin="St. Kunigundenkirche Rochlitz">Rochlitz, Ev.-Luth. Kirchgemeinde</label>
+			<label index="germany" name="salzwedel" origin="Johann-Friedrich-Danneil-Museum Salzwedel">Salzwedel, Johann-Friedrich-Danneil-Museum</label>
+			<label index="germany" name="schleswig" origin="Schloss Gottorf, Landesmuseum für Kunst- und Kulturgeschichte, Schleswig">Schleswig, Schloss Gottorf, Landesmuseum</label>
+			<label index="germany" name="schneeberg" origin="Ev.-Luth. Kirchgemeinde St. Wolfgang, Schneeberg">Schneeberg, Ev.-Luth. Kirchgemeinde St. Wolfgang</label>
+			<label index="germany" name="schwaebisch_hall" origin="Sammlung Würth">Schwäbisch Hall, Johanniterkirche - Sammlung Würth</label>
+			<label index="germany" name="schwerin" origin="Staatliches Museum Schwerin, Galerie Alte und Neue Meister">Schwerin, Galerie Alte und Neue Meister</label>
+			<label index="germany" name="selm" origin="Schloss Cappenberg, Selm">Selm, Schloss Cappenberg</label>
+			<label index="germany" name="stuttgart" origin="Staatsgalerie Stuttgart">Stuttgart, Staatsgalerie</label>
+			<label index="germany" name="torgau">Torgau</label>
+			<label index="torgau" name="torgau_1" origin="Ev. Kirchgemeinde St. Marien, Torgau">Ev. Kirchengemeinde St. Marien</label>
+			<label index="torgau" name="torgau_2" origin="Schloss Hartenfels, Torgau">Schloss Hartenfels</label>
+			<label index="torgau" name="torgau_3" origin="Stadt- und Kulturgeschichtliches Museum Torgau">Stadt- und Kulturgeschichtliches Museum</label>
+			<label index="germany" name="weimar">Weimar</label>
+			<label index="weimar" name="weimar_1" origin="Ev.-Luth. Kirchgemeinde St. Peter und Paul, Weimar">Ev.-Luth. Kirchgemeinde St. Peter und Paul</label>
+			<label index="weimar" name="weimar_2" origin="Klassik Stiftung Weimar, Museums">Museen der Klassik Stiftung</label>
+			<label index="germany" name="weissenfels" origin="Museum Weißenfels - Schloss Neu-Augustusburg">Weißenfels, Museum Weißenfels-Schloss Neu-Augustusburg</label>
+			<label index="germany" name="wiesbaden" origin="Museum Wiesbaden">Wiesbaden, Museum</label>
+			<label index="germany" name="wittenberg">Wittenberg</label>
+			<label index="wittenberg" name="wittenberg_1" origin="Cranach-Stiftung, Wittenberg">Cranach-Stiftung</label>
+			<label index="wittenberg" name="wittenberg_2" origin="Evangelische Stadtkirche St. Marien, Wittenberg">Ev. Stadtkirche St. Marien</label>
+			<label index="wittenberg" name="wittenberg_3" origin="Lutherhaus Wittenberg">Lutherhaus</label>
+			<label index="germany" name="wolfenbuettel" origin="Herzog August Bibliothek Wolfenbüttel">Wolfenbüttel, Herzog August Bibliothek</label>
+			<label index="germany" name="woerlitz">Wörlitz</label>
+			<label index="woerlitz" name="woerlitz_1" origin="Evangelische Kirchgemeinde Wörlitz">Ev. Kirchgemeinde</label>
+			<label index="woerlitz" name="woerlitz_2" origin="Kulturstiftung Dessau Wörlitz, Gotisches Haus (The Gothic House)">Gotisches Haus</label>
+			<label index="germany" name="wuerzburg">Würzburg</label>
+			<label index="wuerzburg" name="wuerzburg_1" origin="Mainfränkisches Museum, Würzburg">Mainfränkisches Museum</label>
+			<label index="wuerzburg" name="wuerzburg_2" origin="Martin von Wagner Museum der Universität Würzburg">Martin von Wagner Museum der Universität</label>
+			<label index="germany" name="zerbst" origin="Evangelische Kirchengemeinde St. Bartholomäi, Zerbst">Zerbst, Ev. Kirchengemeinde St. Bartholomäi</label>
+			<label index="germany" name="zittau" origin="Städtische Museen Zittau">Zittau, Städtische Museen</label>
+			<label index="germany" name="zwickau">Zwickau</label>
+			<label index="zwickau" name="zwickau_1" origin="Dom St. Marien, Zwickau">Dom St. Marien</label>
+			<label index="zwickau" name="zwickau_2" origin="St. Katharinen-Kirche, Zwickau">St. Katharinen-Kirche</label>
+			<label index="zwickau" name="zwickau_3" origin="Kunstsammlungen Zwickau">Kunstsammlungen</label>
+			<!-- Great Britain -->
+			<label index="country" name="britain">Vereinigtes Königreich</label>
+			<label index="britain" name="brighton" origin="Brighton Museum &amp; Art Gallery">Brighton, Museum and Art Gallery</label>
+			<label index="britain" name="bristol" origin="City Museum &amp; Art Gallery, Bristol">Bristol, City Museum and Art Gallery</label>
+			<label index="britain" name="edinburgh" origin="National Gallery of Scotland, Edinburgh">Edinburgh, National Gallery of Scotland</label>
+			<label index="britain" name="glasgow" origin="Burrell Collection, Pollok Country Park, Glasgow">Glasgow, Burrell Collection, Pollok Country Park</label>
+			<label index="britain" name="london">London</label>
+			<label index="london" name="london_1" origin="British Museum">British Museum</label>
+			<label index="london" name="london_2" origin="The Courtauld Institute of Art, London">The Courtauld Institute of Art</label>
+			<label index="london" name="london_3" origin="The National Gallery, London">The National Gallery</label>
+			<label index="london" name="london_4" origin="The Royal Collection, London">The Royal Collection</label>
+			<label index="britain" name="liverpool" origin="Walker Art Gallery, Liverpool">Liverpool, Walker Art Gallery</label>
+			<label index="britain" name="thornhill" origin="Drumlandig Castle, Thornhill">Thornhill, Drumlandig Castle</label>
+			<label index="britain" name="tiverton" origin="National Trust Collections">Tiverton, Knightshayes Court</label>
+			<label index="britain" name="truro" origin="Royal Cornwall Museum, Royal Institution of Cornwall, Truro">Truro, Royal Cornwall Museum</label>
+			<label index="britain" name="waddeston" origin="The National Trust, Waddesdon Manor">Waddesdon, Waddesdon Manor</label>
+			<label index="britain" name="warwickshire" origin="Compton Verney, Warwickshire">Warwickshire, Compton Verney</label>
+			<!--Hungary -->
+			<label index="country" name="hungary">Ungarn</label>
+			<label index="hungary" name="budapest">Budapest</label>
+			<label index="budapest" name="budapest_1" origin="Ráday Library of the Reformed Church, Budapest">Ráday-Bibliothek der Reformierten Kirche</label>
+			<label index="budapest" name="budapest_2" origin="Szépmuvészeti Múzeum, Budapest">Museum der bildenden Künste</label>
+			<label index="hungary" name="esztergom" origin="Keresztény Múzeum, Esztergom">Esztergom, Keresztény Múzeum</label>
+			<!--Ireland -->
+			<label index="country" name="ireland">Irland</label>
+			<label index="ireland" name="dublin" origin="National Gallery of Ireland, Dublin">Dublin, National Gallery of Ireland</label>
+			<!--Israel -->
+			<label index="country" name="israel">Israel</label>
+			<label index="israel" name="jerusalem" origin="The Israel Museum">Jerusalem, The Israel Museum</label>
+			<!--Italy -->
+			<label index="country" name="italy">Italien</label>
+			<label index="italy" name="brixen" origin="Diözesanmuseum Hofburg Brixen">Brixen, Diözesanmuseum Hofburg</label>
+			<label index="italy" name="florence" origin="Galleria Uffizi, Firenze">Florenz, Uffizien</label>
+			<label index="italy" name="milan" origin="Museo Poldi Pezzoli, Milano">Mailand, Museo Poldi Pezzoli</label>
+			<label index="italy" name="naples" origin="Museo e Real Bosco di Capodimonte, Naples">Neapel, Museo e Real Bosco di Capodimonte</label>
+			<label index="italy" name="rome">Rom</label>
+			<label index="rome" name="rome_1" origin="Galleria Borghese, Rome">Galleria Borghese</label>
+			<label index="rome" name="rome_2" origin="Pinacoteca Vaticana, Roma">Pinacoteca Vaticana</label>
+			<label index="italy" name="siena" origin="Pinacoteca Nazionale di Siena">Siena, Pinacoteca Nazionale</label>
+			<label index="italy" name="trieste" origin="Galleria Nazionale d''Arte Antica, Trieste">Triest, Galleria Nazionale d'Arte Antica</label>
+			<label index="italy" name="venice" origin="Museo Correr, Fondazione Musei Civici di Venezia">Venedig, Museo Correr, Fondazione Musei Civici di Venezia</label>
+			<!--Japan-->
+			<label index="country" name="japan">Japan</label>
+			<label index="japan" name="tokyo" origin="The National Museum of Western Art, Tokyo">Tokio, The National Museum of Western Art</label>
+			<!--Liechtenstein -->
+			<label index="country" name="liechtenstein">Liechtenstein</label>
+			<label index="liechtenstein" name="vaduz" origin="Liechtenstein. The Princely Collections, Vaduz-Vienna">Vaduz, The Princely Collections</label>
+			<!--Luxembourg -->
+			<label index="country" name="luxembourg">Luxemburg</label>
+			<label index="luxembourg" name="luxembourg_city" origin="Musée National d''Histoire et d''Art, Luxembourg">Luxemburg, Musée National d'Histoire et d'Art</label>
+			<!--Mexico -->
+			<label index="country" name="mexico">Mexico</label>
+			<label index="mexico" name="mexico_city">Mexico City</label>
+			<label index="mexico_city" name="mexico_city_1" origin="Museo Nacional de San Carlos/Insituto Nacional de Bellas Artes">Museo Nacional/Insituto Nacional de Bellas Artes</label>
+			<label index="mexico_city" name="mexico_city_2" origin="Museo Soumaya, Mexico City">Museo Soumaya</label>
+			<label index="mexico_city" name="mexico_city_3" origin="Pérez Simón Collection, Mexico City">Pérez Simón Collection</label>
+			<!--The Netherlands -->
+			<label index="country" name="netherlands">Niederlande</label>
+			<label index="netherlands" name="amsterdam" origin="Rijksmuseum, Amsterdam">Amsterdam, Rijksmuseum</label>
+			<label index="netherlands" name="den_haag" origin="Mauritshuis, Den Haag">The Hague, Mauritshuis</label>
+			<label index="netherlands" name="enschede" origin="Rijksmuseum Twenthe, Enschede">Enschede, Rijksmuseum Twenthe</label>
+			<label index="netherlands" name="heerenberg" origin="Collection Huis Bergh Castle, ''s-Heerenberg">'s-Heerenberg, Sammlung Schloss Huis Berg</label>
+			<label index="netherlands" name="maastricht" origin="Bonnefantenmuseum, Maastricht">Masstricht, Bonnefantenmuseum</label>
+			<label index="netherlands" name="otterlo" origin="Kröller-Müller Museum, Otterlo">Otterlo, Kröller-Müller Museum</label>
+			<label index="netherlands" name="rotterdam" origin="Museum Boijmans Van Beuningen, Rotterdam">Rotterdam, Museum Boijmans Van Beuningen</label>
+			<label index="netherlands" name="utrecht" origin="Rijksmuseum Het Catharijneconvent, Utrecht">Utrecht, Rijksmuseum Het Catharijneconvent</label>
+			<!--Norway -->
+			<label index="country" name="norway">Norwegen</label>
+			<label index="norway" name="bergen" origin="KODE Kunstmuseene i Bergen, Bergen Kunstmuseum">Bergen, Kunstmuseum (KODE Kunstmuseene)</label>
+			<label index="norway" name="larvik" origin="Treenighetskirke, Larvik">Larvik, Treenighetskirke</label>
+			<label index="norway" name="oslo" origin="Nasjonalmuseet for kunst, arkitektur og design, Oslo">Oslo, Nasjonalmuseet for kunst, arkitektur og design</label>
+			<!--Poland -->
+			<label index="country" name="poland">Polen</label>
+			<label index="poland" name="goluchow" origin="Muzeum Zamek w Goluchowie">Gołuchów, Schlossmuseum</label>
+			<label index="poland" name="krakow">Kraków</label>
+			<label index="krakow" name="krakow_1" origin="Muzeum Czartoryskich">Czartoryski-Museum</label>
+			<label index="krakow" name="krakow_2" origin="Muzeum Narodowe w Krakowie">Nationalmuseum</label>
+			<label index="krakow" name="krakow_3" origin="Zamek Królewski na Wawelu (Wawel Royal Castle)">Königliches Schloss Wawel</label>
+			<label index="poland" name="poznan" origin="Muzeum Narodowe w Poznaniu">Poznań, Nationalmuseum</label>
+			<label index="poland" name="szczecin" origin="Muzeum Narodowe w Szczecinie">Szczecin, Nationalmuseum</label>
+			<label index="poland" name="warsaw">Warschau</label>
+			<label index="warsaw" name="warsaw_1" origin="Muzeum Kolekcji im. Jana Pawla II">Muzeum Kolekcji im. Jana Pawla II</label>
+			<label index="warsaw" name="warsaw_2" origin="Muzeum Narodowe w Warszawie">Nationalmuseum</label>
+			<label index="warsaw" name="warsaw_3" origin="Muzeum Palacu Króla Jana III w Wilanowie">Palastmuseum Króla Jana III w Wilanowie</label>
+			<label index="poland" name="wroclaw">Wrocław</label>
+			<label index="wroclaw" name="wroclaw_1" origin="Muzeum Archidiecezjalne Wroclaw">Museum der Erzdiözese</label>
+			<label index="wroclaw" name="wroclaw_2" origin="Muzeum Narodowe we Wroclawiu">Nationalmuseum</label>
+			<!--Portugal -->
+			<label index="country" name="portugal">Portugal</label>
+			<label index="portugal" name="lisbon" origin="Museu National de Arte Antiga, Lisboa">Lissabon, Museu National de Arte Antiga</label>
+			<!--Puerto Rico -->
+			<label index="country" name="puerto_rico">Puerto Rico</label>
+			<label index="puerto_rico" name="ponce" origin="Museo de Arte de Ponce, Puerto Rico">Ponce, Museo de Arte</label>
+			<!--Romania -->
+			<label index="country" name="romania">Rumänien</label>
+			<label index="romania" name="brukethal" origin="Muzeul National Brukenthal">Brukethal, Muzeul National</label>
+			<!--Russia -->
+			<label index="country" name="russia">Russland</label>
+			<label index="russia" name="moscow" origin="The Pushkin State Museum of Fine Arts, Moscow">Moskau, Staatliches Museum für Bildende Künste A. S. Puschkin</label>
+			<label index="russia" name="nizhny_novgorod" origin="Nizhny Novgorod State Museum of Art">Nizhny Novgorod, Staatliches Kunstmuseum</label>
+			<label index="russia" name="st_petersburg" origin="The State Hermitage Museum, St. Petersburg">St Petersburg, Staatliche Eremitage</label>
+			<!--Spain -->
+			<label index="country" name="spain">Spanien</label>
+			<label index="spain" name="barcelona" origin="Museu Nacional d''Art de Catalunya (MNAC)">Barcelona, Museu Nacional d'Art de Catalunya</label>
+			<label index="spain" name="bilbao" origin="Museo de Bellas Artes Bilbao">Bilbao, Museo de Bellas Artes</label>
+			<label index="spain" name="madrid">Madrid</label>
+			<label index="madrid" name="madrid_1" origin="Fundación Banco Santander, Madrid">Fundación Banco Santander</label>
+			<label index="madrid" name="madrid_2" origin="Museo Lázaro Galdiano, Madrid">Museo Lázaro Galdiano</label>
+			<label index="madrid" name="madrid_3" origin="Museo Nacional del Prado">Museo Nacional del Prado</label>
+			<label index="madrid" name="madrid_4" origin="Museo Thyssen-Bornemisza, Madrid">Museo Thyssen-Bornemisza</label>
+			<label index="spain" name="sevilla" origin="Museo de Bellas Artes, Sevilla">Sevilla, Museo de Bellas Artes</label>
+			<!--Sweden -->
+			<label index="country" name="sweden">Schweden</label>
+			<label index="sweden" name="goeteborg" origin="Göteborgs Konstmuseum">Göteborg, Konstmuseum</label>
+			<label index="sweden" name="linkoeping" origin="Östergötlands Museum, Linköping">Linköping, Östergötlands Museum</label>
+			<label index="sweden" name="stockholm">Stockholm</label>
+			<label index="stockholm" name="stockholm_1" origin="Hallwylska museet, Stockholm">Hallwylska museet</label>
+			<label index="stockholm" name="stockholm_2" origin="Nationalmuseum, Stockholm">Nationalmuseum</label>
+			<label index="stockholm" name="stockholm_3" origin="Skoklosters slott, Stockholm">Skoklosters slott</label>
+			<!--Switzerland -->
+			<label index="country" name="switzerland">Schweiz</label>
+			<label index="switzerland" name="basel" origin="Öffentliche Kunstsammlung Basel">Basel, Kunstmuseum</label>
+			<label index="switzerland" name="bern" origin="Kunstmuseum Bern">Bern, Kunstmuseum</label>
+			<label index="switzerland" name="geneva" origin="Musée d''Art et d''Histoire, Genève">Genf, Musée d'Art et d'Histoire</label>
+			<label index="switzerland" name="schaffhausen" origin="Museum zu Allerheiligen Schaffhausen">Schaffhausen, Museum zu Allerheiligen</label>
+			<label index="switzerland" name="winterthur">Winterthur</label>
+			<label index="winterthur" name="winterthur_1" origin="Kunstmuseum Winterthur">Kunstmuseum</label>
+			<label index="winterthur" name="winterthur_2" origin="Sammlung Oskar Reinhart, Winterthur">Sammlung Oskar Reinhart</label>
+			<label index="switzerland" name="zurich" origin="Kunsthaus Zürich">Zürich, Kunsthaus</label>
+			<!--United States of America -->
+			<label index="country" name="america">Vereinigte Staaten von Amerika</label>
+			<label index="america" name="allentown" origin="Allentown Art Museum">Allentown Art Museum</label>
+			<label index="america" name="baltimore" origin="The Walters Art Museum, Baltimore (Maryland)">Baltimore, The Walters Art Museum</label>
+			<label index="america" name="beloit" origin="Wright Museum of Art, Beloit College, Beloit, WI">Beloit, Wright Museum of Art, Beloit College</label>
+			<label index="america" name="boston" origin="Museum of Fine Arts, Boston">Boston, Museum of Fine Arts</label>
+			<label index="america" name="cambridge" origin="Harvard Art Museums/Fogg Museum, Cambridge, Mass.">Cambridge, Harvard Art Museums/Fogg Museum</label>
+			<label index="america" name="chapel_hill" origin="Ackland Art Museum, The University of North Carolina at Chapel Hill">Chapel Hill, Ackland Art Museum</label>
+			<label index="america" name="chicago" origin="The Art Institute of Chicago">Chicago, Art Institute</label>
+			<label index="america" name="cincinnati" origin="Cincinnati Art Museum">Cincinnati Art Museum</label>
+			<label index="america" name="cleveland" origin="The Cleveland Museum of Art">Cleveland, Museum of Art</label>
+			<label index="america" name="coral_gables" origin="Lowe Art Museum, University of Miami, Coral Gables">Coral Gables, Lowe Art Museum, University of Miami</label>
+			<label index="america" name="detroit" origin="Detroit Institute of Arts">Detroit Institute of Arts</label>
+			<label index="america" name="fortworth" origin="Kimbell Art Museum, Fort Worth">Fort Worth, Kimbell Art Museum</label>
+			<label index="america" name="greenville" origin="Bob Jones University Museum &amp; Gallery, Greenville">Greenville, Bob Jones University &amp; Gallery</label>
+			<label index="america" name="hartford" origin="Wadsworth Atheneum, Hartford, Connecticut">Hartford, Wadsworth Atheneum</label>
+			<label index="america" name="houston">Houston</label>
+			<label index="houston" name="houston_1" origin="Museum of Fine Arts, Houston">Museum of Fine Arts</label>
+			<label index="houston" name="houston_2" origin="Sarah Campbell Blaffer Foundation, Houston">Sarah Campbell Blaffer Foundation</label>
+			<label index="america" name="huntington" origin="The Heckscher Museum of Art, Huntington, New York">Huntington, The Heckscher Museum of Art</label>
+			<label index="america" name="indianapolis" origin="Indianapolis Museum of Art">Indianapolis, Museum of Art</label>
+			<label index="america" name="jacksonville" origin="Cummer Museum of Art &amp; Gardens, Jacksonville">Jacksonville, Cummer Museum of Art &amp; Gardens</label>
+			<label index="america" name="kansas" origin="The Nelson-Atkins Museum of Art, Kansas City">Kansas City, The Nelson-Atkins Museum of Art</label>
+			<label index="america" name="la" origin="The J. Paul Getty Museum, Los Angeles">Los Angeles, The J. Paul Getty Museum</label>
+			<label index="america" name="miami" origin="Vizcaya Museum &amp; Gardens, Miami">Miami, Vizcaya Museum &amp; Gardens</label>
+			<label index="america" name="minneapolis" origin="Minneapolis Institute of Arts">Minneapolis, Institute of Arts</label>
+			<label index="america" name="muskegon" origin="The Muskegon Museum of Art, Muskegon, Michigan">Muskegon, Museum of Art</label>
+			<label index="america" name="ny">New York</label>
+			<label index="ny" name="ny_1" origin="Brooklyn Museum, New York">Brooklyn Museum</label>
+			<label index="ny" name="ny_2" origin="The Metropolitan Museum of Art, New York">The Metropolitan Museum</label>
+			<label index="ny" name="ny_3" origin="The Morgan Library &amp; Museum, New York">The Morgan Library and Museum</label>
+			<label index="ny" name="ny_4" origin="Syracuse University Art Galleries, New York">Syracuse University Art Galleries</label>
+			<label index="america" name="pasadena" origin="Norton Simon Art Foundation">Pasadena, Norton Simon Art Foundation</label>
+			<label index="america" name="philadelphia">Philadelphia</label>
+			<label index="philadelphia" name="philadelphia_1" origin="Barnes Foundation, Philadelphia">Barnes Foundation</label>
+			<label index="philadelphia" name="philadelphia_2" origin="Philadelphia Museum of Art">Museum of Art</label>
+			<label index="america" name="pittsburgh" origin="Carnegie Museum of Art, Pittsburgh">Pittsburgh, Carnegie Museum of Art</label>
+			<label index="america" name="portland" origin="Portland Art Museum">Portland, Portland Art Museum</label>
+			<label index="america" name="princeton" origin="Princeton University Art Museum">Princeton University Art Museum</label>
+			<label index="america" name="raleigh" origin="North Carolina Museum of Art, Raleigh">Raleigh, North Carolina Museum of Art</label>
+			<label index="america" name="sacramento" origin="Crocker Art Museum, Sacramento">Sacramento, Crocker Art Museum</label>
+			<label index="america" name="sarasota" origin="John and Mable Ringling Museum of Art, Sarasota">Sarasota, John and Mable Ringling Museum of Art</label>
+			<label index="america" name="san_diego" origin="The San Diego Museum of Art, San Diego">San Diego, Museum of Art</label>
+			<label index="america" name="san_francisco" origin="Legion of Honour, Fine Arts Museums of San Francisco">San Francisco, Fine Arts Museums, Legion of Honour</label>
+			<label index="america" name="seattle" origin="Seattle Art Museum">Seattle, Art Museum</label>
+			<label index="america" name="stLouis" origin="St. Louis Art Museum">St. Louis, Art Museum</label>
+			<label index="america" name="toledo" origin="Toledo Art Museum, Toledo, Ohio">Toledo (Ohio), Art Museum</label>
+			<label index="america" name="tucson" origin="The University of Arizona, Museum of Art, Tucson">Tucson, The University of Arizona, Museum of Art</label>
+			<label index="america" name="washington" origin="National Gallery of Art, Washington, D. C.">Washington, D.C., National Gallery of Art</label>
+			<label index="america" name="west_palm_beach" origin="Norton Museum of Art, Florida">West Palm Beach, Norton Museum of Art</label>
+			<label index="america" name="yale" origin="Yale University Art Gallery">Yale University Art Gallery</label>
+			<!--Lost -->
+			<label index="root_directory" name="lost" origin="painting not preserved">Verlust</label>
+			<!--Private -->
+			<label index="root_directory" name="private" origin="Private Collection">Privatsammlung</label>
+			<!--Unknown -->
+			<label index="root_directory" name="unknown" origin="Unknown">Unbekannter Standort</label>
+		</languageKey>
+	</data>
+</cdalocallang>

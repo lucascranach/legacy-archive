@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<cdalocallang>
+	<meta type="array">
+		<type>filter</type>
+		<description>Language labels for the cda-project gallery class</description>
+	</meta>
+	<data type="array">
+		<languageKey index="Englisch" type="array">
+      <label index="lang"><![CDATA[EN/DE]]></label>
+			<!-- GALLERY - Database request -->
+			<label index="eventType">Current</label>
+			<label index="relType">Repository</label>
+			<!-- GALLERY - Tooltip Header -->
+			<label index="title_h">Title</label>
+			<label index="date_h">Date</label>
+			<label index="repository_h">Repository</label>
+			<!-- GALLERY - Navigation -->
+      <label index="searchby">Search the Cranach Archive</label>
+      <label index="filterby">Filter by</label>
+			<label index="last">Last</label>
+			<label index="page">Page</label>
+			<label index="of">of</label>
+			<!-- SEARCH FIELD / LINK -->
+			<label index="resetLink">Reset Filter</label>
+			<!-- ADVANCED SEARCH -->
+			<label index="advanced_title">Title:</label>
+			<label index="advanced_fr">Friedländer, Rosenberg (1978) No.: (e.g. FR001)</label>
+			<label index="advanced_location">Location:</label>
+			<label index="advanced_id">CDA ID/Inventory Number:</label>
+			<label index="advanced_label_show">Advanced Search...</label>
+			<label index="advanced_label_hide">Hide Advanced Search...</label>
+			<!-- INFORMATION BOX -->
+			<label index="user_area">User Area</label>
+			<label index="merkzettel">Compare</label>
+			<label index="user_guide">User Guide</label>
+			<label index="user_guide_link">docs/User_Guide.pdf</label>
+			<label index="faq">FAQ</label>
+			<label index="faq_link">docs/FAQeng.pdf</label>
+		</languageKey>
+		<languageKey index="Deutsch" type="array">
+			<!-- GALLERY - Database request -->
+			<label index="eventType">Aktuell</label>
+			<label index="relType">Besitzer</label>
+			<!-- GALLERY - Tooltip Header -->
+			<label index="title_h">Titel</label>
+			<label index="date_h">Datierung</label>
+			<label index="repository_h">Besitzer</label>
+			<!-- GALLERY - Navigation -->
+      <label index="searchby">Durchsuche das Cranach Archiv</label>
+      <label index="filterby">Filter nach</label>
+			<label index="last">Letzte</label>
+			<label index="page">Seite</label>
+			<label index="of">von</label>
+			<!-- SEARCH FIELD / LINK -->
+			<label index="resetLink">Filter zurücksetzen</label>
+			<!-- ADVANCED SEARCH -->
+			<label index="advanced_title">Titel:</label>
+			<label index="advanced_fr">Friedländer, Rosenberg (1978) Nr.: (Bsp. FR001)</label>
+			<label index="advanced_location">Standort:</label>
+			<label index="advanced_id">CDA ID/Inventarnummer:</label>
+			<label index="advanced_label_show">Erweiterte Suche...</label>
+			<label index="advanced_label_hide">Erweiterte Suche verbergen...</label>
+			<!-- INFORMATION BOX -->
+      <label index="lang"><![CDATA[DE/EN]]></label>
+			<label index="user_area">Benutzer</label>
+			<label index="merkzettel">Vergleich</label>
+			<label index="user_guide">Leitfaden</label>
+			<label index="user_guide_link">docs/Leitfaden.pdf</label>
+			<label index="faq">FAQ</label>
+			<label index="faq_link">docs/FAQdt.pdf</label>
+		</languageKey>
+	</data>
+</cdalocallang>

@@ -1,0 +1,90 @@
+html, body {
+  height: 100%;
+}
+
+.wrapper {
+  height: calc(100% - 75px);
+  margin: 0px;
+}
+
+#targetframe {
+  height: 100%;
+  min-height: 100%;
+  display: block;
+}
+
+.iipimage {
+  height: 100%;
+}
+
+.fill {
+  min-height: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 0px;
+}
+
+.info, .logo {
+  left: 15px !important;
+}
+
+.info, .credit, .navcontainer {
+  right: 15px !important;
+}
+
+.navbar-inverse .navbar-brand.active {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.thumbnails {
+  background-color: #222222;
+  color: #dfdfdf;
+}
+
+.panel-thumbnail {
+  border: 1px solid #111111;
+  border-top: none;
+  margin-bottom: 2px;
+}
+
+.panel-thumbnail > .panel-heading, .panel-thumbnail > .panel-body{
+  background-color: #333333;
+}
+
+.panel-thumbnail > .panel-body{
+  border-top: 1px solid #111111;
+}
+
+.img-thumbnail {
+  border: 1px solid #222222;
+  background-color: transparent;
+  margin: 1px;
+}
+
+.thumbnail_wrapper {
+  text-align: left;
+}
+
+.thumbnails a, .thumbnails a:focus {
+  color: #dfdfdf;
+  margin-bottom: 2px;
+  padding: 0px 2px;
+}
+
+.thumbnails a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 830px) {
+.thumbnails {
+  background-color: #222222;
+  color: #dfdfdf;
+  height: 500px;
+  overflow-y: scroll;
+}
+}

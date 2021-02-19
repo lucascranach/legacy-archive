@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<cdalocallang>
+	<meta type="array">
+		<type>object</type>
+		<description>Language labels for cda-project object class and utilities</description>
+	</meta>
+	<data type="array">
+		<languageKey index="Englisch" type="array">
+			<!-- PREFERENCES -->
+			<label index="view_all"><![CDATA[All content]]></label>
+			<label index="show"><![CDATA[Show more content...]]></label>
+			<label index="hide"><![CDATA[Hide content...]]></label>
+			<label index="filterby"><![CDATA[Filter by]]></label>
+			<label index="show_thumbs"><![CDATA[Show images]]></label>
+			<label index="hide_thumbs"><![CDATA[Hide images]]></label>
+			<label index="more_info"><![CDATA[Show more information]]></label>
+			<label index="less_info"><![CDATA[Hide information]]></label>
+
+			<!-- EMAIL - Notice a mistake -->
+			<label index="notice_text"><![CDATA[Have some extra information about this object?<br>
+        	Noticed a mistake?<br>
+			Please <a href="" class="modal-toggle" data-toggle="modal" data-target="#contact-modal">contact us</a>]]></label>
+			<label index="error_text"><![CDATA[An error has occurred:]]></label>
+			<label index="send_error"><![CDATA[Your e-mail will not be forwarded.<br>Please try again later!]]></label>
+			<label index="send_success"><![CDATA[Your message was sent successfully!]]></label>
+			<label index="message-title"><![CDATA[Feedback on object record]]></label>
+			<label index="message-sender"><![CDATA[Your name and address:]]></label>
+			<label index="message-email"><![CDATA[Your e-mail:]]></label>
+			<label index="message-subject"><![CDATA[Your subject:]]></label>
+			<label index="message-body"><![CDATA[Your message:]]></label>
+			<label index="message-send"><![CDATA[Send your message]]></label>
+
+			<!-- CITING - from the CDA -->
+			<label index="citing"><![CDATA[Citing from the Cranach Digital Archive]]></label>
+			<label index="citing_text"><![CDATA[
+			<b>Entry with author:</b>
+			<br>
+			&lt;author's name&gt; &lt;title of object, Inventory number, title of document or image&gt;. &lt;Name of Database&gt; &lt;&lt;URL&gt;&gt; &lt;date of document&gt; (Accessed &lt;date accessed&gt;)
+			<br>
+			<i>Example:</i>
+			<br>
+			Karl Sch&uuml;tz, 'The Crucifixion of Christ', AT_KHM_GG6905, Interpretation. In: Cranach Digital Archive &lt;http://www.lucascranach.org/digitalarchive.php&gt; 01.01.2005 (Accessed: 21.10.2011)
+			<br><br>
+			<b>Entry with no author:</b>
+			<br>
+			&lt;title of object, Inventory number, title of document or image&gt;. &lt;Name of Database&gt; &lt;&lt;UR&gt;&gt;  &lt;date of document&gt; (Accessed  &lt;date accessed&gt;)
+			<br>
+			<i>Example:</i>
+			The Martyrdom of St Catherine, HU_HCBC, Description. In: Cranach Digital Archive  &lt;http://www.lucascranach.org/digitalarchive.php&gt; (Accessed: 21.10.2011)
+			]]></label>
+
+			<!-- INFORMATION BOX -->
+			<label index="user_guide"><![CDATA[User Guide]]></label>
+			<label index="user_guide_link"><![CDATA[docs/User_Guide.pdf]]></label>
+			<label index="faq"><![CDATA[FAQ]]></label>
+			<label index="faq_link"><![CDATA[docs/FAQeng.pdf]]></label>
+			<label index="user_area"><![CDATA[User Area]]></label>
+			<label index="lang"><![CDATA[EN/DE]]></label>
+			<label index="hint_header"><![CDATA[Hint]]></label>
+			<label index="hint_content"><![CDATA[For image comparison drag thumbnail]]></label>
+
+			<!-- OBJECT METADATA TRANSLATION -->
+			<label index="objCreator"><![CDATA[Object creator]]></label>
+			<label index="objTitle"><![CDATA[Object title / description]]></label>
+			<label index="objDate"><![CDATA[Object date]]></label>
+			<label index="fileType"><![CDATA[File type / description]]></label>
+			<label index="imageDesc"><![CDATA[Image / document description]]></label>
+			<label index="imageDate"><![CDATA[Image date]]></label>
+			<label index="imageCreated"><![CDATA[Image created by / rights / credit]]></label>
+			<label index="imageSrc"><![CDATA[Image source]]></label>
+			<label index="imageData"><![CDATA[Image Data]]></label>
+
+			<!-- OBJECT DATA TRANSLATION -->
+			<label index="title"><![CDATA[Title]]></label>
+			<label index="dating"><![CDATA[Dating]]></label>
+			<label index="attr"><![CDATA[Attribution]]></label>
+			<label index="dim"><![CDATA[Dimensions]]></label>
+			<label index="objNr"><![CDATA[Inventory Number]]></label>
+			<label index="frNr"><![CDATA[FR (1978) No.]]></label>
+			<label index="owner"><![CDATA[Owner]]></label>
+			<label index="repo"><![CDATA[Repository]]></label>
+			<label index="location"><![CDATA[Location]]></label>
+			<label index="connected_works"><![CDATA[Connected Works]]></label>
+
+			<!-- Identification EN -->
+			<label index="identification"><![CDATA[Identification]]></label>
+			<label index="object"><![CDATA[Object]]></label>
+			<label index="information"><![CDATA[Object Information]]></label>
+			<label index="classification"><![CDATA[Object Information]]></label>
+			<label index="classification_data"><![CDATA[Painting]]></label>
+			<label index="owner_repository_location"><![CDATA[Owner / Repository / Location]]></label>
+			<label index="cdaId"><![CDATA[CDA ID / Inventory Number]]></label>
+			<label index="persistent"><![CDATA[Persistent Link]]></label>
+			<label index="dimensions"><![CDATA[Dimensions]]></label>
+			<label index="support"><![CDATA[Support]]></label>
+			<label index="signature"><![CDATA[Signature / Date]]></label>
+			<label index="inscriptions_h"><![CDATA[Inscriptions, Marks, Labels, Seals]]></label>
+			<label index="inscriptions"><![CDATA[Inscriptions, Marks, Labels, Seals]]></label>
+			<label index="origin_inscription"><![CDATA[Original Inscriptions]]></label>
+			<label index="description"><![CDATA[Description]]></label>
+
+			<!-- Art Historical Information EN -->
+			<label index="art_historical_information"><![CDATA[Art Historical Information]]></label>
+			<label index="provenance"><![CDATA[Provenance]]></label>
+			<label index="exhibitions"><![CDATA[Exhibitions]]></label>
+			<label index="sources"><![CDATA[Sources / Publications]]></label>
+			<label index="interpretation"><![CDATA[Interpretation / History / Discussion]]></label>
+			<label index="related_works"><![CDATA[Related Works]]></label>
+
+			<!-- Material/Technique EN -->
+			<label index="material_technique"><![CDATA[Material / Technique]]></label>
+			<label index="technical_examination"><![CDATA[Technical Examination/Analysis]]></label>
+			<label index="exam_type"><![CDATA[Material/Technique]]></label>
+			<label index="date"><![CDATA[Date]]></label>
+
+			<!-- Conservation/Restoration EN -->
+			<label index="conservation_restoration"><![CDATA[Conservation / Restoration]]></label>
+			<label index="condition_reports"><![CDATA[Condition Reports]]></label>
+			<label index="history_reports"><![CDATA[History of Restoration]]></label>
+			<label index="condition_type"><![CDATA[Condition Report]]></label>
+			<label index="history_type"><![CDATA[Conservation Report]]></label>
+
+			<!-- Literature Modul EN -->
+			<label index="lit_modul"><![CDATA[Literature]]></label>
+			<label index="lit_refNr"><![CDATA[Reference Number]]></label>
+			<label index="lit_title"><![CDATA[Title]]></label>
+			<label index="lit_page"><![CDATA[Reference on Page]]></label>
+			<label index="lit_cat"><![CDATA[Catalogue Number]]></label>
+      		<label index="lit_fig"><![CDATA[Figure/Plate]]></label>
+			<label index="lit_authors"><![CDATA[Author]]></label>
+			<label index="lit_publisher"><![CDATA[Editor]]></label>
+			<label index="lit_subtitle"><![CDATA[Publication]]></label>
+			<label index="lit_journal"><![CDATA[Journal]]></label>
+			<label index="lit_series"><![CDATA[Series]]></label>
+			<label index="lit_volume"><![CDATA[Volume]]></label>
+			<label index="lit_edition"><![CDATA[Issue]]></label>
+			<label index="lit_placePubl"><![CDATA[Place of Publication]]></label>
+			<label index="lit_yearPubl"><![CDATA[Year of Publication]]></label>
+			<label index="lit_numOfPages"><![CDATA[Pages]]></label>
+			<label index="lit_copyright"><![CDATA[Link]]></label>
+
+      		<!-- Thumbnail Categories EN -->
+			<label index="allImages"><![CDATA[All Images]]></label>
+			<label index="overall"><![CDATA[Overall]]></label>
+			<label index="reverse"><![CDATA[Reverse]]></label>
+			<label index="irr"><![CDATA[Infrared Images]]></label>
+			<label index="xradiograph"><![CDATA[X-Radiographs]]></label>
+			<label index="uvlight"><![CDATA[UV Images]]></label>
+      		<label index="detail"><![CDATA[Detail Images]]></label>
+			<label index="photomicrograph"><![CDATA[Photomicrographs]]></label>
+			<label index="conservation"><![CDATA[Conservation]]></label>
+			<label index="other"><![CDATA[Other]]></label>
+      		<label index="analysis"><![CDATA[Analysis]]></label>
+			<label index="rkd"><![CDATA[Max J. Friedländer Archive]]></label>
+
+		</languageKey>
+
+    <!-- LANGUAGE: DEUTSCH -->
+		<languageKey index="Deutsch" type="array">
+
+      		<!-- PREFERENCES -->
+      		<label index="view_all"><![CDATA[Gesamter Inhalt]]></label>
+			<label index="show"><![CDATA[Mehr Inhalt anzeigen...]]></label>
+			<label index="hide"><![CDATA[Inhalt schließen...]]></label>
+      		<label index="filterby"><![CDATA[Filter nach]]></label>
+      		<label index="show_thumbs"><![CDATA[Abbildungen zeigen]]></label>
+      		<label index="hide_thumbs"><![CDATA[Abbildungen verbergen]]></label>
+      		<label index="more_info"><![CDATA[Mehr Informationen anzeigen]]></label>
+      		<label index="less_info"><![CDATA[Informationen verbergen]]></label>
+
+			<!-- EMAIL - Notice a mistake -->
+			<label index="notice_text"><![CDATA[Haben Sie ergänzende Informationen?<br>
+        	Haben Sie einen Fehler bemerkt?<br><a href="" class="modal-toggle" data-toggle="modal" data-target="#contact-modal">Bitte kontaktieren Sie uns</a>]]></label>
+			<label index="error_text"><![CDATA[Es ist ein Fehler aufgetreten:]]></label>
+			<label index="send_error"><![CDATA[Ihre Email wurde nicht weitergeleitet.<br>Bitte versuchen Sie es sp&auml;ter noch einmal!]]></label>
+			<label index="send_success"><![CDATA[Ihre Nachricht wurde gesendet!]]></label>
+			<label index="message-title"><![CDATA[Anmerkung zum Datensatz]]></label>
+			<label index="message-sender"><![CDATA[Ihr Name und Ihre Anschrift:]]></label>
+			<label index="message-email"><![CDATA[Ihre e-mail Adresse:]]></label>
+			<label index="message-subject"><![CDATA[Betreff Ihrer Nachricht:]]></label>
+			<label index="message-body"><![CDATA[Ihre Nachricht:]]></label>
+			<label index="message-send"><![CDATA[Ihre Nachricht senden]]></label>
+
+			<!-- CITING - from the CDA -->
+			<label index="citing"><![CDATA[Zitieren aus dem Cranach Digital Archive]]></label>
+      		<label index="citing_text"><![CDATA[
+			<b>Eintrag mit Autor:</b>
+			<br>
+			&lt;Autorenname&gt; &lt;Titel des Objekts, cda-Inventarnummer, Titel des Dokuments oder der Abbildung&gt;. &lt;Name der Datenbank&gt; &lt;&lt;URL&gt;&gt; &lt;Datum des Dokuments oder der Abbildung&gt; (Zuletzt aufgerufen &lt;Datum des letzten Zugriffs&gt;)
+			<br>
+			<i>Beispiel:</i>
+			<br>
+			Karl Sch&uuml;tz, 'Die Kreuzigung Christi', AT_KHM_GG6905, Interpretation. In: Cranach Digital Archive &lt;http://www.lucascranach.org/digitalarchive.php&gt; 01.01.2005 (Zuletzt aufgerufen: 21.10.2011)
+			<br><br>
+			<b>Eintrag ohne Autor:</b>
+			<br>
+			&lt;Titel des Objekts, cda-Inventarnummer, Titel des Dokuments oder der Abbildung&gt;. &lt;Name der Datenbank&gt; &lt;&lt;UR&gt;&gt;  &lt;Datum des Dokuments oder der Abbildung&gt; (Zuletzt aufgerufen  &lt;Datum des letzten Zugriffs&gt;)
+			<br>
+			<i>Beispiel:</i>
+			Das Martyrium der heiligen Katharina, HU_HCBC, Beschreibung. In: Cranach Digital Archive  &lt;http://www.lucascranach.org/digitalarchive.php&gt; (Zuletzt aufgerufen: 21.10.2011)
+			]]></label>
+
+			<!-- INFORMATION BOX -->
+			<label index="user_guide"><![CDATA[Leitfaden]]></label>
+			<label index="user_guide_link"><![CDATA[docs/Leitfaden.pdf]]></label>
+			<label index="faq"><![CDATA[FAQ]]></label>
+			<label index="faq_link"><![CDATA[docs/FAQdt.pdf]]></label>
+			<label index="user_area"><![CDATA[Benutzer]]></label>
+			<label index="lang"><![CDATA[DE/EN]]></label>
+			<label index="hint_header"><![CDATA[Hinweis]]></label>
+			<label index="hint_content"><![CDATA[Für den Bildvergleich ziehen Sie die Abbildung]]></label>
+
+			<!-- OBJECT METADATA TRANSLATION -->
+			<label index="objCreator"><![CDATA[Objekt Autor / Hersteller]]></label>
+			<label index="objTitle"><![CDATA[Objekt Titel]]></label>
+			<label index="objDate"><![CDATA[Objekt Datierung]]></label>
+			<label index="fileType"><![CDATA[Dateiart / Beschreibung]]></label>
+			<label index="imageDesc"><![CDATA[Abbildung Beschreibung]]></label>
+			<label index="imageDate"><![CDATA[Abbildung Datum]]></label>
+			<label index="imageCreated"><![CDATA[Abbildung Autor / Rechte]]></label>
+			<label index="imageSrc"><![CDATA[Abbildung Quelle]]></label>
+			<label index="imageData"><![CDATA[Daten der Abbildung]]></label>
+
+			<!-- OBJECT DATA TRANSLATION -->
+			<label index="title"><![CDATA[Titel]]></label>
+			<label index="dating"><![CDATA[Datierung]]></label>
+			<label index="attr"><![CDATA[Zuschreibung]]></label>
+			<label index="dim"><![CDATA[Maße]]></label>
+			<label index="objNr"><![CDATA[Inventarnummer]]></label>
+			<label index="frNr"><![CDATA[FR (1978) Nr.]]></label>
+			<label index="owner"><![CDATA[Eigentümer]]></label>
+			<label index="repo"><![CDATA[Besitzer]]></label>
+			<label index="location"><![CDATA[Standort]]></label>
+			<label index="connected_works"><![CDATA[Zugehörige Werke]]></label>
+
+			<!-- Identification DE -->
+			<label index="identification"><![CDATA[Identifikation]]></label>
+			<label index="object"><![CDATA[Objekt]]></label>
+			<label index="information"><![CDATA[Objekt Information]]></label>
+			<label index="classification"><![CDATA[Objekt Information]]></label>
+			<label index="classification_data"><![CDATA[Gemälde]]></label>
+			<label index="owner_repository_location"><![CDATA[Eigentümer / Besitzer / Standort]]></label>
+			<label index="cdaId"><![CDATA[CDA ID / Inventarnummer]]></label>
+			<label index="dimensions"><![CDATA[Maße]]></label>
+			<label index="persistent"><![CDATA[Permanent Link]]></label>
+			<label index="support"><![CDATA[Bildträger]]></label>
+			<label index="signature"><![CDATA[Signatur / Datierung]]></label>
+			<label index="inscriptions_h"><![CDATA[Stempel, Siegel, Beschriftungen]]></label>
+			<label index="inscriptions"><![CDATA[Inschriften, Stempel, Siegel, Beschriftungen]]></label>
+			<label index="origin_inscription"><![CDATA[Inschriften]]></label>
+			<label index="description"><![CDATA[Kurzbeschreibung]]></label>
+
+			<!-- Art Historical Information DE -->
+			<label index="art_historical_information"><![CDATA[Kunsthist. Informationen]]></label>
+			<label index="provenance"><![CDATA[Provenienz]]></label>
+			<label index="exhibitions"><![CDATA[Ausstellungen]]></label>
+			<label index="sources"><![CDATA[Quellen / Publikationen]]></label>
+			<label index="interpretation"><![CDATA[Forschungsgeschichte / Diskussion]]></label>
+			<label index="related_works"><![CDATA[Verwandte Arbeiten]]></label>
+
+			<!-- Material/Technique DE -->
+      		<label index="material_technique"><![CDATA[Material / Technik]]></label>
+			<label index="technical_examination"><![CDATA[Techn. Untersuchungen / Analysen]]></label>
+			<label index="exam_type"><![CDATA[Material/Technik]]></label>
+			<label index="date"><![CDATA[Datum]]></label>
+
+			<!-- Conservation/Restoration DE -->
+			<label index="conservation_restoration"><![CDATA[Restaurierung]]></label>
+			<label index="condition_reports"><![CDATA[Erhaltungszustand]]></label>
+			<label index="history_reports"><![CDATA[Restaurierungsgeschichte]]></label>
+			<label index="condition_type"><![CDATA[Zustandsprotokoll]]></label>
+			<label index="history_type"><![CDATA[Restaurierungsdokumentation]]></label>
+
+      		<!-- Literature Modul DE -->
+			<label index="lit_modul"><![CDATA[Literatur]]></label>
+			<label index="lit_refNr"><![CDATA[Referenz Nummer]]></label>
+			<label index="lit_title"><![CDATA[Titel]]></label>
+			<label index="lit_page"><![CDATA[Erw&auml;hnt auf Seite]]></label>
+			<label index="lit_cat"><![CDATA[Katalognummer]]></label>
+      		<label index="lit_fig"><![CDATA[Abbildung / Tafel]]></label>
+			<label index="lit_authors"><![CDATA[Autor/in]]></label>
+			<label index="lit_publisher"><![CDATA[Herausgeber/in]]></label>
+			<label index="lit_subtitle"><![CDATA[Veröffentlichung]]></label>
+			<label index="lit_journal"><![CDATA[Zeitschrift]]></label>
+			<label index="lit_series"><![CDATA[Reihe]]></label>
+			<label index="lit_volume"><![CDATA[Band]]></label>
+			<label index="lit_edition"><![CDATA[Jahrgang]]></label>
+			<label index="lit_placePubl"><![CDATA[Ort der Veröffentlichung]]></label>
+			<label index="lit_yearPubl"><![CDATA[Jahr der Veröffentlichung]]></label>
+			<label index="lit_numOfPages"><![CDATA[Seiten]]></label>
+			<label index="lit_copyright"><![CDATA[Link]]></label>
+
+      		<!-- Thumbnail Categories DE -->
+			<label index="allImages"><![CDATA[Alle Abbildungen]]></label>
+			<label index="overall"><![CDATA[Gesamtaufnahmen]]></label>
+			<label index="reverse"><![CDATA[R&uuml;ckseitenaufnahmen]]></label>
+			<label index="irr"><![CDATA[Infrarotaufnahmen]]></label>
+			<label index="xradiograph"><![CDATA[R&ouml;ntgenaufnahmen]]></label>
+			<label index="uvlight"><![CDATA[UV-Fluoreszenzaufnahmen]]></label>
+      		<label index="detail"><![CDATA[Detailaufnahmen]]></label>
+			<label index="photomicrograph"><![CDATA[Mikroskopaufnahmen]]></label>
+			<label index="conservation"><![CDATA[Restaurierung]]></label>
+			<label index="other"><![CDATA[Andere]]></label>
+      		<label index="analysis"><![CDATA[Untersuchungsergebnisse]]></label>
+			<label index="rkd"><![CDATA[Max J. Friedländer-Archiv]]></label>
+
+		</languageKey>
+	</data>
+</cdalocallang>

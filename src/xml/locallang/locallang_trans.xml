@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cdalocallang>
+	<meta type="array">
+		<type>filter</type>
+		<description>Language labels for the cda-project filter class</description>
+	</meta>
+	<data type="array">
+		<languageKey index="Englisch" type="array">
+			<!-- LABELS -->
+			<label index="searchby_h"><![CDATA[Search the Archives:]]></label>
+			<label index="filterby_h"><![CDATA[Filter by:]]></label>
+      <label index="lang"><![CDATA[EN/DE]]></label>
+			<!-- SEARCH FIELD / LINK -->
+			<label index="resetLink">Reset Filter</label>
+			<!-- ADVANCED SEARCH -->
+			<label index="advanced_year">Year:</label>
+			<label index="advanced_sig">Signature:</label>
+			<label index="advanced_label_show">Advanced Search...</label>
+			<label index="advanced_label_hide">Hide Advanced Search...</label>
+			<label index="label_show">Show Content...</label>
+			<label index="label_hide">Hide Content...</label>
+			<!-- INFORMATION BOX -->
+			<label index="user_guide">User Guide</label>
+			<label index="user_guide_link">docs/User_Guide.pdf</label>
+			<label index="faq">FAQ</label>
+			<label index="faq_link">docs/FAQeng.pdf</label>
+
+      <!-- LIST VIEW HEADER LABELS -->
+			<label index="page_h"><![CDATA[Page: ]]></label>
+			<label index="date_h"><![CDATA[Date: ]]></label>
+			<label index="summary_h"><![CDATA[Summary: ]]></label>
+
+			<!-- NAVIGATION EN -->
+			<label index="show_all"><![CDATA[Show all content]]></label>
+			<label index="date"><![CDATA[Date]]></label>
+			<label index="summary"><![CDATA[Summary]]></label>
+			<label index="repository"><![CDATA[Repository]]></label>
+			<label index="objNr"><![CDATA[Document ID]]></label>
+			<label index="transcription"><![CDATA[Transcription]]></label>
+			<label index="location"><![CDATA[Location and Date]]></label>
+			<label index="signature"><![CDATA[Shelf Mark]]></label>
+			<label index="comments"><![CDATA[Comments]]></label>
+			<label index="trans_by"><![CDATA[Transcription by]]></label>
+			<label index="trans_date"><![CDATA[Transcription Date]]></label>
+			<label index="trans_to"><![CDATA[Transcription according to]]></label>
+			<label index="literature"><![CDATA[Literature]]></label>
+			<label index="lit_authors"><![CDATA[Author]]></label>
+			<label index="lit_publisher"><![CDATA[Editor]]></label>
+			<label index="lit_title"><![CDATA[Title]]></label>
+			<label index="lit_subtitle"><![CDATA[Publication]]></label>
+			<label index="lit_journal"><![CDATA[Journal]]></label>
+			<label index="lit_series"><![CDATA[Series]]></label>
+			<label index="lit_volume"><![CDATA[Volume]]></label>
+			<label index="lit_edition"><![CDATA[Issue]]></label>
+			<label index="lit_placePubl"><![CDATA[Place of Publication]]></label>
+			<label index="lit_yearPubl"><![CDATA[Year of Publication]]></label>
+			<label index="lit_numOfPages"><![CDATA[Pages]]></label>
+			<label index="lit_copyright"><![CDATA[Link]]></label>
+			
+			<!-- TOOLTIPS EN -->
+			<label index="show_all_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="date_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="summary_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="repository_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="objNr_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="transcription_tooltip"><![CDATA[This category gives basic information...]]></label>
+			<label index="location_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="signature_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="comments_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="trans_by_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="trans_date_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="trans_to_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="literature_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			
+			<!-- INFORMATION BOX -->
+			<label index="user_guide">User Guide</label>
+			<label index="user_guide_link">docs/User_Guide.pdf</label>
+			<label index="faq">FAQ</label>
+			<label index="faq_link">docs/FAQeng.pdf</label>
+				
+			<!-- FILTER - Function Date EN -->
+			<label index="date_label_h">Dating</label>
+			
+			<!-- FILTER - Function Collection EN -->
+			<label index="institution_label_h">Institutions</label>	
+			
+		</languageKey>
+		<!-- DEUTSCH -->
+		<languageKey index="Deutsch" type="array">
+			<!-- LABELS -->
+			<label index="searchby_h"><![CDATA[Durchsuche die Archivalien:]]></label>
+			<label index="filterby_h"><![CDATA[Filter nach:]]></label>
+      <label index="lang"><![CDATA[DE/EN]]></label>
+			<!-- SEARCH FIELD / LINK -->
+			<label index="resetLink">Filter zurücksetzen</label>
+			<!-- ADVANCED SEARCH -->
+			<label index="advanced_year">Jahr:</label>
+			<label index="advanced_sig">Signatur:</label>
+			<label index="advanced_label_show">Erweiterte Suche...</label>
+			<label index="advanced_label_hide">Erweiterte Suche verbergen...</label>
+			<label index="label_show">Inhalt anzeigen...</label>
+			<label index="label_hide">Inhalt schließen...</label>
+			<!-- INFORMATION BOX -->
+			<label index="user_guide">Leitfaden</label>
+			<label index="user_guide_link">docs/Leitfaden.pdf</label>
+			<label index="faq">FAQ</label>
+			<label index="faq_link">docs/FAQdt.pdf</label>
+			
+      <!-- LIST VIEW HEADER LABELS -->
+			<label index="page_h"><![CDATA[Seite: ]]></label>
+			<label index="date_h"><![CDATA[Datum: ]]></label>
+			<label index="summary_h"><![CDATA[Zusammenfassung: ]]></label>
+
+			<!-- NAVIGATION DE -->
+			<label index="show_all"><![CDATA[Gesamter Inhalt]]></label>
+			<label index="date"><![CDATA[Datum]]></label>
+			<label index="summary"><![CDATA[Zusammenfassung]]></label>
+			<label index="repository"><![CDATA[Besitzer / Standort]]></label>
+			<label index="objNr"><![CDATA[Dokument-ID]]></label>
+			<label index="transcription"><![CDATA[Transkription]]></label>
+			<label index="location"><![CDATA[Ort und Datum]]></label>
+			<label index="signature"><![CDATA[Vollständige Signatur]]></label>
+			<label index="comments"><![CDATA[Kommentare]]></label>
+			<label index="trans_by"><![CDATA[Transkription durch]]></label>
+			<label index="trans_date"><![CDATA[Transkription Datum]]></label>
+			<label index="trans_to"><![CDATA[Transkription nach]]></label>
+			<label index="literature"><![CDATA[Literatur]]></label>
+			<label index="lit_authors"><![CDATA[Autor/in]]></label>
+			<label index="lit_publisher"><![CDATA[Herausgeber/in]]></label>
+			<label index="lit_title"><![CDATA[Titel]]></label>
+			<label index="lit_subtitle"><![CDATA[Veröffentlichung]]></label>
+			<label index="lit_journal"><![CDATA[Zeitschrift]]></label>
+			<label index="lit_series"><![CDATA[Reihe]]></label>
+			<label index="lit_volume"><![CDATA[Band]]></label>
+			<label index="lit_edition"><![CDATA[Jahrgang]]></label>
+			<label index="lit_placePubl"><![CDATA[Ort der Veröffentlichung]]></label>
+			<label index="lit_yearPubl"><![CDATA[Jahr der Veröffentlichung]]></label>
+			<label index="lit_numOfPages"><![CDATA[Seiten]]></label>
+			<label index="lit_copyright"><![CDATA[Link]]></label>
+			
+			<!-- TOOLTIPS DE -->
+			<label index="show_all_tooltipo"><![CDATA[This category gives basic information about...]]></label>
+			<label index="date_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="summary_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="repository_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="objNr_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="transcription_tooltip"><![CDATA[This category gives basic information...]]></label>
+			<label index="location_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="signature_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="comments_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="trans_by_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="trans_date_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="trans_to_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			<label index="literature_tooltip"><![CDATA[This category gives basic information about...]]></label>
+			
+			<!-- INFORMATION BOX -->
+			<label index="user_guide">Leitfaden</label>
+			<label index="user_guide_link">docs/Leitfaden.pdf</label>
+			<label index="faq">FAQ</label>
+			<label index="faq_link">docs/FAQdt.pdf</label>
+			
+			<!-- FILTER - Function Date DE -->
+			<label index="date_label_h">Datierung</label>
+	
+			<!-- FILTER - Function Collection DE -->
+			<label index="institution_label_h">Institutionen</label>
+		</languageKey>
+	</data>
+</cdalocallang>
