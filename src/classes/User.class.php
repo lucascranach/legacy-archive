@@ -53,7 +53,7 @@ class User
         $timestamp = $datum . " - " . $uhrzeit;
 
         if (empty($arr)) {
-            $arr[] = array("id" => $this->id, "time" => $timestamp);
+            $arr = array("id" => $this->id, "time" => $timestamp);
         } else {
             array_unshift($arr, array("id" => $this->id, "time" => $timestamp));
         }
@@ -142,8 +142,9 @@ class User
         }
 
         foreach ($arr as $obj) {
+            if(!isset($obj['id'])) return;
             $id = $obj['id'];
-
+            
             $sql = "SELECT DISTINCT o.UId AS id, o.ObjNr AS objNr, o.ObjIdentifier AS frNr, t.Title AS title,\n"
             . "a.Name AS attr, a.Prefix AS prefix, a.Suffix AS suffix, m.Value AS repo, i.Overall_Image AS image\n"
             . "FROM Object o\n"

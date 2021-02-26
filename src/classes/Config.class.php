@@ -35,6 +35,14 @@ class Config
         return $imagehost->protocol . '://' . $imagehost->hostname . $port . $segment;
     }
 
+    public function getLegacyImagesBaseUrl()
+    {
+        $imagehost = $this->config->imagehostLegacy;
+        $port = (isset($imagehost->port) && $imagehost->port !== false) ? ':' . $imagehost->port : '';
+        $segment = (isset($imagehost->path)) ? '/' . $imagehost->path : '';
+        return $imagehost->protocol . '://' . $imagehost->hostname . $port . $segment;
+    }
+
     public function getImageDataUrl($path)
     {
         if (!isset($path)) {echo "getImageDataUrl(\$path) expects \$path." && exit;}

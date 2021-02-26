@@ -59,7 +59,7 @@ class Gallery
       $image_data = $this->helper->readFromCache($image_data_url);
       $image_data_json = $image_data ? json_decode($image_data) : json_decode(file_get_contents());
 
-      $thumb_data = $image_data_json->imageStack->overall->images[0]->s;
+      $thumb_data = $image_data_json->imageStack->overall->images[0]->xs;
       $thumb_url = $this->imagehost .'/'. $value['objNr'] .'_' . $value['frNr'] . '/' . $thumb_data->path . '/' . $thumb_data->src;
       $thumb = '<img loading="lazy" src="' . $thumb_url. '" onError="this.src=\'' . $this->dynDir->getDir() . 'images/default.jpg\'" width="150" height="150"'
       . 'class="grey-tooltip cda-thumbnail"'

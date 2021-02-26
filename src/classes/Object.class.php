@@ -1935,7 +1935,7 @@ class ObjectData
                             . '&uid='.$this->id
                             . '&fol='.$category
                             . '&img='.$currentFile.'">'
-                            . '<img src="'.$config->getImagesBaseUrl().$trimImage.'"'
+                            . '<img src="'.$config->getLegacyImagesBaseUrl().$trimImage.'"'
                             . 'alt="'
                             . htmlspecialchars($this->attribution[0]['current']) . ' - '
                             . htmlspecialchars($this->repo) . ' - '
@@ -1950,7 +1950,7 @@ class ObjectData
                             . '</a>';
                         } elseif (strpos($trimImage, '.pdf') !== false) {
                             $content .= '<a href="'.$trimImage.'" target="_blank" type="application/pdf ">'
-                            . '<img class="img-thumbnail " src="'.$this->config->getImagesBaseUrl(). $this->dynDir->getDir()
+                            . '<img class="img-thumbnail " src="'.$this->config->getLegacyImagesBaseUrl(). $this->dynDir->getDir()
                             . 'images/pdf_icon.jpg" width="50px"'
                             . 'title="' . $currentFile . '">'
                             . '</a>';
@@ -2039,7 +2039,7 @@ class ObjectData
         . ' - '
         . $this->t->trans('overall')
         . '"'
-        . 'src="' .$this->config->getImagesBaseUrl(). $this->dynDir->getDir() . 'thumbnails/'
+        . 'src="' .$this->config->getLegacyImagesBaseUrl(). $this->dynDir->getDir() . 'thumbnails/'
         . $this->objectFolder . '/01_Overall/'
         . $this->overallImage . '.jpg">'
         . '<div class="caption">'
@@ -2119,7 +2119,7 @@ class ObjectData
                     . htmlspecialchars($this->repo) . ' - '
                     . htmlspecialchars($this->title[0]['current']) . ' - '
                     . $this->t->trans($this->thumbClass->getCleanNameByCategory($category)) . '"'
-                    . 'src="'.$this->config->getImagesBaseUrl() . '/thumbnails/'
+                    . 'src="'.$this->config->getLegacyImagesBaseUrl() . '/thumbnails/'
                     . $this->objectFolder . '/' . $category . '/' . $item . '">'
                     . '</a>';
                 }
@@ -2168,7 +2168,7 @@ class ObjectData
                     . htmlspecialchars($this->repo) . ' - '
                     . htmlspecialchars($this->title[0]['current']) . ' - '
                     . $this->t->trans($this->thumbClass->getCleanNameByCategory($category)) . '"'
-                    . 'width="50px" src="'.$config->getImagesBaseUrl().$rkd_dir.'">'
+                    . 'width="50px" src="'.$config->getLegacyImagesBaseUrl().$rkd_dir.'">'
                     . '</a>';
                 }
             }
@@ -2182,7 +2182,7 @@ class ObjectData
                     . '/' . $category
                     . '/' . $item
                     . '" target="_blank" type="application/pdf ">'
-                    . '<img class="img-thumbnail" src="'.$config->getImagesBaseUrl() . $this->dynDir->getDir()
+                    . '<img class="img-thumbnail" src="'.$config->getLegacyImagesBaseUrl() . $this->dynDir->getDir()
                     . 'images/pdf_icon.jpg" width="50px" title="' . $item . '">'
                     . '</a>';
                 }
@@ -2240,7 +2240,7 @@ class ObjectData
             $content .= '<div class="panel-body">';
             // run through all connected objects
             foreach ($this->connectedWorks as $value) {
-                $content .= '<a href="' . $this->config->getImagesBaseUrl()
+                $content .= '<a href="' . $this->config->getLegacyImagesBaseUrl()
                 . $value['objNr'] . '">';
                 $content .= '<img class="img-thumbnail" width="50px"'
                 . 'alt="'
@@ -2392,7 +2392,7 @@ class ObjectData
         . htmlspecialchars($this->title[0]['current']) . ' - '
         . $this->t->trans($cat)
         . '"'
-        . ' src="' . $this->config->getImagesBaseUrl().'/'. $src . $this->image . '.jpg'
+        . ' src="' . $this->config->getLegacyImagesBaseUrl().'/'. $src . $this->image . '.jpg'
         . ' ">';
         // close link
         $content .= '</a>';
@@ -2413,7 +2413,7 @@ class ObjectData
         $content .='<div class="col-md-12 hidden-sm hidden-xs">';
         $content .= '<p class="text-center" style="margin-bottom: 2px;">';
         // create link
-        $content .= '<a href="' . $this->config->getImagesBaseUrl() . '/image.php?obj=' . $this->objectFolder . '">';
+        $content .= '<a href="' . $this->config->getLegacyImagesBaseUrl() . '/image.php?obj=' . $this->objectFolder . '">';
         $content .= '<span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>';
         // close link
         $content .= '<h8>'.$this->image.'</h8>';
@@ -2513,14 +2513,14 @@ class ObjectData
         . '<span class="icon-bar"></span>'
         . '</button>';
         $content .='<a href="" class="navbar-brand lang-btn">' . $this->t->trans('lang') . '</a>';
-        $content .='<a href="' . $this->config->getImagesBaseUrl() . '/gallery?page=' . $this->page . '" class="navbar-brand">'
+        $content .='<a href="' . $this->config->getLegacyImagesBaseUrl() . '/gallery?page=' . $this->page . '" class="navbar-brand">'
         . '<span class="glyphicon glyphicon-th" aria-hidden="true"></span></a>';
-        $content .='<a href="' . $this->config->getImagesBaseUrl() . '/image.php?obj='
+        $content .='<a href="' . $this->config->getLegacyImagesBaseUrl() . '/image.php?obj='
         . $this->objectFolder . '" class="navbar-brand">'
         . '<span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span></a>';
-        $content .='<a href="' . $this->config->getImagesBaseUrl() . '/'. $this->prev . '" class="navbar-brand">'
+        $content .='<a href="' . $this->config->getLegacyImagesBaseUrl() . '/'. $this->prev . '" class="navbar-brand">'
         . '<span class="glyphicon glyphicon-arrow-left" aria-hidden="true"></span></a>';
-        $content .='<a href="'. $this->config->getImagesBaseUrl() . '/'. $this->next .'" class="navbar-brand">'
+        $content .='<a href="'. $this->config->getLegacyImagesBaseUrl() . '/'. $this->next .'" class="navbar-brand">'
         . '<span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a>';
         $content .= '</div>';
 

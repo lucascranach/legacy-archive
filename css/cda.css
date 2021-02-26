@@ -1,3 +1,7 @@
+:root{
+  --darkest: #000;
+}
+
 html, body, h1, h2, h3, h4 {
 	margin: 0;
 	padding: 0;
@@ -1467,3 +1471,10 @@ label.subCb{
 	padding:0px;
 }
 
+/* Additions Facelift 2021
+############################################################################ */
+
+.cda-thumbnail{
+  object-fit: contain;
+  background-color: var(--darkest);
+}
