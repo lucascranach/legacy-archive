@@ -23,7 +23,7 @@ class Config
     {
         $host = $this->config->host;
         $port = (isset($host->port) && $host->port !== false) ? ':' . $host->port : '';
-        
+
         return $host->protocol . '://' . $host->hostname . $port;
     }
 
@@ -31,7 +31,15 @@ class Config
     {
         $imagehost = $this->config->imagehost;
         $port = (isset($imagehost->port) && $imagehost->port !== false) ? ':' . $imagehost->port : '';
-        
-        return $imagehost->protocol . '://' . $imagehost->hostname . $port;
+        $segment = (isset($imagehost->path)) ? '/' . $imagehost->path : '';
+        return $imagehost->protocol . '://' . $imagehost->hostname . $port . $segment;
     }
+
+    public function getImageDataUrl($path)
+    {
+        if (!isset($path)) {echo "getImageDataUrl(\$path) expects \$path." && exit;}
+        $imagehost = $this->config->imagehost;
+        return $this->getImagesBaseUrl() . '/' . $path .'/'. $imagehost->imagedata;
+    }
+
 }

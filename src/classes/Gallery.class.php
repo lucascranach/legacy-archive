@@ -37,6 +37,11 @@ class Gallery
         $advancedSearch = new AdvancedSearch($this->con);
         $this->obj = $advancedSearch->getResult();
 
+        $this->config = new Config;
+        $this->imagehost = $this->config->getImagesBaseUrl();
+
+        $this->helper = new Helper;
+
         // get the language from the session
         $this->selectedLanguage = $_SESSION['lang'];
 
@@ -46,6 +51,25 @@ class Gallery
         } else {
             $this->mod = 60;
         }
+    }
+
+    public function getThumbnail($value, $tooltip){
+
+      $image_data_url = $this->config->getImageDataUrl($value['objNr'] .'_' . $value['frNr']);
+      $image_data = $this->helper->readFromCache($image_data_url);
+      $image_data_json = $image_data ? json_decode($image_data) : json_decode(file_get_contents());
+
+      $thumb_data = $image_data_json->imageStack->overall->images[0]->s;
+      $thumb_url = $this->imagehost .'/'. $value['objNr'] .'_' . $value['frNr'] . '/' . $thumb_data->path . '/' . $thumb_data->src;
+      $thumb = '<img loading="lazy" src="' . $thumb_url. '" onError="this.src=\'' . $this->dynDir->getDir() . 'images/default.jpg\'" width="150" height="150"'
+      . 'class="grey-tooltip cda-thumbnail"'
+      . 'data-toggle="tooltip"'
+      . 'data-html="true"'
+      . 'data-placement="auto bottom"'
+      . 'title="' . htmlspecialchars($tooltip) .'"'
+      . '>';
+
+      return $thumb;
     }
 
     /**
@@ -175,7 +199,7 @@ class Gallery
             // ****
             // SET ALL IMAGES
             // ****
-            if (file_exists($this->dynDir->getDir() . 'thumbnails/'
+            /*if (file_exists($this->dynDir->getDir() . 'thumbnails/'
             . $value['objNr'] . '_' . $value['frNr'] . '/01_Overall/')) {
                 if ($handle = opendir($this->dynDir->getDir() . 'thumbnails/'
                 . $value['objNr'] .'_' . $value['frNr'] . '/01_Overall/')) {
@@ -218,9 +242,11 @@ class Gallery
 
                 // BIG THUMB
                 //$big_thumb = '<img src="images/no-image.png" width="300" height="300" />';
-            }
+            }*/
             //error_log('THUMB: '.$thumb.' FILENAME: '.$filename.' BIGTHUMB: '.$big_thumb);
             // SHOW IMAGE
+            $thumb = $this->getThumbnail($value, $tooltip);
+            $filename = "a";
             $content .= '<a href="' . $this->dynDir->getBaseDir() . 'object.php'
             . '?&obj=' . $value['objNr'] . '_' .$value['frNr']
             . '&uid=' . $value['uid']
