@@ -635,8 +635,12 @@ class ObjectData
         $row = mysqli_fetch_object($result);
 
         // set location
-        $this->location = (empty($row->Remarks)) ? $row->Location : $row->Remarks;
-
+        $this->location = false;
+        if($row !== null){
+          $this->location = (empty($row->Remarks)) ? $row->Location : $row->Remarks;
+        }
+       
+        
         // ++++++++++++++++++++++++++
         // DIMENSIONS COMPLETE
         // ++++++++++++++++++++++++++
