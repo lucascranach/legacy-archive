@@ -81,6 +81,11 @@ class AdvancedSearch
    */
   public function __construct($con, $session_type='default')
   {
+    // require_once('src/classes/Config.class.php');
+    // $this->config = new Config;
+    require_once('src/classes/Helper.class.php');
+    $this->helper = new Helper;
+
     // get the db return value
     $this->con = $con;
     //##########################
@@ -225,14 +230,15 @@ class AdvancedSearch
     // Search Controller: True if search is activ
     // Status: Status change shows that there is a changed activ search
     // ###################################
+  
 
-    $checkbox = (count($this->attr) - 1)
-    + (count($this->collection) - 1)
-    + (count($this->technique) - 1)
-    + (count($this->date) - 1)
-    + (count($this->thesau) - 1)
-    + (count($this->aa_institution) - 1)
-    + (count($this->aa_date) - 1);
+    $checkbox = (count($this->helper->returnCountable($this->attr)) - 1)
+    + (count($this->helper->returnCountable($this->collection)) - 1)
+    + (count($this->helper->returnCountable($this->technique)) - 1)
+    + (count($this->helper->returnCountable($this->date)) - 1)
+    + (count($this->helper->returnCountable($this->thesau)) - 1)
+    + (count($this->helper->returnCountable($this->aa_institution)) - 1)
+    + (count($this->helper->returnCountable($this->aa_date)) - 1);
 
     $inputField = (empty($this->search_input[1])) ? 0 : 1;
     $inputField = (empty($this->search_input[2])) ? $inputField : $inputField++;
@@ -255,18 +261,18 @@ class AdvancedSearch
         $_SESSION['status'] = ($checkbox + $inputField);
     }
 
-    if(count($this->attr) < 2
-      && count($this->collection) < 2
-      && count($this->technique) < 2
-      && count($this->thesau) < 2
-      && count($this->date) < 2
+    if(count($this->helper->returnCountable($this->attr)) < 2
+      && count($this->helper->returnCountable($this->collection)) < 2
+      && count($this->helper->returnCountable($this->technique)) < 2
+      && count($this->helper->returnCountable($this->thesau)) < 2
+      && count($this->helper->returnCountable($this->date)) < 2
       && empty($this->search_input[1])
       && empty($this->search_input[2])
       && empty($this->search_input[3])
       && empty($this->search_input[4])
       && empty($this->search_input[5])
-      && count($this->aa_institution) < 2
-      && count($this->aa_date) < 2
+      && count($this->helper->returnCountable($this->aa_institution)) < 2
+      && count($this->helper->returnCountable($this->aa_date)) < 2
       && empty($this->aa_search_input[1])
       && empty($this->aa_search_input[2])
       && empty($this->aa_search_input[3])
@@ -344,7 +350,7 @@ class AdvancedSearch
     $tmp = 0;
     $query = '';
     // init date query
-    if(count($this->date) > 1) {
+    if(count($this->helper->returnCountable($this->date)) > 1) {
       // search for date
       foreach($this->date as $value) {
         // if value is not 0
@@ -743,9 +749,9 @@ class AdvancedSearch
       // Search for previous search results
       $checkSql = "SELECT Object_UId FROM SearchResult WHERE SessionId = '$this->session'";
       // mysql query
-      $r = mysqli_query($checkSql, $this->con);
+      $r = mysqli_query($this->con, $checkSql);
       // if there is no entry yet insert value array into database
-      if(mysql_num_rows($r) == 0) {
+      if(mysqli_num_rows($r) == 0) {
         // Search item in sql search results table
         $sql = "SELECT DISTINCT *, o.UId, d.Object_UId AS d_id FROM Object o\n"
           . "INNER JOIN Dating d ON (o.UId = d.Object_UId)\n"
@@ -787,9 +793,9 @@ class AdvancedSearch
       // Search for previous search results
       $checkSql = "SELECT Object_UId FROM SearchResult WHERE SessionId = '$this->session'";
       // mysql query
-      $r = mysqli_query($checkSql, $this->con);
+      $r = mysqli_query($this->con, $checkSql);
       // if there is no entry yet insert value array into database
-      if(mysql_num_rows($r) == 0) {
+      if(mysqli_num_rows($r) == 0) {
         // Search item in sql search results table
         $sql = "SELECT DISTINCT sub.Object_UId AS sub_id, o.SortNumber FROM\n"
           . "(SELECT r.Object_UId FROM ObjectReports as r\n"
@@ -833,9 +839,9 @@ class AdvancedSearch
       // Search for previous search results
       $checkSql = "SELECT Object_UId FROM SearchResult WHERE SessionId = '$this->session'";
       // mysql query
-      $r = mysqli_query($checkSql, $this->con);
+      $r = mysqli_query($this->con, $checkSql);
       // if there is no entry yet insert value array into database
-      if(mysql_num_rows($r) == 0) {
+      if(mysqli_num_rows($r) == 0) {
         $sql = "SELECT DISTINCT multi.Object_UId AS col_id, o.SortNumber FROM MultipleTable multi\n"
           . "INNER JOIN Object as o ON o.UId = multi.Object_UId\n"
           . "WHERE (".$query.")\n"
@@ -874,9 +880,9 @@ class AdvancedSearch
       // Search for previous search results
       $checkSql = "SELECT Object_UId FROM SearchResult WHERE SessionId = '$this->session'";
       // mysql query
-      $r = mysqli_query($checkSql, $this->con);
+      $r = mysqli_query($this->con, $checkSql);
       // if there is no entry yet insert value array into database
-      if(mysql_num_rows($r) == 0) {
+      if(mysqli_num_rows($r) == 0) {
         $sql = "SELECT DISTINCT t.Object_UId AS t_id, o.SortNumber FROM Thesaurus t\n"
           . "INNER JOIN Object as o ON o.UId = t.Object_UId\n"
           . "WHERE (".$query.")\n"
@@ -913,9 +919,9 @@ class AdvancedSearch
       // Search for previous search results
       $checkSql = "SELECT Object_UId FROM SearchResult WHERE SessionId = '$this->session'";
       // mysql query
-      $r = mysqli_query($checkSql, $this->con);
+      $r = mysqli_query($this->con, $checkSql);
       // if there is no entry yet insert value array into database
-      if(mysql_num_rows($r) == 0) {
+      if(mysqli_num_rows($r) == 0) {
         $sql = "SELECT DISTINCT t.Object_UId AS t_id, o.SortNumber FROM ObjectTitle t\n"
           . "INNER JOIN Object as o ON o.UId = t.Object_UId\n"
           . "WHERE (".$query.")\n"
@@ -954,9 +960,9 @@ class AdvancedSearch
       // Search for previous search results
       $checkSql = "SELECT Object_UId FROM SearchResult WHERE SessionId = '$this->session'";
       // mysql query
-      $r = mysqli_query($checkSql, $this->con);
+      $r = mysqli_query($this->con, $checkSql);
       // if there is no entry yet insert value array into database
-      if(mysql_num_rows($r) == 0) {
+      if(mysqli_num_rows($r) == 0) {
         $sql = "SELECT DISTINCT o.UId AS o_id, o.SortNumber FROM Object o\n"
           . "WHERE (".$query.")\n"
           . "ORDER BY o.SortNumber ASC";
@@ -993,9 +999,9 @@ class AdvancedSearch
       // Search for previous search results
       $checkSql = "SELECT Object_UId FROM SearchResult WHERE SessionId = '$this->session'";
       // mysql query
-      $r = mysqli_query($checkSql, $this->con);
+      $r = mysqli_query($this->con, $checkSql);
       // if there is no entry yet insert value array into database
-      if(mysql_num_rows($r) == 0) {
+      if(mysqli_num_rows($r) == 0) {
         $sql = "SELECT DISTINCT l.Object_UId AS l_id, o.SortNumber FROM Location l\n"
           . "INNER JOIN Object as o ON o.UId = l.Object_UId\n"
           . "WHERE (".$query.")\n"
@@ -1032,9 +1038,9 @@ class AdvancedSearch
       // Search for previous search results
       $checkSql = "SELECT Object_UId FROM SearchResult WHERE SessionId = '$this->session'";
       // mysql query
-      $r = mysqli_query($checkSql, $this->con);
+      $r = mysqli_query($this->con, $checkSql);
       // if there is no entry yet insert value array into database
-      if(mysql_num_rows($r) == 0) {
+      if(mysqli_num_rows($r) == 0) {
         $sql = "SELECT DISTINCT o.UId AS o_id, o.SortNumber FROM Object o\n"
           . "WHERE (".$query.")\n"
           . "ORDER BY o.SortNumber ASC";
@@ -1072,9 +1078,9 @@ class AdvancedSearch
       // Search for previous search results
       $checkSql = "SELECT DISTINCT * FROM SearchResult WHERE SessionId = '$this->session'";
       // mysql query
-      $r = mysqli_query($checkSql, $this->con);
+      $r = mysqli_query($this->con, $checkSql);
       // if there is no entry yet insert value array into database
-      if(mysql_num_rows($r) == 0) {
+      if(mysqli_num_rows($r) == 0) {
         // run through parameter result
         foreach($result as $value) {
           // sql string
@@ -1118,9 +1124,9 @@ class AdvancedSearch
       // Search for previous search results
       $checkSql = "SELECT Object_UId FROM SearchResult WHERE SessionId = '$this->session'";
       // mysql query
-      $r = mysqli_query($checkSql, $this->con);
+      $r = mysqli_query($this->con, $checkSql);
       // if there is no entry yet insert value array into database
-      if(mysql_num_rows($r) == 0 && $this->prev_search_empty==false) {
+      if(mysqli_num_rows($r) == 0 && $this->prev_search_empty==false) {
         // Search item in sql search results table
         $sql = "SELECT DISTINCT *, t.UId AS t_id, t.Sort AS t_sort FROM Trans_Objects t\n"
           . "WHERE t.Sort NOT LIKE ''\n"
@@ -1160,9 +1166,9 @@ class AdvancedSearch
       // Search for previous search results
       $checkSql = "SELECT DISTINCT * FROM SearchResult WHERE SessionId = '$this->session'";
       // mysql query
-      $r = mysqli_query($checkSql, $this->con);
+      $r = mysqli_query($this->con, $checkSql);
       // if there is no entry yet insert value array into database
-      if(mysql_num_rows($r) == 0 && $this->prev_search_empty==false) {
+      if(mysqli_num_rows($r) == 0 && $this->prev_search_empty==false) {
         // run through parameter result
         foreach($result as $value) {
           // sql string

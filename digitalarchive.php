@@ -1,24 +1,23 @@
 <?php
 
+require_once('src/classes/Config.class.php');
+$config = new Config;
+$host = $config->getSection('host');
+
 // start session
 if(session_id() == '') {
-  session_set_cookie_params(604800, '/', '.lucascranach.org');
+  session_set_cookie_params(604800, '/', $host->hostname);
   session_start();
 }
 // header("Content-type:text/html; charset=utf-8");
 // echo '<?xml version="1.0" encoding="utf-8">';
 
-
-require_once('src/classes/Config.class.php');
 // Import of the required once subclasses
 require_once('src/classes/Filter.class.php');
 require_once('src/classes/Gallery.class.php');
 require_once('src/classes/User.class.php');
 // Import of the required subclasses
 require_once("src/classes/Translator.class.php");
-
-$config = new Config;
-$host = $config->getSection('host');
 
 /**
  * Request 'dimension' handles the document width and height funcionality.
@@ -180,7 +179,7 @@ $userArea = $u->getUserArea();
 
 $( function() {
   // reset Treatment Modul cookie
-  $.removeCookie('mntModul', { expires: 7, path: '/', domain: '.lucascranach.org' });
+  $.removeCookie('mntModul', { expires: 7, path: '/', domain: '<?=$host->hostname;?>' });
 
   $('[data-toggle="tooltip"]').tooltip();
 
@@ -263,7 +262,7 @@ $( function() {
 
   if(parseInt($.cookie('maxImages')) != maxImages && page < parseInt($.cookie('lastPage'))) {
     // set max images
-    $.cookie('maxImages', maxImages, { expires: 7, path: '/', domain: '.lucascranach.org' });
+    $.cookie('maxImages', maxImages, { expires: 7, path: '/', domain: '<?=$host->hostname?>' });
     // reload page
     self.location.href=window.location.pathname;
   }
@@ -306,7 +305,7 @@ function advancedSearch(value) {
  */
 setLanguage = function() {
   var lang = ($.cookie("lang") === "Deutsch") ? "Englisch" : "Deutsch";
-  $.cookie('lang', lang, { expires: 7, path: '/', domain: '.lucascranach.org' });
+  $.cookie('lang', lang, { expires: 7, path: '/', domain: '<?=$host->hostname;?>' });
   location.reload();
 }
 </script>

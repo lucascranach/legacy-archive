@@ -45,12 +45,12 @@ RewriteRule ^termsofuse_de.html . [R]
 
 # HTTP TO HTTPS #####################################################
 # RewriteCond %{HTTPS} !=on
-# RewriteRule ^/?(.*) https://localhost:8888/$1 [R=301,L]
+# RewriteRule ^/?(.*) https://127.0.0.1/$1 [R=301,L]
 
 # HOST HANDLE ############################################################
-RewriteCond %{HTTP_HOST} !^localhost:8888$ [NC]
+RewriteCond %{HTTP_HOST} !^127.0.0.1$ [NC]
 
-RewriteRule .? http://localhost:8888%{REQUEST_URI} [R=301,L]
+RewriteRule .? http://127.0.0.1%{REQUEST_URI} [R=301,L]
 
 
 # TOUCHSCREEN APP ####################################################
@@ -64,7 +64,7 @@ RewriteRule ^touchscreen$ touchscreen-app/index.html [PT,L]
 
 # SET PAGE COOKIE
 RewriteCond %{QUERY_STRING} ^.*page=([0-9]+) [NC]
-RewriteRule ^.*$ "-" [CO=page:%1:localhost:8888]
+RewriteRule ^.*$ "-" [CO=page:%1:127.0.0.1]
 
 RewriteCond %{QUERY_STRING} ^.*page=([0-9]+) [NC]
 RewriteCond %{REQUEST_FILENAME} .*dev/gallery.* [NC]
