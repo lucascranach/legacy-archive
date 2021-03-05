@@ -58,15 +58,18 @@ class Gallery
       $image_data_url = $this->config->getImageDataUrl($value['objNr'] .'_' . $value['frNr']);
       $image_data = $this->helper->readFromCache($image_data_url);
       $image_data_json = $image_data ? json_decode($image_data) : json_decode(file_get_contents());
-
-      $thumb_data = $image_data_json->imageStack->overall->images[0]->xs;
-      $thumb_url = $this->imagehost .'/'. $value['objNr'] .'_' . $value['frNr'] . '/' . $thumb_data->path . '/' . $thumb_data->src;
-      $thumb = '<img loading="lazy" src="' . $thumb_url. '" onError="this.src=\'' . $this->dynDir->getDir() . 'images/default.jpg\'" width="150" height="150"'
-      . 'class="grey-tooltip cda-thumbnail"'
-      . 'data-toggle="tooltip"'
-      . 'data-html="true"'
-      . 'data-placement="auto bottom"'
-      . 'title="' . htmlspecialchars($tooltip) .'"'
+      $src = "images/no-image.png"; 
+      if(isset($image_data_json->imageStack->overall->images[0]->xs)){
+        $thumb_data = $image_data_json->imageStack->overall->images[0]->xs;
+        $src = $this->imagehost .'/'. $value['objNr'] .'_' . $value['frNr'] . '/' . $thumb_data->path . '/' . $thumb_data->src;
+      }
+      
+      $thumb = '<img loading="lazy" src="' . $src. '" onError="this.src=\'' . $this->dynDir->getDir() . 'images/default.jpg\'" width="150" height="150"'
+      . ' class="grey-tooltip cda-thumbnail"'
+      . ' data-toggle="tooltip"'
+      . ' data-html="true"'
+      . ' data-placement="auto bottom"'
+      . ' title="' . htmlspecialchars($tooltip) .'"'
       . '>';
 
       return $thumb;
@@ -90,11 +93,8 @@ class Gallery
         . '<div class="container-fluid">'
         . '<div class="navbar-header">';
         $content .='<a href="javascript:setLanguage()" class="navbar-brand">'.$this->t->trans('lang').'</a>';
-        $content .='<a href="'.$home.'" class="navbar-brand">'
-        . '<span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>';
-        $content .='<a data-toggle="collapse" href="#collapseUserArea" aria-expanded="false"'
-        . 'aria-controls="collapseUserArea" class="navbar-brand pull-right hidden-sm hidden-xs">'
-        . '<span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>';
+        $content .='<a href="'.$home.'" class="navbar-brand"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>';
+        $content .='<a data-toggle="collapse" href="#collapseUserArea" aria-expanded="false" aria-controls="collapseUserArea" class="navbar-brand pull-right hidden-sm hidden-xs"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>';
         $content .= $this->pageNavigation();
         $content .= '</div>'; // <!-- / container fluid -->
         $content .= '</nav>';
@@ -253,7 +253,7 @@ class Gallery
             . '&page=' . $this->page
             . '&fol=01_Overall'
             . '&img=' . $filename.'"'
-            . 'draggable="true" ondragstart="drag(event)"'
+            . ' draggable="true" ondragstart="drag(event)"'
             . '>'
             . $thumb
             . '</a>';

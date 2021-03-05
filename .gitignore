@@ -1,6 +1,8 @@
 # General
 cranach.config.json
 cache/
+node_modules/
+
 .DS_Store
 .AppleDouble
 .LSOverride

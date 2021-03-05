@@ -54,7 +54,6 @@ $_t = new Translator('src/xml/locallang/locallang_gallery.xml');
  * ###########################################################
  **/
 
-
 // init advanced search array:
 $advancedArr = array();
 
@@ -96,7 +95,6 @@ $navigation = $g->getNavigation();
 $content = $g->getGallery();
 
 
-
 // Get Filter
 $f = new Filter();
 // public function
@@ -108,7 +106,6 @@ $u = new User();
 $userArea = $u->getUserArea();
 
 ?>
-
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
     "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
@@ -135,9 +132,10 @@ $userArea = $u->getUserArea();
 <link rel="stylesheet" type="text/css" media="all" href="css/user.css" />
 <link rel="stylesheet" type="text/css" media="all" href="css/iip.css" />
 <link rel="stylesheet" type="text/css" media="all" href="css/iip.image.compare.css" />
+<link rel="stylesheet" type="text/css" media="all" href="css/facelift.css" />
 <!--[if lt IE 9]>
 <link rel="stylesheet" type="text/css" media="all" href="css/ie.css" />
-<![endif]-->x
+<![endif]-->
 <link rel="shortcut icon" href="images/cda-favicon.ico" />
 <link rel="apple-touch-icon" href="images/cda-favicon.ico" />
 <title>CRANACH DIGITAL ARCHIVE</title>
@@ -311,6 +309,7 @@ setLanguage = function() {
 </script>
 </head>
   <body>
+
     <!-- Top Control Panel -->
     <?php echo $navigation; ?>
     <?php echo $userArea; ?>
@@ -370,7 +369,7 @@ setLanguage = function() {
 
               <div class="desc"><?php echo $_t->trans('searchby'); ?>:</div>
 
-              <div class="resetFilter"style="top:<?php echo $top ?>px; z-index:2; left:150px;">
+              <div class="resetFilter" style="top:<?php echo $top ?>px; z-index:2; left:150px;">
 
                 <form method="POST" name="reset_search" action="/gallery">
                     <input type="hidden" name="reset_search" value="0" />
@@ -477,39 +476,35 @@ setLanguage = function() {
 
       </div>
       <!-- / Content row -->
-
-      <!-- Footer Panel -->
-      <div class="row voffset1">
-        <div class="col-md-12">
-          <div id="footer">
-            <div id="copyright"></div>
-          </div>
-        </div>
-      </div>
+    
     </div>
     <!-- / Wrapper -->
+    <footer id="footer">
+      <div id="copyright"></div>
+    </footer>
 
-  </body>
+    <script>
+    window.onload = function() {
+      // Set copyright with the current year
+      var jetzt = new Date();
+      var jahr = jetzt.getFullYear();
+      document.getElementById("copyright").innerHTML="&copy; Stiftung Museum Kunstpalast, D&uuml;sseldorf / Technische Hochschule K&ouml;ln, "+jahr;
+    }
+    </script>
+    <!-- GOOGLE ANALYTICS -->
+    <script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29211177-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    
+    </script>
+
+</body>
 </html>
-<script>
-window.onload = function() {
-  // Set copyright with the current year
-  var jetzt = new Date();
-  var jahr = jetzt.getFullYear();
-  document.getElementById("copyright").innerHTML="&copy; Stiftung Museum Kunstpalast, D&uuml;sseldorf / Technische Hochschule K&ouml;ln, "+jahr;
-}
-</script>
-<!-- GOOGLE ANALYTICS -->
-<script type="text/javascript">
-
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-29211177-1']);
-_gaq.push(['_trackPageview']);
-
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>

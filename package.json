@@ -1,0 +1,20 @@
+{
+  "name": "legacy-archive",
+  "version": "1.0.0",
+  "description": "Überarbeitete Version der Cranach Galerie",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:livereload": "livereload .",
+    "dev:css": "node-sass --source-map true src/styles/scss src/styles/scss/facelift.scss -o css/ --output-style compressed ",
+    "watch:sass": "node-sass --source-map true --watch src/styles/scss src/styles/scss/facelift.scss -o css/ --output-style compressed ",
+    "watch:info": "echo \"Press <ctrl-x> <ctrl-c> to exit watchmode.\"",
+    "watch": "npm-run-all --parallel dev:css watch:*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "livereload": "^0.9.1",
+    "node-sass": "^4.14.1",
+    "npm-run-all": "^4.1.5"
+  }
+}
