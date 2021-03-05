@@ -91,9 +91,9 @@ if(isset($_COOKIE['cdaAdvancedSearch'])) {
 $g = new Gallery();
 // get navigation
 $navigation = $g->getNavigation();
+
 // public function get gallery
 $content = $g->getGallery();
-
 
 // Get Filter
 $f = new Filter();
@@ -142,7 +142,6 @@ $userArea = $u->getUserArea();
 <!-- The JavaScript -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" type="text/javascript"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript" language="javascript"></script>
-<script src="//cdn.jsdelivr.net/jquery.cookie/1.4.1/jquery.cookie.min.js" type="text/javascript" language="javascript"></script>
 <script src="src/js/bootstrap.min.js" type="text/javascript" language="javascript"></script>
 <script src="src/js/thesaurus.js" type="text/javascript" language="javascript"></script>
 <script src="src/js/filter.js" type="text/javascript" language="javascript"></script>
@@ -173,12 +172,15 @@ $userArea = $u->getUserArea();
 <script type="text/javascript" src="src/iip/lang/help.en.js"></script>
 <script type="text/javascript" src="src/js/compare.js"></script>
 
+<!-- cn: Cookie Polyfill -->
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+
 <script type="text/javascript">
 
 $( function() {
   // reset Treatment Modul cookie
-  $.removeCookie('mntModul', { expires: 7, path: '/', domain: '<?=$host->hostname;?>' });
-
+  Cookies.remove('mntModul', { expires: 7, path: '/', domain: '<?=$host->hostname;?>' });
+  
   $('[data-toggle="tooltip"]').tooltip();
 
   // checkbox array attribution
@@ -249,19 +251,20 @@ $( function() {
 
   var maxImages;
 
-
   var x = parseInt($('#content').width() / 153);
 
   var y = parseInt(h / 153);
 
   maxImages =(x*y);
-
-  var page = (typeof($.cookie('page')) !== 'undefined') ? parseInt($.cookie('page')) : 1;
-
-  if(parseInt($.cookie('maxImages')) != maxImages && page < parseInt($.cookie('lastPage'))) {
+ 
+  var page = (typeof(Cookies.get('page')) !== 'undefined') ? parseInt(Cookies.get('page')) : 1;
+  var lastPageCookie = Cookies.get('lastPage');
+  var maxImagesCookie = Cookies.get('maxImages');
+  if(parseInt(maxImagesCookie) != maxImages && (page < parseInt(lastPageCookie) || lastPageCookie === undefined)) {
     // set max images
-    $.cookie('maxImages', maxImages, { expires: 7, path: '/', domain: '<?=$host->hostname?>' });
+    Cookies.set('maxImages', maxImages, { expires: 7, path: '', SameSite: 'strict', domain: '<?=$host->hostname?>' });
     // reload page
+  
     self.location.href=window.location.pathname;
   }
 });
@@ -302,8 +305,8 @@ function advancedSearch(value) {
  * Set current selectedd language
  */
 setLanguage = function() {
-  var lang = ($.cookie("lang") === "Deutsch") ? "Englisch" : "Deutsch";
-  $.cookie('lang', lang, { expires: 7, path: '/', domain: '<?=$host->hostname;?>' });
+  var lang = (Cookie.get("lang") === "Deutsch") ? "Englisch" : "Deutsch";
+  Cookie.set('lang', lang, { expires: 7, path: '/', SameSite:'strict', domain: '<?=$host->hostname;?>' });
   location.reload();
 }
 </script>

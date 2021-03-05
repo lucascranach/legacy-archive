@@ -112,6 +112,7 @@ class Gallery
         $selectedLanguage = $this->selectedLanguage;
         // get private var for index:
         $index = $this->index;
+        echo $this->mod;
         // slice array by mod value
         $arr = array_slice($this->obj, $index, $this->mod, true);
         /** count all objects in the database **/
