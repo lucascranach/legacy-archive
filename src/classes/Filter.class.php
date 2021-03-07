@@ -43,6 +43,7 @@ class Filter {
 
     // create translation object
     $this->_t = new Translator('src/xml/locallang/locallang_filter.xml');
+
   }
 
 
@@ -78,9 +79,11 @@ class Filter {
     // list style
     $li_nav_tech = ($nav_tech == "block") ? "current" : "closed";
 
-    $content = '<ul>';
+    
+    $content = '<li><input type="checkbox" onchange="javascript:document.formFilter.submit();" name="attr[]" index="attr" value="top100">100 Meisterwerke</li>';
+
     // FILTER - ATTRIBUTION
-    $content = '<li class="'.$li_nav_attr.'" ><a href="javascript:leClick(\'nav_attr\')" name="nav_attr">'.$this->_t->trans('attr_label_h').'</a>'
+    $content .= '<li class="'.$li_nav_attr.'" ><a href="javascript:leClick(\'nav_attr\')" name="nav_attr">'.$this->_t->trans('attr_label_h').'</a>'
     . '<div id="nav_attr" style="display:'.$nav_attr.'">'
     . '<ul>'
     . '<li><input type="hidden" name="attr[]" index="attr" value="0">'

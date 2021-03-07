@@ -96,7 +96,7 @@ class AdvancedSearch
     // ##################################
     // get the search variables from post
     // ##################################
-
+var_dump($_POST);
     // UNSET SESSIONS
     // Check if there is an empty search field post
     if(isset($_POST['reset_search'])) {
@@ -160,6 +160,15 @@ class AdvancedSearch
       $_SESSION['search_collection'] 	= $this->collection;
     } else if(isset($_SESSION['search_collection'])) {
       $this->collection 							= $_SESSION['search_collection'];
+    }
+
+    // category
+    if(isset($_POST['category'])) {
+      $this->category							  = array();
+      $this->category 							= $_POST['category'];
+      $_SESSION['search_category'] 	= $this->collection;
+    } else if(isset($_SESSION['search_category'])) {
+      $this->category 							= $_SESSION['search_category'];
     }
 
     // technique
@@ -699,6 +708,7 @@ class AdvancedSearch
     // ** ATTRIBUTION
     // ** schreibt selbst in die Datenbank SearchResult die Ergebnisse
     // ** und benoetigt daher keinen extra writeResult() aufruf!
+
     // ************************
     if($type === "attr") {
       foreach($result as $value) {
@@ -1467,12 +1477,12 @@ class AdvancedSearch
        **/
     case "attr_1":
       // Display Order low WITHOUT Sortnumber
-      $ergebnis = mysqli_query("SELECT * FROM Attribution
+      $ergebnis = mysqli_query($this->con, "SELECT * FROM Attribution
         INNER JOIN Object ON Object.UId = Attribution.Object_UId
         WHERE Name = 'Lucas Cranach the Elder'
         AND Suffix = ''
         AND Prefix = ''
-        AND Language LIKE 'Englisch'", $this->con);
+        AND Language LIKE 'Englisch'");
       while($row = mysqli_fetch_object($ergebnis)) {
         // eval relevance points
         $rel = ($row->DisplayOrder > 2) ? 10 : 20;
@@ -1491,11 +1501,11 @@ class AdvancedSearch
        **/
     case "attr_2":
       // Display Order low WITHOUT Sortnumber
-      $ergebnis = mysqli_query("SELECT * FROM Attribution
+      $ergebnis = mysqli_query($this->con, "SELECT * FROM Attribution
         INNER JOIN Object ON Object.UId = Attribution.Object_UId
         WHERE Name = 'Lucas Cranach the Elder'
         AND	Suffix LIKE '%and Workshop%'
-        AND Language LIKE 'Englisch'", $this->con);
+        AND Language LIKE 'Englisch'");
       while($row = mysqli_fetch_object($ergebnis)) {
         // eval relevance points
         $rel = ($row->DisplayOrder > 2) ? 10 : 20;
@@ -1514,10 +1524,10 @@ class AdvancedSearch
        **/
     case "attr_3":
       // Display Order low WITHOUT Sortnumber
-      $ergebnis = mysqli_query("SELECT * FROM Attribution
+      $ergebnis = mysqli_query( $this->con, "SELECT * FROM Attribution
         INNER JOIN Object ON Object.UId = Attribution.Object_UId
         WHERE Name = 'Workshop Lucas Cranach the Elder'
-        AND Language LIKE 'Englisch'", $this->con);
+        AND Language LIKE 'Englisch'");
       while($row = mysqli_fetch_object($ergebnis)) {
         // eval relevance points
         $rel = ($row->DisplayOrder > 2) ? 10 : 20;
@@ -1531,10 +1541,10 @@ class AdvancedSearch
       }
       break;
     case "attr_4":
-      $ergebnis = mysqli_query("SELECT * FROM Attribution
+      $ergebnis = mysqli_query( $this->con, "SELECT * FROM Attribution
         INNER JOIN Object ON Object.UId = Attribution.Object_UId
         WHERE Name = 'Anonymous Master from the Cranach Workshop'
-        AND Language LIKE 'Englisch'", $this->con);
+        AND Language LIKE 'Englisch'");
       while($row = mysqli_fetch_object($ergebnis)) {
         // eval relevance points
         $rel = ($row->DisplayOrder > 2) ? 10 : 20;
@@ -1549,10 +1559,10 @@ class AdvancedSearch
 
       break;
     case "attr_5":
-      $ergebnis = mysqli_query("SELECT * FROM Attribution
+      $ergebnis = mysqli_query( $this->con, "SELECT * FROM Attribution
         INNER JOIN Object ON Object.UId = Attribution.Object_UId
         WHERE Suffix LIKE '%follow%'
-        AND Language LIKE 'Englisch'", $this->con);
+        AND Language LIKE 'Englisch'");
       while($row = mysqli_fetch_object($ergebnis)) {
         // eval relevance points
         $rel = ($row->DisplayOrder > 2) ? 10 : 20;
@@ -1567,10 +1577,10 @@ class AdvancedSearch
 
       break;
     case "attr_6":
-      $ergebnis = mysqli_query("SELECT * FROM Attribution
+      $ergebnis = mysqli_query( $this->con, "SELECT * FROM Attribution
         INNER JOIN Object ON Object.UId = Attribution.Object_UId
         WHERE Suffix LIKE '%Circle%Elder%'
-        AND Language LIKE 'Englisch'", $this->con);
+        AND Language LIKE 'Englisch'");
       while($row = mysqli_fetch_object($ergebnis)) {
         // eval relevance points
         $rel = ($row->DisplayOrder > 2) ? 10 : 20;
@@ -1585,10 +1595,10 @@ class AdvancedSearch
 
       break;
     case "attr_7":
-      $ergebnis = mysqli_query("SELECT * FROM Attribution
+      $ergebnis = mysqli_query($this->con, "SELECT * FROM Attribution
         INNER JOIN Object ON Object.UId = Attribution.Object_UId
         WHERE Suffix LIKE '%Copy%Elder%'
-        AND Language LIKE 'Englisch'", $this->con);
+        AND Language LIKE 'Englisch'");
       while($row = mysqli_fetch_object($ergebnis)) {
         // eval relevance points
         $rel = ($row->DisplayOrder > 2) ? 10 : 20;
@@ -1603,9 +1613,9 @@ class AdvancedSearch
 
       break;
     case "attr_8":
-      $ergebnis = mysqli_query("SELECT * FROM Attribution
+      $ergebnis = mysqli_query($this->con, "SELECT * FROM Attribution
         INNER JOIN Object ON Object.UId = Attribution.Object_UId
-        WHERE Name = 'Lucas Cranach the Younger' AND Language LIKE 'Englisch'", $this->con);
+        WHERE Name = 'Lucas Cranach the Younger' AND Language LIKE 'Englisch'");
       while($row = mysqli_fetch_object($ergebnis)) {
         // eval relevance points
         $rel = ($row->DisplayOrder > 2) ? 10 : 20;
@@ -1619,11 +1629,11 @@ class AdvancedSearch
       }
       break;
     case "attr_9":
-      $ergebnis = mysqli_query("SELECT * FROM Attribution
+      $ergebnis = mysqli_query($this->con, "SELECT * FROM Attribution
         INNER JOIN Object ON Object.UId = Attribution.Object_UId
         WHERE Name = 'Lucas Cranach the Younger'
         AND	Suffix LIKE '%and Workshop%'
-        AND Language LIKE 'Englisch'", $this->con);
+        AND Language LIKE 'Englisch'");
       while($row = mysqli_fetch_object($ergebnis)) {
         // eval relevance points
         $rel = ($row->DisplayOrder > 2) ? 10 : 20;
@@ -1637,10 +1647,10 @@ class AdvancedSearch
       }
       break;
     case "attr_10":
-      $ergebnis = mysqli_query("SELECT * FROM Attribution
+      $ergebnis = mysqli_query($this->con, "SELECT * FROM Attribution
         INNER JOIN Object ON Object.UId = Attribution.Object_UId
         WHERE Name LIKE '%work%younger%'
-        AND Language LIKE 'Englisch'", $this->con);
+        AND Language LIKE 'Englisch'");
       while($row = mysqli_fetch_object($ergebnis)) {
         // eval relevance points
         $rel = ($row->DisplayOrder > 2) ? 10 : 20;
@@ -1653,23 +1663,40 @@ class AdvancedSearch
         array_push($result, $item);
       }
       break;
-    case "attr_11":
-      $ergebnis = mysqli_query("SELECT * FROM Attribution
-        INNER JOIN Object ON Object.UId = Attribution.Object_UId
-        WHERE Name = 'Hans Cranach'
-        AND Language LIKE 'Englisch'", $this->con);
-      while($row = mysqli_fetch_object($ergebnis)) {
-        // eval relevance points
-        $rel = ($row->DisplayOrder > 2) ? 10 : 20;
-        // init items multi array with relevance
-        $item = array(
-          "id" => $row->Object_UId,
-          "sort" => $row->SortNumber,
-          "relevance" => $rel
-        );
-        array_push($result, $item);
-      }
-      break;
+      case "attr_11":
+        $ergebnis = mysqli_query($this->con, "SELECT * FROM Attribution
+          INNER JOIN Object ON Object.UId = Attribution.Object_UId
+          WHERE Name = 'Hans Cranach'
+          AND Language LIKE 'Englisch'");
+        while($row = mysqli_fetch_object($ergebnis)) {
+          // eval relevance points
+          $rel = ($row->DisplayOrder > 2) ? 10 : 20;
+          // init items multi array with relevance
+          $item = array(
+            "id" => $row->Object_UId,
+            "sort" => $row->SortNumber,
+            "relevance" => $rel
+          );
+          array_push($result, $item);
+        }
+        break;
+      case "top100":
+        
+        $ergebnis = mysqli_query($this->con, "SELECT * FROM AdditionalProperties
+          INNER JOIN Object ON Object.UId = AdditionalProperties.Object_UId
+          WHERE IsBestOf = 1");
+        while($row = mysqli_fetch_object($ergebnis)) {
+          // eval relevance points
+          $rel = 100;
+          // init items multi array with relevance
+          $item = array(
+            "id" => $row->Object_UId,
+            "sort" => $row->SortNumber,
+            "relevance" => $rel
+          );
+          array_push($result, $item);
+        }
+        break;
     default:
       $master = $value;
       // select the nodes
@@ -1686,11 +1713,11 @@ class AdvancedSearch
             $prefix = $node->attributes->getNamedItem('prefix')->nodeValue;
 
             // SQL QUERY
-            $ergebnis = mysqli_query("SELECT * FROM Attribution
+            $ergebnis = mysqli_query($this->con, "SELECT * FROM Attribution
               INNER JOIN Object ON Object.UId = Attribution.Object_UId
               WHERE Name = '$key'
               AND Prefix = '$prefix'
-              AND Language Like 'Englisch'", $this->con);
+              AND Language Like 'Englisch'");
             while($row = mysqli_fetch_object($ergebnis)) {
               // eval relevance points
               $rel = ($row->DisplayOrder > 2) ? 10 : 20;
@@ -1704,10 +1731,10 @@ class AdvancedSearch
             }
           } else {
             // SQL QUERY
-            $ergebnis = mysqli_query("SELECT * FROM Attribution
+            $ergebnis = mysqli_query($this->con, "SELECT * FROM Attribution
               INNER JOIN Object ON Object.UId = Attribution.Object_UId
               WHERE Name = '$key'
-              AND Language Like 'Englisch'", $this->con);
+              AND Language Like 'Englisch'");
             while($row = mysqli_fetch_object($ergebnis)) {
               // eval relevance points
               $rel = ($row->DisplayOrder > 2) ? 10 : 20;
@@ -2001,7 +2028,7 @@ class AdvancedSearch
       . "AGAINST ('$search_input' IN BOOLEAN MODE))";
 
     // mysql query
-    $ergebnis = mysqli_query($query, $this->con);
+    $ergebnis = mysqli_query($query);
     while($row = mysqli_fetch_object($ergebnis)) {
       array_push($result, $row->id);
     }
@@ -2021,7 +2048,7 @@ class AdvancedSearch
       . "AGAINST ('$search_input' IN BOOLEAN MODE))";
 
     // mysql query
-    $ergebnis = mysqli_query($query, $this->con);
+    $ergebnis = mysqli_query($query);
     while($row = mysqli_fetch_object($ergebnis)) {
       array_push($restModulArr, $row->id);
     }

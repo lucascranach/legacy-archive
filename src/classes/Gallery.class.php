@@ -39,15 +39,16 @@ class Gallery
 
         $this->config = new Config;
         $this->imagehost = $this->config->getImagesBaseUrl();
-
+        $this->host = $this->config->getSection('host');
         $this->helper = new Helper;
 
         // get the language from the session
         $this->selectedLanguage = $_SESSION['lang'];
 
         // various session request
-        if (isset($_COOKIE['maxImages'])) {
-            $this->mod = (int)$_COOKIE['maxImages'];
+        $maxImagesCookie = (int) $_COOKIE['maxImages'];
+        if (isset($maxImagesCookie) && $maxImagesCookie > 0 ) {
+            $this->mod = $maxImagesCookie;
         } else {
             $this->mod = 60;
         }
@@ -112,7 +113,7 @@ class Gallery
         $selectedLanguage = $this->selectedLanguage;
         // get private var for index:
         $index = $this->index;
-        echo $this->mod;
+        
         // slice array by mod value
         $arr = array_slice($this->obj, $index, $this->mod, true);
         /** count all objects in the database **/
@@ -120,6 +121,7 @@ class Gallery
         $ergebnis = 0;
         
         $sql = "SELECT count(*) AS total FROM Object";
+        
         $result = mysqli_query($this->con, $sql );
         $values = mysqli_fetch_assoc($result);
         $ergebnis = $values['total'];
@@ -293,7 +295,7 @@ class Gallery
         // max page
         $max = ceil($entities / $this->mod);
 
-        setcookie("lastPage", $max, time()+3600, '/', '.lucascranach.org');
+        setcookie("lastPage", $max, time()+3600, '/', $this->host->hostname);
 
 
         // page skipper

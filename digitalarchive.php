@@ -305,8 +305,8 @@ function advancedSearch(value) {
  * Set current selectedd language
  */
 setLanguage = function() {
-  var lang = (Cookie.get("lang") === "Deutsch") ? "Englisch" : "Deutsch";
-  Cookie.set('lang', lang, { expires: 7, path: '/', SameSite:'strict', domain: '<?=$host->hostname;?>' });
+  var lang = (Cookies.get("lang") === "Deutsch") ? "Englisch" : "Deutsch";
+  Cookies.set('lang', lang, { expires: 7, path: '/', SameSite:'strict', domain: '<?=$host->hostname;?>' });
   location.reload();
 }
 </script>
