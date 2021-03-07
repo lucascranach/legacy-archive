@@ -96,13 +96,14 @@ class AdvancedSearch
     // ##################################
     // get the search variables from post
     // ##################################
-var_dump($_POST);
+
     // UNSET SESSIONS
     // Check if there is an empty search field post
     if(isset($_POST['reset_search'])) {
       unset($_SESSION['search_input']);
       unset($_SESSION['search_attr']);
       unset($_SESSION['search_thesau']);
+      unset($_SESSION['search_category']);
       unset($_SESSION['search_date']);
       unset($_SESSION['search_collection']);
       unset($_SESSION['search_tech']);
@@ -123,7 +124,7 @@ var_dump($_POST);
     } else {
       unset($_SESSION['search_input']);
       unset($_SESSION['search_attr']);
-      unset($_SESSION['search_thesau']);
+      unset($_SESSION['search_category']);
       unset($_SESSION['search_date']);
       unset($_SESSION['search_collection']);
       unset($_SESSION['search_tech']);
@@ -162,15 +163,6 @@ var_dump($_POST);
       $this->collection 							= $_SESSION['search_collection'];
     }
 
-    // category
-    if(isset($_POST['category'])) {
-      $this->category							  = array();
-      $this->category 							= $_POST['category'];
-      $_SESSION['search_category'] 	= $this->collection;
-    } else if(isset($_SESSION['search_category'])) {
-      $this->category 							= $_SESSION['search_category'];
-    }
-
     // technique
     if(isset($_POST['tech'])) {
       $this->technique							= array();
@@ -187,6 +179,15 @@ var_dump($_POST);
       $_SESSION['search_thesau'] 	= $this->thesau;
     } else if(isset($_SESSION['search_thesau'])) {
       $this->thesau 						  = $_SESSION['search_thesau'];
+    }
+
+    // category
+    if(isset($_POST['category'])) {
+      $this->category							  = array();
+      $this->category 							= $_POST['category'];
+      $_SESSION['search_category'] 	= $this->category;
+    } else if(isset($_SESSION['search_category'])) {
+      $this->category 						  = $_SESSION['search_category'];
     }
 
     // Save the input of the search field into a Session
@@ -271,7 +272,8 @@ var_dump($_POST);
     }
 
     if(count($this->helper->returnCountable($this->attr)) < 2
-      && count($this->helper->returnCountable($this->collection)) < 2
+    && empty($this->collection)
+    && count($this->helper->returnCountable($this->category)) < 2
       && count($this->helper->returnCountable($this->technique)) < 2
       && count($this->helper->returnCountable($this->thesau)) < 2
       && count($this->helper->returnCountable($this->date)) < 2
@@ -401,6 +403,28 @@ var_dump($_POST);
         $searchResult = $this->setSubset(array(), "tech", $query);
         // write search result into table
         $this->writeResult($searchResult);
+      }
+    }
+
+    // ************************
+    // Category
+    // ************************
+    // init tmp
+    $tmp = 0;
+    $results = array();
+    // technique
+    if(!empty($this->category)) {
+      
+      // search for attribution
+      foreach($this->category as $value) {
+        array_push($results, $this->searchCategory($value));
+      }
+
+      if(!empty($results)) {
+        // write search result into table
+        foreach($results as $result){
+          $this->writeResult($result);
+        }
       }
     }
 
@@ -1241,6 +1265,7 @@ var_dump($_POST);
     // mysql query
     $r = mysqli_query($this->con, $sql);
     // if there is no entry yet insert value array into database
+    
     if($this->active === false) {
       // ######################################
       // DEFAULT SEARCH OBJECTS
@@ -1680,23 +1705,7 @@ var_dump($_POST);
           array_push($result, $item);
         }
         break;
-      case "top100":
-        
-        $ergebnis = mysqli_query($this->con, "SELECT * FROM AdditionalProperties
-          INNER JOIN Object ON Object.UId = AdditionalProperties.Object_UId
-          WHERE IsBestOf = 1");
-        while($row = mysqli_fetch_object($ergebnis)) {
-          // eval relevance points
-          $rel = 100;
-          // init items multi array with relevance
-          $item = array(
-            "id" => $row->Object_UId,
-            "sort" => $row->SortNumber,
-            "relevance" => $rel
-          );
-          array_push($result, $item);
-        }
-        break;
+
     default:
       $master = $value;
       // select the nodes
@@ -1960,6 +1969,33 @@ var_dump($_POST);
     return $query;
   }
 
+  /**
+   * MySql request for category, e.g. 100 Masterpieces
+   *
+   * @param string search value
+   * @return array of the search result
+   */
+  protected function searchCategory($value){
+    
+    $result = array();
+
+    $ergebnis = mysqli_query($this->con, "SELECT * FROM AdditionalProperties
+      INNER JOIN Object ON Object.UId = AdditionalProperties.Object_UId
+      WHERE IsBestOf = 1");
+    while($row = mysqli_fetch_object($ergebnis)) {
+      // eval relevance points
+      $rel = 100;
+      // init items multi array with relevance
+      $item = array(
+        "id" => $row->Object_UId,
+        "sort" => $row->SortNumber,
+        "relevance" => $rel
+      );
+      array_push($result, $item);
+    }
+
+    return $result;
+  }
 
 
   /**

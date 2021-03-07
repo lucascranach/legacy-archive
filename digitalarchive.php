@@ -193,6 +193,8 @@ $( function() {
   var formCollArr = Array();
   // checkbox array thesaurus
   var formThesauArr = Array();
+  // checkbox array category
+  var formCategoryArr = Array();
 
   // system language
   var lang = "<?php echo $selectedLanguage; ?>";
@@ -217,6 +219,10 @@ $( function() {
     var formThesauArr = $.parseJSON('<?php if(isset($_SESSION['search_thesau'])) { echo json_encode($_SESSION['search_thesau']); } ?>');
   }
 
+  if(<?php if(isset($_SESSION['search_category'])) { echo count($_SESSION['search_category']); } else { echo 0; } ?> != 0) {
+    var formCategoryArr = $.parseJSON('<?php if(isset($_SESSION['search_category'])) { echo json_encode($_SESSION['search_category']); } ?>');
+  }
+
 
   // Create and Run jFilter Functions
   var fil = new jFilter();
@@ -233,6 +239,10 @@ $( function() {
   if(formCollArr.length > 0){
     fil.getFilter(formCollArr);
   }
+  if(formCategoryArr.length > 0){
+    fil.getFilter(formCategoryArr);
+  }
+
 
   // Create jThesaurus Object
   var thesau = new jThesaurus(lang, formThesauArr);

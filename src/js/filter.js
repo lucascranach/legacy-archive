@@ -22,12 +22,13 @@
 */
 
 function jFilter() {
-	
+  
 	this.getFilter = function(arr) {
-		
+    
 		$.each(arr, function(key, value) { 
 				if(value != 0) {
-					$("input:checkbox[value="+value+"]").attr("checked", true);
+          $("input:checkbox[value=" + value + "]").attr("checked", true);
+          
 					var parentElement = "#nav_"+$("input:checkbox[value="+value+"]").attr("index");
 					$(parentElement).css("display", "block");
 					var parentLi = $(parentElement).prev().parent();
@@ -42,7 +43,7 @@ function jFilter() {
 }
 
 function selectOverall(value) {
-	
+
 	// determine if checkbox is checked or not
 	var check = $("input:checkbox[value="+value+"]").is(':checked');
 	

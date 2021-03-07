@@ -36,6 +36,7 @@
 			<label index="attr_label[9]"><b>L</b>ucas Cranach the Younger and Workshop</label>
 			<label index="attr_label[10]"><b>W</b>orkshop of Lucas Cranach the Younger</label>
 			<label index="attr_label[11]"><b>H</b>ans Cranach</label>
+      <label index="top100">100 Masterpieces</label>
 			<!-- FILTER - Function Date EN -->
 			<label index="date_label_h">Dating</label>
 			<label index="dated_h">Dated Works</label>
@@ -547,6 +548,7 @@
 			<label index="attr_label[9]"><b>L</b>ucas Cranach der Jüngere und Werkstatt</label>
 			<label index="attr_label[10]"><b>W</b>erkstatt Lucas Cranach der Jüngere</label>
 			<label index="attr_label[11]"><b>H</b>ans Cranach</label>
+      <label index="top100">100 Meisterwerke</label>
 			<!-- FILTER - Function Date DE -->
 			<label index="date_label_h">Datierung</label>
 			<label index="dated_h">Datierte Werke</label>
