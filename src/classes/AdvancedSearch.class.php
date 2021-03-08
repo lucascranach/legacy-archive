@@ -39,6 +39,9 @@ class AdvancedSearch
   // Array of thesaurus:
   protected $thesau;
 
+  // Array of category:
+  protected $category;
+
   // Array of full search:
   protected $search_input;
 
@@ -241,9 +244,9 @@ class AdvancedSearch
     // Status: Status change shows that there is a changed activ search
     // ###################################
   
-
     $checkbox = (count($this->helper->returnCountable($this->attr)) - 1)
     + (count($this->helper->returnCountable($this->collection)) - 1)
+    + (count($this->helper->returnCountable($this->category)))
     + (count($this->helper->returnCountable($this->technique)) - 1)
     + (count($this->helper->returnCountable($this->date)) - 1)
     + (count($this->helper->returnCountable($this->thesau)) - 1)
@@ -272,8 +275,8 @@ class AdvancedSearch
     }
 
     if(count($this->helper->returnCountable($this->attr)) < 2
-    && empty($this->collection)
-    && count($this->helper->returnCountable($this->category)) < 2
+    && empty($this->category)
+    && count($this->helper->returnCountable($this->collection)) < 2
       && count($this->helper->returnCountable($this->technique)) < 2
       && count($this->helper->returnCountable($this->thesau)) < 2
       && count($this->helper->returnCountable($this->date)) < 2
@@ -288,9 +291,11 @@ class AdvancedSearch
       && empty($this->aa_search_input[2])
       && empty($this->aa_search_input[3])
     ) {
+      
       $this->active = false;
       unset($_SESSION['search_controller']);
     } else {
+      
       // set active search controller
       $this->active = true;
       $_SESSION['search_controller'] = true;

@@ -80,7 +80,7 @@ class Filter {
     $li_nav_tech = ($nav_tech == "block") ? "current" : "closed";
 
     
-    $content = '<li><input type="checkbox" onchange="javascript:document.formFilter.submit();" name="category[]" index="category" value="top100">'.$this->_t->trans('top100').'</li>';
+    $content = '<li><input type="hidden" name="category[]" index="category" value="0"><input type="checkbox" onchange="javascript:document.formFilter.submit();" name="category[]" index="category" value="top100">'.$this->_t->trans('top100').'</li>';
 
     // FILTER - ATTRIBUTION
     $content .= '<li class="'.$li_nav_attr.'" ><a href="javascript:leClick(\'nav_attr\')" name="nav_attr">'.$this->_t->trans('attr_label_h').'</a>'
